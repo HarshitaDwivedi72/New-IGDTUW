@@ -239,6 +239,12 @@ ul {
     }
 }
 
+@media (max-width: 1200){
+    .responsiveNavContainer{
+        padding-left:  0;
+        padding-right: 0;
+    }
+}
 
 /* slider and side section*/
 
