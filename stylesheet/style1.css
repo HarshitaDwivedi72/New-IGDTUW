@@ -16,6 +16,50 @@ ul {
 }
 
 
+/*setting container for color changing*/
+
+.setting_container {
+    position: fixed;
+    top: 40%;
+    right: -170px;
+    padding: 15px 5px 15px 5px;
+    z-index: 1000 !important;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    transition: right 2s;
+}
+
+.setting_container:hover {
+    right: 0px;
+}
+
+.setting_container span {
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    width: 70px;
+    padding: 15px;
+    margin: 0px;
+}
+
+#style1 {
+    background-color: #011c38;
+}
+
+#style2 {
+    background-color: #005E38;
+}
+
+#style3 {
+    background-color: #104210;
+}
+
+#style4 {
+    background-color: #004B02;
+}
+
+
 /* uppernav */
 
 .container-fluid {
@@ -239,12 +283,13 @@ ul {
     }
 }
 
-@media (max-width: 1200){
-    .responsiveNavContainer{
-        padding-left:  0;
+@media (max-width: 1200) {
+    .responsiveNavContainer {
+        padding-left: 0;
         padding-right: 0;
     }
 }
+
 
 /* slider and side section*/
 
@@ -263,8 +308,8 @@ ul {
 
 .slider {
     flex-grow: 3;
-   /* flex-basis: 600px;*/
-   width:300px;
+    /* flex-basis: 600px;*/
+    width: 300px;
     flex-shrink: 0px;
     margin: 20px;
 }
@@ -350,11 +395,10 @@ ul {
 
 .latest-news {
     flex-grow: 2;
-   /* flex-basis: 400px;*/
-   width:250px;
+    /* flex-basis: 400px;*/
+    width: 250px;
     flex-shrink: 0px;
     margin: 20px;
-    
 }
 
 .latest-news .title {
@@ -390,18 +434,18 @@ ul {
     background-color: white;
 }
 
-@media(max-width: 1200px){
-   .box-1 {
-    flex-grow: 1;
-    flex-basis: 250px;
-    max-height: 500px;
-    color: black;
-    flex-shrink: 0px;
-    border: 1px solid #03224435;
-    border-radius: 5px;
-    margin: 10px;
-    background-color: white;
-} 
+@media(max-width: 1200px) {
+    .box-1 {
+        flex-grow: 1;
+        flex-basis: 250px;
+        max-height: 500px;
+        color: black;
+        flex-shrink: 0px;
+        border: 1px solid #03224435;
+        border-radius: 5px;
+        margin: 10px;
+        background-color: white;
+    }
 }
 
 .title {
@@ -556,15 +600,16 @@ footer .contacts {
     flex-shrink: 0px;
     background-color: white;
 }
-@media(max-width: 1200px){
+
+@media(max-width: 1200px) {
     .box-2 ul {
-    flex-grow: 1;
-    margin-left: 10px;
-    flex-basis: 250px;
-    color: black;
-    flex-shrink: 0px;
-    background-color: white;
-}
+        flex-grow: 1;
+        margin-left: 10px;
+        flex-basis: 250px;
+        color: black;
+        flex-shrink: 0px;
+        background-color: white;
+    }
 }
 
 .box-2 ul li {

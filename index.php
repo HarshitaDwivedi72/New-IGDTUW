@@ -13,195 +13,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+
+
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" id="stylesheet" href="stylesheet/style1.css">
 
 </head>
 
 <body>
-    <script>
-        function changestyle(n) {
-            if (n == 1) {
-                $("#stylesheet").attr("href", "stylesheet/style1.css");
-            } else if (n == 2) {
-                $("#stylesheet").attr("href", "stylesheet/style2.css");
-            } else if (n == 3) {
-                $("#stylesheet").attr("href", "stylesheet/style3.css");
-            } else if (n == 4) {
-                $("#stylesheet").attr("href", "stylesheet/style4.css");
-            }
-        }
-    </script>
-    <style>
-        .setting_container {
-            position: fixed;
-            top: 40%;
-            right: -170px;
-            padding: 15px 5px 15px 5px;
-            z-index: 1000 !important;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: black;
-            transition: right 2s;
-        }
-        
-        .setting_container:hover {
-            right: 0px;
-        }
-        
-        .setting_container span {
-            height: 70px;
-            color: white;
-            font-size: 15px;
-            width: 70px;
-            padding: 15px;
-            margin: 0px;
-        }
-        
-        #style1 {
-            background-color: #011c38;
-        }
-        
-        #style2 {
-            background-color: #005E38;
-        }
-        
-        #style3 {
-            background-color: #104210;
-        }
-        
-        #style4 {
-            background-color: #004B02;
-        }
-    </style>
-    <div class="setting_container">
-        <span id="sbutton"><i class="fa fa-gear"></i></span>
-        <span id="style1" onclick="changestyle(1)">1</span>
-        <span id="style2" onclick="changestyle(2)">2</span>
-        <span id="style3" onclick="changestyle(3)">3</span>
-        <span id="style4" onclick="changestyle(4)">4</span>
-    </div>
+   
 
-    <div class="upperheadernav">
-        <div class="container">
-            <ul>
-                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=90:abouttnp&catid=2:1&Itemid=428">PLACEMENTS</a></li>
-                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=161&Itemid=38">LIBRARY</a></li>
-                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=346:rti&catid=2:1">RTI</a></li>
-                <li> <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=252:tendersniq&catid=2:1">TENDERS</a></li>
-                <li> <a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1">WEBMAIL</a></li>
-                <li> <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=301:directory&catid=2:1&Itemid=545">DIRECTORY</a></li>
-            </ul>
-        </div>
-    </div>
-    <header class="container">
-        <div class="headContainer">
-            <div class="header">
-
-                <a href="index.html" class="logo" target="_blank">
-                    <img src="images/log.jpg" alt="IGDTUW logo" height="100px" width="auto" />
-                </a>
-
-                <div class="heading">
-                    <div id="mainHeading">INDIRA GANDHI DELHI TECHNICAL UNIVERSITY FOR WOMEN</div>
-                    <div id="secondHeading">(Established by Govt. of Delhi wide Act 9 of 2012)</div>
-                    <div id="thirdHeading">(Formerly Indira Gandhi Institute of Technology)</div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="container-fluid">
-        <nav class="navbar navbar-default">
-            <div class="container responsiveNavContainer">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>                        
-                  </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=1&Itemid=2">ABOUT US
-                          <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=2&Itemid=3">Vision/Mission</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=601&Itemid=833">VC's Message</a></li>
-
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=467&Itemid=4">Founder VC's Message</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=503&Itemid=529">Registrar's Message</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=203&Itemid=15">DEPARTMENTS
-                          <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=114&Itemid=20">Applied Sciences & Humanities</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=3&Itemid=16">Computer Science & Engineering</a></li>
-
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=115&Itemid=17">Electronics & Communication Engineering</a></li>
-                                <li><a href="departments.html">Information Technology</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=480&Itemid=712">Architecture and Planning</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=31&Itemid=18">Mechanical & Automation Engineering</a></li>
-
-
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php#">ACADEMICS
-                          <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=275&Itemid=201">B.Tech</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=480&Itemid=713">B.Arch</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=276&Itemid=453">M.Tech</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=66&Itemid=476">MCA</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=610&Itemid=196">Academic Calender</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=305&Itemid=200">Scholarships</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=240&Itemid=197">Syllabus</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=624&Itemid=198">Time Table</a>
-                                </li>
-
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=332&Itemid=443">Lesson Plans</a>
-                                </li>
-
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=345&Itemid=593">Assignments</a>
-                                </li>
-
-                            </ul>
-
-
-                        </li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=175&Itemid=21">STUDENT LIFE</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=165&Itemid=35">FACILITIES</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=414&Itemid=588">EXAMINATION</a>
-                        </li>
-
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=442&Itemid=804">RESEARCH</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=595&Itemid=594">ADMISSSION</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <?php include 'header.html';?>
     <div class="mainBox">
         <div class="container">
             <div class="flex-container">
@@ -247,6 +69,7 @@
                             showDivs(slideIndex += n);
                         }
 
+
                         function showDivs(n) {
                             var i;
                             var x = document.getElementsByClassName("mySlides");
@@ -283,7 +106,7 @@
                     <div class="title">
                         Latest News
                     </div>
-                    <marquee  height=300px behavior="scroll" direction="up" onmouseover="this.stop();" scrollamount="2" onmouseout="this.start();">
+                    <marquee behavior="scroll" direction="up" onmouseover="this.stop();" scrollamount="3" onmouseout="this.start();">
 
                         <ul>
                             <li> <a href="https://www.igdtuw.ac.in/images/stories/admission%20downloads/Message%20of%20Honble%20VC%20IGDTUW.pdf" class="">Message of Hon'ble Vice Chancellor for Newly Admitted Students</a></li>
@@ -291,7 +114,7 @@
                             <li> <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=254" class="">Advertisement, Guidelines and Application Form for various posts in Incubation Centre, IGDTUW </a></li>
                             <li><a href="https://www.aicte-india.org/sites/default/files/Guidelines_CVA_2019.pdf" class="">AICTE Vishwakarma Awards 2019, For Information Click here</a></li>
                             <li>
-                                <a href="https://swayam.gov.in/"> MHRD has launched Annual Refresher Program for Faculty of Computer Engg, an Online Course on SWAYAM starting 1st Oct 2019</a></a>
+                                <a href="#"> <a href="https://swayam.gov.in/"> MHRD has launched Annual Refresher Program for Faculty of Computer Engg, an Online Course on SWAYAM starting 1st Oct 2019</a></a>
                             </li>
                         </ul>
                     </marquee>
@@ -425,53 +248,10 @@
             </div>
         </div>
     </div>
+<!-- footer -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="otherLinks">
-                        <div class="head">Other Links</div>
-                        <ul>
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=319&Itemid=370">The design and web development team</a></li>
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_chronocontact&Itemid=124">Feedback</a></li>
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=509&Itemid=468">Archives</a></li>
-                        </ul>
-                        <ul class="hideOnSmall">
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=346:rti&catid=2:1">RTI</a></li>
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=252:tendersniq&catid=2:1">Tenders</a>
-                            </li>
-                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Webmail</a></lilass="mobile ">
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=301:directory&catid=2:1&Itemid=545 ">Directory</a></liass="mobile ">
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="contacts">
-                        <div class="head">Contacts</div>
-                        <div>INDIRA GANDHI DELHI TECHNICAL UNIVERSITY FOR WOMEN (IGDTUW)<br><br><i class="fa fa-map-marker" aria-hidden="true">&nbsp&nbsp</i>Madrasa Road<br>Opposite St. James Church<br>Kashmere Gate<br>Delhi-110006</div>
-                        <br>
-                        <div><i class="fa fa-phone" aria-hidden="true">&nbsp&nbsp</i> Telephone: 011- 23900261, 23900264</div>
-                    </div>
-                </div>
-                <style>
-                    #map {
-                        padding: 20px;
-                        margin-top: 20px;
-                        background-color: aqua;
-                    }
-                </style>
-                <div class="col-sm-6">
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14003.25974498314!2d77.2323931!3d28.6652594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf5fc331b74c2b9e2!2sIndira%20Gandhi%20Delhi%20Technical%20University%20for%20Women!5e0!3m2!1sen!2sin!4v1568138821364!5m2!1sen!2sin"
-                            width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+<?php include 'footer.html';?>
 
-
-    </footer>
     <!-- 
                  <div class="col-sm-3 ">
  <div class="awardscontainer ">
