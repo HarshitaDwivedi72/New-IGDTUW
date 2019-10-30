@@ -394,15 +394,7 @@ w3-animate-fading {}
     text-align: center;
 }
 
-.vcPhoto img {
-    margin-top: 20px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    width: 100px;
-    float: left;
-    display: block;
-}
+
 
 .vcQuote {
     text-transform: capitalize;

@@ -1,0 +1,32 @@
+.vcPhoto img {
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 100px;
+    float: left;
+    display: block;
+}
+.VCimg h3{
+  text-align: center;
+  font-style: italic;
+}
+.VCimg img{
+  margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: block;
+}
+.headingPara {
+  text-align: justify;
+}
+.sig {
+  float: right;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sig1 {
+  font-weight: bold;
+  font-size: 17px;
+}
