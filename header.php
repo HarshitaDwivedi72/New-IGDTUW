@@ -87,7 +87,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="departments.php">DEPARTMENTS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="">Applied Sciences & Humanities</a></li>
+                                <li><a href="appliedScience.php">Applied Sciences & Humanities</a></li>
                                 <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=3&Itemid=16">Computer Science & Engineering</a></li>
 
                                 <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=115&Itemid=17">Electronics & Communication Engineering</a></li>
