@@ -24,7 +24,7 @@
 <body>
     <!-- header -->
 
-    <?php include 'header.html';?>
+    <?php include 'header.php';?>
     <!-- main body -->
     <div class="container">
         <div class="row">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="box-1">
+    <!-- <div class="box-1">
         <div class="title">
             Objectives
         </div>
@@ -128,14 +128,14 @@
     <div class="box-1">
         <div class="title">Faculty Directory Of Information Technology</div>
         <div class=""></div>
-    </div>
+    </div> -->
 
 
 
 
 
     <!-- footer -->
-    <?php include 'footer.html';?>
+    <?php include 'footer.php';?>
 
 </body>
 

@@ -23,7 +23,7 @@
 <body>
    
 
-    <?php include 'header.html';?>
+    <?php include 'header.php';?>
     <div class="mainBox">
         <div class="container">
             <div class="flex-container">
@@ -250,7 +250,7 @@
     </div>
 <!-- footer -->
 
-<?php include 'footer.html';?>
+<?php include 'footer.php';?>
 
     <!-- 
                  <div class="col-sm-3 ">
