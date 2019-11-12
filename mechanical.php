@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ECE</title>
+    <title>MAE</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="stylesheet/style1.css">
-    <link rel="stylesheet" href="stylesheet/ece.css">
+    <link rel="stylesheet" href="stylesheet/mechanical.css">
 
 
 
@@ -31,7 +31,7 @@
             <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
-                        ELECTRONICS & COMMUNICATION ENGINEERING
+                        MECHANICAL & AUTOMATION ENGINEERING
                     </div>
                     <ul class="sidenav">
                         
@@ -40,7 +40,7 @@
                         <li><a href="">Achievements</a></li>
                         <li><a href="">Events/Workshops/Seminars</a></li>
                         <li><a href="">Labs</a></li>
-                        <li><a href="">SMDP for Chip to System Design </a></li>
+                        
 
                     </ul>
 
@@ -49,10 +49,11 @@
             <div class="col-sm-6">
                 <div class="box-1">
                     <div class="title">
-                        DEPARTMENT OF ECE
+                        DEPARTMENT OF MAE
                     </div>
                     <div class="headingPara">
-                            The department aims to impart quality technical education to the students aspiring for a career in the field of electronics and communications engineering. The department also caters to the needs of other engineering disciplines where electronics is taught either as an essential or an elective subject. The department offers subjects like basic electronics, EMT theory, communications, VLSI, microwave engg, digital signal processing, optical communications, advanced microprocessor and other related subjects.
+                        Besides giving a through grounding in basic sciences and engineering subjects  the curriculum  in mechanical and  automation engineering emphasises on deep understanding of applied mechanics, microprocessors, machine design, heat transfer, refrigeration and air conditioning, machine tools, metrology, robotics and CAD(CAM) etc.  The department has well-equipped laboratories in related fields and students are exposed to various modern equipment in the area of mechanical and automation .   
+                        
                     </div>
 
                 </div>
@@ -60,23 +61,31 @@
             <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
-                        QUICK LINKS - ECE
+                        QUICK LINKS - MAE
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">B.Tech (IT) - Syllabus</a></li>
-                        <li><a href="">B.Tech and M.Tech Time Table</a></li>
+                        <li class="syHeading">Syllabus</li>
+                        <li><a href="">B.Tech (MAE)</a></li>
+                        <li><a href="">M.Tech (R&A)</a></li>
                         
-                        <li><a href="">M.Tech -  Syllabus</a></li>
-                        <li><a href="">Lab Manuals</a></li>
                     </ul>
 
 
-                    
+                    <ul class="timeTable">
+                        <li class="ttHeading">Time Table</li>
+                        <br>
+                        <li><a href="">B.Tech and M.Tech</a></li>
+                        <li><a href="">Lab Manuals</a></li>
+                        <li><a href="">Achievements</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-   
+
+
+
+
 
     <!-- footer -->
     <?php include 'footer.php';?>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ECE</title>
+    <title>Architecture & Planning</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="stylesheet/style1.css">
-    <link rel="stylesheet" href="stylesheet/ece.css">
+    <link rel="stylesheet" href="stylesheet/architecture.css">
 
 
 
@@ -31,16 +31,17 @@
             <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
-                        ELECTRONICS & COMMUNICATION ENGINEERING
+                        ARCHITECTURE AND PLANNING
                     </div>
                     <ul class="sidenav">
                         
-                        <li><a href="">Head Of Department</a></li>
+                        <li><a href="">HOD STATEMENT</a></li>
                         <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">Achievements</a></li>
+                        <li><a href="">FACULTY ACHIEVEMENTS</a></li>
                         <li><a href="">Events/Workshops/Seminars</a></li>
                         <li><a href="">Labs</a></li>
-                        <li><a href="">SMDP for Chip to System Design </a></li>
+                        <li><a href="">STUDENT ACHIEVEMENTS</a></li>
+                        <li><a href="">PHOTO GALLERY</a></li>
 
                     </ul>
 
@@ -49,10 +50,12 @@
             <div class="col-sm-6">
                 <div class="box-1">
                     <div class="title">
-                        DEPARTMENT OF ECE
+                        DEPARTMENT OF ARCHITECTURE AND PLANNING
                     </div>
                     <div class="headingPara">
-                            The department aims to impart quality technical education to the students aspiring for a career in the field of electronics and communications engineering. The department also caters to the needs of other engineering disciplines where electronics is taught either as an essential or an elective subject. The department offers subjects like basic electronics, EMT theory, communications, VLSI, microwave engg, digital signal processing, optical communications, advanced microprocessor and other related subjects.
+                            The Department of Architecture and Planning started in 2015 as a step towards social equity and gender parity in technical professions, having a vision that architectural education should empower students to become protagonist of positive change by exploring, learning and practicing a sustainable form of architecture. The architectural education must, besides imparting knowledge, also endeavor to create opportunities for students to engage with real life issues, so that they can reflect on their role in creating a better world. Further, it is also important that students are empowered to make informed choices, which are more life-sustaining. The department aims at development of the individual girl as a responsible member of peaceful, pluralist and inclusive society by learning to explore and practicing quality, sustainable form of architecture. 
+
+
                     </div>
 
                 </div>
@@ -60,14 +63,18 @@
             <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
-                        QUICK LINKS - ECE
+                        QUICK LINKS - Architecture and Planning
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">B.Tech (IT) - Syllabus</a></li>
-                        <li><a href="">B.Tech and M.Tech Time Table</a></li>
+                        <li><a href="">Timetable</a></li>
+                        <li><a href="">Course Structure</a></li>
+                        <li><a href="">Syllabus</a></li>
+                        <li><a href="">Syllabus 1st year (CBCS)</a></li>
+                        <li><a href="">Syllabus 3rd Year</a></li>
+                        <li><a href="">Syllabus 4th Year</a></li>
+                        <li><a href="">Syllabus 5th Year</a></li>
+
                         
-                        <li><a href="">M.Tech -  Syllabus</a></li>
-                        <li><a href="">Lab Manuals</a></li>
                     </ul>
 
 
