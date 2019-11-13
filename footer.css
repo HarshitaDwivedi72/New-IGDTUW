@@ -1,0 +1,101 @@
+/* footer */
+
+#map {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: #011c38;
+}
+
+footer .head {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+footer .otherLinks ul {
+    list-style-type: square;
+    color: white;
+}
+
+footer .otherLinks ul li {
+    padding-top: 7px;
+    margin-left: 10px;
+    padding-bottom: 7px;
+}
+
+footer .otherLinks ul li a {
+    color: white;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+footer .contacts {
+    color: white;
+    font-size: 13px;
+}
+
+.box-2 {
+    color: black;
+    border: 1px solid #03224435;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: white;
+}
+
+.box-2 ul {
+    flex-grow: 1;
+    margin-left: 20px;
+    flex-basis: 300px;
+    color: black;
+    flex-shrink: 0px;
+    background-color: white;
+}
+
+@media(max-width: 1200px) {
+    .box-2 ul {
+        flex-grow: 1;
+        margin-left: 10px;
+        flex-basis: 250px;
+        color: black;
+        flex-shrink: 0px;
+        background-color: white;
+    }
+}
+
+.box-2 ul li {
+    padding: 8px;
+}
+
+.box-2 ul li a {
+    display: block;
+    color: #01366a;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .box-2 .flex-container {
+        max-height: 400px;
+        overflow: auto;
+    }
+    .box-2 .flex-container::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #F5F5F5;
+        border-radius: 5px;
+    }
+    .box-2 .flex-container::-webkit-scrollbar {
+        width: 15px;
+        background-color: #F5F5F5;
+    }
+    .box-2 .flex-container::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #032244;
+    }
+}
+

@@ -12,10 +12,8 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-
-
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
+    <!-- main stylesheet -->
     <link rel="stylesheet" id="stylesheet" href="stylesheet/style1.css">
 
 </head>
@@ -23,7 +21,7 @@
 <body>
    
 
-    <?php include 'header.php';?>
+    <?php include 'header/header.php';?>
     <div class="mainBox">
         <div class="container">
             <div class="flex-container">
@@ -250,7 +248,7 @@
     </div>
 <!-- footer -->
 
-<?php include 'footer.php';?>
+<?php include 'footer/footer.php';?>
 
     <!-- 
                  <div class="col-sm-3 ">

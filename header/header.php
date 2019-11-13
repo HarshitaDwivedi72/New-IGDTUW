@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+  
+    <link rel="stylesheet" id="stylesheet" href="header/header.css">
+    
 </head>
 
 <body>
@@ -76,7 +75,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=1&Itemid=2">ABOUT US
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="vision.php">Vision/Mission</a></li>
+                                <li><a href="vision/vision.php">Vision/Mission</a></li>
                                 <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=601&Itemid=833">VC's Message</a></li>
 
                                 <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=467&Itemid=4">Founder VC's Message</a></li>
@@ -84,16 +83,16 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="departments.php">DEPARTMENTS
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="departments/departments.php">DEPARTMENTS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="appliedScience.php">Applied Sciences & Humanities</a></li>
-                                <li><a href="computerScience.php">Computer Science & Engineering</a></li>
+                                <li><a href="departments/appliedScience/appliedScience.php">Applied Sciences & Humanities</a></li>
+                                <li><a href="departments/computerScience/computerScience.php">Computer Science & Engineering</a></li>
 
-                                <li><a href="ece.php">Electronics & Communication Engineering</a></li>
-                                <li><a href="itdepartment.php">Information Technology</a></li>
-                                <li><a href="architecture.php">Architecture and Planning</a></li>
-                                <li><a href="mechanical.php">Mechanical & Automation Engineering</a></li>
+                                <li><a href="departments/ece/ece.php">Electronics & Communication Engineering</a></li>
+                                <li><a href="departments/itdepartment/itdepartment.php">Information Technology</a></li>
+                                <li><a href="departments/architecture/architecture.php">Architecture and Planning</a></li>
+                                <li><a href="departments/mechanical/mechanical.php">Mechanical & Automation Engineering</a></li>
 
 
                             </ul>

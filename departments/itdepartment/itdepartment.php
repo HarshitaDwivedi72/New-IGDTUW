@@ -13,19 +13,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="index.css"> -->
-    <link rel="stylesheet" href="stylesheet/style1.css">
+    
     <link rel="stylesheet" href="stylesheet/itdepartment.css">
-
+    
+    <style type="text/css">
+        a:active{
+            color:green;
+        }
+    </style>
+    
 
 
 </head>
 
-<body>
-    <!-- header -->
+<body onload="main()">
 
+    <script>
+        function main()
+        {
+            
+            var r=<?php echo $_GET['id'];?>;
+            $('#'+r).addClass('high');
+        }   
+    </script>
+    <?php 
+        if(isset($_GET['id']))
+        $id=$_GET['id'];
+        else
+        $id='';
+    ?>
+    <style>
+        .high{
+            text-decoration: line-through;
+        }
+    </style>
+
+    <!-- header -->
     <?php include 'header.php';?>
     <!-- main body -->
+
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -34,31 +60,61 @@
                         INFORMATION TECHNOLOGY
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">Objectives</a></li>
-                        <li><a href="">Head Of Department</a></li>
-                        <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Events/Workshops/Seminars</a></li>
-                        <li><a href="">Labs</a></li>
-                        <li><a href="">Placement</a></li>
+                        <li><a href="itdepartment.php?id=1" id="1" >Objectives</a></li>
+                        <li><a href="itdepartment.php?id=2" id="2">Head Of Department</a></li>
+                        <li><a href="itdepartment.php?id=3" id="3">Faculty Directory</a></li>
+                        <li><a href="itdepartment.php?id=4" id="4">Achievements</a></li>
+                        <li><a href="itdepartment.php?id=5" id="5">Events/Workshops/Seminars</a></li>
+                        <li><a href="itdepartment.php?id=6" id="6">Labs</a></li>
+                        <li><a href="itdepartment.php?id=7" id="7">Placement</a></li>
 
                     </ul>
 
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="box-1">
-                    <div class="title">
-                        DEPARTMENT OF IT
-                    </div>
-                    <div class="headingPara">
 
-                        Department of IT aims to prepare students to undertake careers involving innovation and problem solving using IT, or to undertake advanced studies for research careers in IT. It aims to emerge as a centre of excellence in leveraging information technology
-                        to stimulate the exchange and creation of knowledge for intellectual, social, political, moral and material development of the society. The teaching pedagogy in the department aims to bridge the gap between principles and applications
-                        with the goal to apply knowledge of computing sciences for solving real world problems.
-                    </div>
+                <?php 
+                
+                if($id==1)
+                {
+                    echo '<div class="box-1">
+                        <div class="title">
+                            Objectives
+                        </div>
+                        <div class="headingPara">
 
-                </div>
+                            Creating an environment of excellence in teaching and research by raising the quality and standards of education and make it globally competitive, and locally relevant.
+
+                            <ul>
+
+                                <li>To converge as an Open, evolving community invested in creating, preserving, and translating knowledge.</li>
+                                <li>To manage IT as a strategic resource.</li>
+                                <li>To serve as an “incubator” by offering dedicated programs and courses that encourage faculty and student idea generation.</li>
+                                <li>Create a technology-enriched environment for learning that is both effective as an aid in supporting the experiences of teaching and learning and is instructive by reflecting the technology environment graduates will work in after leaving
+                                    IGDTUW.
+                                </li>
+                                <li>To advance knowledge through research and scholarly activity.</li>
+
+                            </ul>
+                        </div>
+                    </div>';
+                }
+                else{
+                    echo '<div class="box-1">
+                            <div class="title">
+                                DEPARTMENT OF IT
+                            </div>
+                            <div class="headingPara">
+
+                                Department of IT aims to prepare students to undertake careers involving innovation and problem solving using IT, or to undertake advanced studies for research careers in IT. It aims to emerge as a centre of excellence in leveraging information technology
+                                to stimulate the exchange and creation of knowledge for intellectual, social, political, moral and material development of the society. The teaching pedagogy in the department aims to bridge the gap between principles and applications
+                                with the goal to apply knowledge of computing sciences for solving real world problems.
+                            </div>
+
+                        </div>';
+                }
+                ?>
             </div>
             <div class="col-sm-3">
                 <div class="sideNav">
@@ -73,11 +129,11 @@
                         <li><a href="">M.Tech (ISM) Syllabus</a></li>
                         <li><a href="">Lab Manuals</a></li>
                     </ul>
-
-
-                    <ul class="timeTable">
-                        <li class="ttHeading">Time Table</li>
-                        <br>
+                    <hr>
+                    <div class="sideHeading">
+                        Time Table
+                    </div>
+                    <ul class="sidenav">
                         <li><a href="">B.Tech</a></li>
                         <li><a href="">M.Tech</a></li>
                         <li><a href="">MCA</a></li>
@@ -86,28 +142,8 @@
             </div>
         </div>
     </div>
-    <!-- <div class="box-1">
-        <div class="title">
-            Objectives
-        </div>
-        <div class="headingPara">
-
-            Creating an environment of excellence in teaching and research by raising the quality and standards of education and make it globally competitive, and locally relevant.
-
-            <ul>
-
-                <li>To converge as an Open, evolving community invested in creating, preserving, and translating knowledge.</li>
-                <li>To manage IT as a strategic resource.</li>
-                <li>To serve as an “incubator” by offering dedicated programs and courses that encourage faculty and student idea generation.</li>
-                <li>Create a technology-enriched environment for learning that is both effective as an aid in supporting the experiences of teaching and learning and is instructive by reflecting the technology environment graduates will work in after leaving
-                    IGDTUW.
-                </li>
-                <li>To advance knowledge through research and scholarly activity.</li>
-
-            </ul>
-        </div>
-    </div>
-    <div class="box-1">
+    
+   <!-- <div class="box-1">
         <div class="title">
             Head Of Department
         </div>
@@ -135,6 +171,8 @@
 
 
     <!-- footer -->
+    <br>
+    <br>
     <?php include 'footer.php';?>
 
 </body>
