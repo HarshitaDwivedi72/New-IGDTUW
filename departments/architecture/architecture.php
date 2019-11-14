@@ -14,8 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="index.css"> -->
-    <link rel="stylesheet" href="stylesheet/style1.css">
-    <link rel="stylesheet" href="stylesheet/architecture.css">
+    
+    <link rel="stylesheet" href="departments/architecture/architecture.css">
 
 
 
@@ -24,7 +24,7 @@
 <body>
     <!-- header -->
 
-    <?php include 'header.php';?>
+    <?php include 'header/header.php';?>
     <!-- main body -->
     <div class="container">
         <div class="row">
@@ -86,7 +86,7 @@
    
 
     <!-- footer -->
-    <?php include 'footer.php';?>
+    <?php include 'footer/footer.php';?>
 
 </body>
 

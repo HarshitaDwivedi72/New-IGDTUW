@@ -15,15 +15,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" id="stylesheet" href="stylesheet/style1.css">
-    <link rel="stylesheet" id="stylesheet" href="stylesheet/departments.css">
+    
+    <link rel="stylesheet" id="stylesheet" href="departments/departments.css">
 
     
 </head>
 
 <body>
    <!-- header -->
-   <?php include 'header.php';?>
+   <?php include 'header/header.php';?>
 
    <!-- Main body -->
     <div class="container">
@@ -34,12 +34,12 @@
                         DEPARTMENTS
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">Applied Sciences & Humanities</a></li>
-                        <li><a href="">Computer Science & Engineering</a></li>
-                        <li><a href="">Electronics & Communication Engineering</a></li>
-                        <li><a href="">Information Technology</a></li>
-                        <li><a href="">Mechanical & Automation Engineering</a></li>
-                        <li><a href="">Architecture and Planning</a></li>
+                        <li><a href="departments/appliedScience/appliedScience.php">Applied Sciences & Humanities</a></li>
+                        <li><a href="departments/computerScience/computerScience.php">Computer Science & Engineering</a></li>
+                        <li><a href="departments/ece/ece.php">Electronics & Communication Engineering</a></li>
+                        <li><a href="departments/itdepartment/itdepartment.php">Information Technology</a></li>
+                        <li><a href="departments/mechanical/mechanical.php">Mechanical & Automation Engineering</a></li>
+                        <li><a href="departments/architecture/architecture.php">Architecture and Planning</a></li>
                     </ul>
                 </div>
             </div>
@@ -134,7 +134,7 @@
         </div>
     </div>
     <!-- footer -->
-    <?php include 'footer.php';?>
+    <?php include 'footer/footer.php';?>
 </body>
 
 </html>

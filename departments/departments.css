@@ -7,85 +7,45 @@
 
 
 
-        /*setting container for color changing*/
-        .setting_container {
-            position: fixed;
-            top: 40%;
-            right: -170px;
-            padding: 15px 5px 15px 5px;
-            z-index: 1000 !important;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: black;
-            transition: right 2s;
-        }
         
-        .setting_container:hover {
-            right: 0px;
-        }
-        
-        .setting_container span {
-            height: 70px;
-            color: white;
-            font-size: 15px;
-            width: 70px;
-            padding: 15px;
-            margin: 0px;
-        }
-        
-        #style1 {
-            background-color: #011c38;
-        }
-        
-        #style2 {
-            background-color: #005E38;
-        }
-        
-        #style3 {
-            background-color: #104210;
-        }
-        
-        #style4 {
-            background-color: #004B02;
-        }
 /*main css*/
-        
         .sideHeading {
-            font-weight: bolder;
-            font-size: 15px;
-            margin: 10px;
-            margin-top: 20px;
-            padding: 5px;
-        }
-        
-        .sidenav li {
-            margin: 10px;
-            padding: 5px;
-            font-size: 14px;
-        }
-        
-        .sidenav li a {
-            display: block;
-            color: black;
-        }
-        
-        .sidenav li a:hover {
-            color: #011c38;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        
-        .box-1 {
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-        
-        .headingPara {
-            padding: 10px;
-            margin: 5px;
-            color: black;
-        }
-        
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.sidenav li {
+    margin: 5px 10px;
+    padding: 5px;
+    border-bottom: 1px dotted #999999;
+    font-size: 14px;
+}
+
+.sidenav li a {
+    display: block;
+    color: black;
+}
+
+.sidenav li a:hover {
+    color: #011c38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box-1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.headingPara {
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}
+
         table {
             margin: auto;
             width: 100%;

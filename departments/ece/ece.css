@@ -5,6 +5,9 @@ body {
     /* #7ba566 */
 }
 
+    .high{
+    color:red;
+    }
 .sideHeading {
     font-weight: bolder;
     font-size: 15px;
@@ -14,8 +17,9 @@ body {
 }
 
 .sidenav li {
-    margin: 10px;
+    margin: 5px 10px;
     padding: 5px;
+    border-bottom: 1px dotted #999999;
     font-size: 14px;
 }
 
@@ -41,35 +45,6 @@ body {
     color: black;
 }
 
-.timeTable {
-    margin: 10px;
-    padding: 5px;
-}
-
-.timeTable li {
-    display: inline-block;
-    padding: 5px;
-    font-size: 14px;
-}
-
-.timeTable li a {
-    display: inline;
-    color: black;
-}
-
-.timeTable li a:hover {
-    color: #011c38;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.ttHeading {
-    display: block;
-    color: #011c38;
-    font-size: 16px;
-    font-weight: bolder;
-    list-style-type: none;
-}
 
 @media (max-width: 767px) {
     .sideNav {

@@ -15,15 +15,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" id="stylesheet" href="stylesheet/style1.css">
-    <link rel="stylesheet" id="stylesheet" href="stylesheet/computerScience.css">
+    
+    <link rel="stylesheet" id="stylesheet" href="departments/computerScience/computerScience.css">
 
     
 </head>
 
 <body>
    <!-- header -->
-   <?php include 'header.php';?>
+   <?php include 'header/header.php';?>
 
 <!-- Main Body -->
 <div class="container">
@@ -67,11 +67,10 @@
                         <li><a href="">Syllabus</a></li>
                         
                     </ul>
+                    <div class="sideHeading">Time Table</div>
 
-
-                    <ul class="timeTable">
-                        <li class="ttHeading">Time Table</li>
-                        <br>
+                    <ul class="sidenav">
+                        
                         <li><a href="">B.Tech</a></li>
                         <li><a href="">M.Tech</a></li>
                         <li><a href="">Lab Manuals</a></li>
@@ -91,7 +90,7 @@
     </div>
    
    <!-- footer -->
-    <?php include 'footer.php';?>
+    <?php include 'footer/footer.php';?>
 </body>
 
 </html>

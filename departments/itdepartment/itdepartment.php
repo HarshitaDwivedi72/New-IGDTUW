@@ -14,14 +14,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="stylesheet/itdepartment.css">
+    <link rel="stylesheet" href="departments/itdepartment/itdepartment.css">
     
-    <style type="text/css">
-        a:active{
-            color:green;
-        }
-    </style>
-    
+   
 
 
 </head>
@@ -43,9 +38,7 @@
         $id='';
     ?>
     <style>
-        .high{
-            text-decoration: line-through;
-        }
+        
     </style>
 
     <!-- header -->

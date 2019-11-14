@@ -5,6 +5,9 @@ body {
     /* #7ba566 */
 }
 
+    .high{
+    color:red;
+    }
 .sideHeading {
     font-weight: bolder;
     font-size: 15px;
