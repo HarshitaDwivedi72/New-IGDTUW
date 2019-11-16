@@ -22,8 +22,8 @@
 
 <body>
     <!-- header -->
-
-    <?php include 'header/header.php';?>
+    <?php include '../../header/header.php';?>
+    <!-- main body -->
     <!-- main body -->
     <div class="container">
         <div class="row">
@@ -78,7 +78,7 @@
    
 
     <!-- footer -->
-    <?php include 'footer/footer.php';?>
+     <?php include '../../footer/footer.php';?>
 
 </body>
 
