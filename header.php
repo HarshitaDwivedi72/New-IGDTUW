@@ -9,22 +9,30 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet"> -->
    
-    <link rel="stylesheet" id="stylesheet" href="/header/header.css">
+    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/header.css">
     
 </head>
 
 <body>
     <script>
+        var currentStyle=1;
         function changestyle(n) {
-            if (n == 1) {
-                $("#stylesheet").attr("href", "stylesheet/style1.css");
-            } else if (n == 2) {
-                $("#stylesheet").attr("href", "stylesheet/style2.css");
-            } else if (n == 3) {
-                $("#stylesheet").attr("href", "stylesheet/style3.css");
-            } else if (n == 4) {
-                $("#stylesheet").attr("href", "stylesheet/style4.css");
-            }
+
+            $(".stylesheet").map(function() {
+                
+                var link=$(this).attr("href");
+                var r=link.replace("style"+currentStyle, "style"+n);
+                $(this).attr("href",r);
+                currentStyle=n;
+            }).get();
+            
+            
+            // var link=$(".stylesheet").attr("href");
+            // alert(count(link));
+            // var r = link.replace("style"+currentStyle, "style"+n);
+            // currentStyle=n;
+            // $(".stylesheet").attr("href",link);
+                
         }
     </script>
 
@@ -52,7 +60,7 @@
         <div class="headContainer">
             <div class="header">
 
-                <a href="index.html" class="logo" target="_blank">
+                <a href="index.php" class="logo" target="_blank">
                     <img src="images/log.jpg" alt="IGDTUW logo" height="100px" width="auto" />
                 </a>
 
@@ -89,16 +97,16 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="departments/departments.php">DEPARTMENTS
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="departments.php">DEPARTMENTS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="departments/appliedScience/appliedScience.php">Applied Sciences & Humanities</a></li>
-                                <li><a href="departments/computerScience/computerScience.php">Computer Science & Engineering</a></li>
+                                <li><a href="appliedScience.php">Applied Sciences & Humanities</a></li>
+                                <li><a href="computerScience.php">Computer Science & Engineering</a></li>
 
-                                <li><a href="departments/ece/ece.php">Electronics & Communication Engineering</a></li>
-                                <li><a href="departments/itdepartment/itdepartment.php">Information Technology</a></li>
-                                <li><a href="departments/architecture/architecture.php">Architecture and Planning</a></li>
-                                <li><a href="departments/mechanical/mechanical.php">Mechanical & Automation Engineering</a></li>
+                                <li><a href="ece.php">Electronics & Communication Engineering</a></li>
+                                <li><a href="itdepartment.php">Information Technology</a></li>
+                                <li><a href="architecture.php">Architecture and Planning</a></li>
+                                <li><a href="mechanical.php">Mechanical & Automation Engineering</a></li>
 
 
                             </ul>

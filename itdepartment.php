@@ -14,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="departments/itdepartment/itdepartment.css">
+    <link rel="stylesheet" href="stylesheet/style1/departments.css">
     
    
 
@@ -42,7 +42,7 @@
     </style>
 
     <!-- header -->
-    <?php include '../../header/header.php';?>
+    <?php include 'header.php';?>
     <!-- main body -->
 
     <div class="container">
@@ -95,22 +95,22 @@
                 }
                 else if($id==2){
                 echo '<div class="box-1">
-                <div class="title">
-                Head Of Department
-                </div>
-                <div class="profile">
-                <div class="">Dr. Arun Sharma</div>
-                <div class="">(Associate Professor & Head</div>
-                <img src="" alt="Dr. Arun Sharma">
-                </div>
-                <div class="headingPara">
-                Dr. Arun Sharma, is presently Associate Professor and Head of the IT Department. He completed his PhD Degree from Thapar University, Patiala in 2009. Prior to this, he did M.Sc. (Applied Mathematics) from University of Roorkee (now IIT Roorkee) in 1994
-                and M. Tech. (CSE) from Punjabi University, Patiala in 1997. He has a vast teaching experience of approx 20 years in various reputed Govt. and Pvt. Institutions. His areas of interests include Big Data, Data Mining, Software Engineering and
-                Soft Computing Approaches. He has published more than 60 papers (SCI/SCIE/SCOPUS and others) in international journals and conferences including IEEE, ACM, Springer, Elsevier, Wiley, IGI Global and several others. Dr. Sharma is a Senior Member
-                of IEEE and Life Member of Computer Society of India and is actively involved in various activities of these societies. He has been the Chairman of Computer Society of India (CSI) - Ghaziabad Chapter for 2015-16. He has been awarded by CSI
-                in its annual convention for his significant contribution. Dr Sharma was included in World’s Who’s Who by Marquis, USA in 2013. He is also on the panel of Experts and member of Board of Studies for various reputed Universities and institutions.
-                </div>
-                        ';
+                    <div class="title">
+                    Head Of Department
+                    </div>
+                    <div class="profile">
+                        <div class="">Dr. Arun Sharma</div>
+                        <div class="">(Associate Professor & Head</div>
+                        <img src="https://www.igdtuw.ac.in//images/stories/IT%20fac%20photos/Dr.%20Arun.png" alt="Dr. Arun Sharma">
+                    </div>
+                    <div class="headingPara">
+                    Dr. Arun Sharma, is presently Associate Professor and Head of the IT Department. He completed his PhD Degree from Thapar University, Patiala in 2009. Prior to this, he did M.Sc. (Applied Mathematics) from University of Roorkee (now IIT Roorkee) in 1994
+                    and M. Tech. (CSE) from Punjabi University, Patiala in 1997. He has a vast teaching experience of approx 20 years in various reputed Govt. and Pvt. Institutions. His areas of interests include Big Data, Data Mining, Software Engineering and
+                    Soft Computing Approaches. He has published more than 60 papers (SCI/SCIE/SCOPUS and others) in international journals and conferences including IEEE, ACM, Springer, Elsevier, Wiley, IGI Global and several others. Dr. Sharma is a Senior Member
+                    of IEEE and Life Member of Computer Society of India and is actively involved in various activities of these societies. He has been the Chairman of Computer Society of India (CSI) - Ghaziabad Chapter for 2015-16. He has been awarded by CSI
+                    in its annual convention for his significant contribution. Dr Sharma was included in World’s Who’s Who by Marquis, USA in 2013. He is also on the panel of Experts and member of Board of Studies for various reputed Universities and institutions.
+                    </div>
+                    </div>';
                 }
                 else{
                     echo '<div class="box-1">
@@ -141,7 +141,8 @@
                         <li><a href="">M.Tech (ISM) Syllabus</a></li>
                         <li><a href="">Lab Manuals</a></li>
                     </ul>
-                    <hr>
+                </div>
+                <div class="sideNav">
                     <div class="sideHeading">
                         Time Table
                     </div>
@@ -185,7 +186,7 @@
     <!-- footer -->
     <br>
     <br>
-    <?php include '../../footer/footer.php';?>
+    <?php include 'footer.php';?>
 
 </body>
 

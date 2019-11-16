@@ -16,14 +16,14 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
 
     
-    <link rel="stylesheet" id="stylesheet" href="departments/computerScience/computerScience.css">
+    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/departments.css">
 
     
 </head>
 
 <body>
    <!-- header -->
-       <?php include '../../header/header.php';?>
+       <?php include 'header.php';?>
     <!-- main body -->
 <!-- Main Body -->
 <div class="container">
@@ -90,7 +90,7 @@
     </div>
    
    <!-- footer -->
-     <?php include '../../footer/footer.php';?>
+     <?php include 'footer.php';?>
 </body>
 
 </html>

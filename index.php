@@ -14,14 +14,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     <!-- main stylesheet -->
-    <link rel="stylesheet" id="stylesheet" href="stylesheet/style1.css">
+    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/index.css">
 
 </head>
 
 <body>
    
 
-    <?php include 'header/header.php';?>
+    <?php include 'header.php';?>
     
     <div class="mainBox">
         <div class="container">
@@ -249,7 +249,7 @@
     </div>
 <!-- footer -->
 
-<?php include 'footer/footer.php';?>
+<?php include 'footer.php';?>
 
     <!-- 
                  <div class="col-sm-3 ">

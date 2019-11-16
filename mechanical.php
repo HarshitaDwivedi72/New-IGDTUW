@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="index.css"> -->
     
-    <link rel="stylesheet" href="departments/mechanical/mechanical.css">
+    <link rel="stylesheet" href="stylesheet/style1/departments.css">
 
 
 
@@ -24,7 +24,7 @@
 <body>
     <!-- header -->
 
-        <?php include '../../header/header.php';?>
+        <?php include 'header.php';?>
     <!-- main body -->
     <div class="container">
         <div class="row">
@@ -87,7 +87,7 @@
 
 
     <!-- footer -->
-    <?php include '../../footer/footer.php';?>
+    <?php include 'footer.php';?>
 
 </body>
 
