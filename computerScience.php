@@ -34,13 +34,13 @@
                         Computer Science & Engineering
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">Objectives</a></li>
-                        <li><a href="">Head Of Department</a></li>
-                        <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">Labs</a></li>
-                        <li><a href="">Events/Workshops/Seminars</a></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Expert Lectures</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Objectives</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Head Of Department</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Expert Lectures</a></li>
                         
                     </ul>
 
@@ -64,16 +64,16 @@
                         QUICK LINKS - CSE
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">Syllabus</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
                         
                     </ul>
                     <div class="sideHeading">Time Table</div>
 
                     <ul class="sidenav">
                         
-                        <li><a href="">B.Tech</a></li>
-                        <li><a href="">M.Tech</a></li>
-                        <li><a href="">Lab Manuals</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li>
                         
                     </ul>
                 </div>
@@ -82,7 +82,7 @@
                         EVENTS
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">7th Summer Training Program on Build Your Own IoT Enabled Smart Device from 06-06-2016 to 15-07-2016 in collaboration with Microsoft University Relations.</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>7th Summer Training Program on Build Your Own IoT Enabled Smart Device from 06-06-2016 to 15-07-2016 in collaboration with Microsoft University Relations.</a></li>
                     </ul>
                 </div>
             </div>

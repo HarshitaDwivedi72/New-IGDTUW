@@ -36,13 +36,13 @@
                     </div>
                     <ul class="sidenav">
                         
-                        <li><a href="">HOD STATEMENT</a></li>
-                        <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">FACULTY ACHIEVEMENTS</a></li>
-                        <li><a href="">Events/Workshops/Seminars</a></li>
-                        <li><a href="">Labs</a></li>
-                        <li><a href="">STUDENT ACHIEVEMENTS</a></li>
-                        <li><a href="">PHOTO GALLERY</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>HOD STATEMENT</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>FACULTY ACHIEVEMENTS</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>STUDENT ACHIEVEMENTS</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>PHOTO GALLERY</a></li>
 
                     </ul>
 
@@ -67,13 +67,13 @@
                         QUICK LINKS - Architecture and Planning
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">Timetable</a></li>
-                        <li><a href="">Course Structure</a></li>
-                        <li><a href="">Syllabus</a></li>
-                        <li><a href="">Syllabus 1st year (CBCS)</a></li>
-                        <li><a href="">Syllabus 3rd Year</a></li>
-                        <li><a href="">Syllabus 4th Year</a></li>
-                        <li><a href="">Syllabus 5th Year</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Timetable</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Course Structure</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus 1st year (CBCS)</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus 3rd Year</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus 4th Year</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus 5th Year</a></li>
 
                         
                     </ul>

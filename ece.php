@@ -34,12 +34,12 @@
                     </div>
                     <ul class="sidenav">
                         
-                        <li><a href="">Head Of Department</a></li>
-                        <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Events/Workshops/Seminars</a></li>
-                        <li><a href="">Labs</a></li>
-                        <li><a href="">SMDP for Chip to System Design </a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Head Of Department</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>SMDP for Chip to System Design </a></li>
 
                     </ul>
 
@@ -62,11 +62,11 @@
                         QUICK LINKS - ECE
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">B.Tech (IT) - Syllabus</a></li>
-                        <li><a href="">B.Tech and M.Tech Time Table</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (IT) - Syllabus</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech and M.Tech Time Table</a></li>
                         
-                        <li><a href="">M.Tech -  Syllabus</a></li>
-                        <li><a href="">Lab Manuals</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech -  Syllabus</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li>
                     </ul>
 
 

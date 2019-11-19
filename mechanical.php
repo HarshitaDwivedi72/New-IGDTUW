@@ -35,11 +35,11 @@
                     </div>
                     <ul class="sidenav">
                         
-                        <li><a href="">Head Of Department</a></li>
-                        <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Events/Workshops/Seminars</a></li>
-                        <li><a href="">Labs</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Head Of Department</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
                         
 
                     </ul>
@@ -64,18 +64,18 @@
                         QUICK LINKS - MAE
                     </div>
                     <ul class="sidenav">
-                        <li class="syHeading">Syllabus</li>
-                        <li><a href="">B.Tech (MAE)</a></li>
-                        <li><a href="">M.Tech (R&A)</a></li>
+                        <li class="syHeading"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (MAE)</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech (R&A)</a></li>
                         
                     </ul>
                     <div class="sideHeading">Time Table</div>
 
                     <ul class="sidenav">
                        
-                        <li><a href="">B.Tech and M.Tech</a></li>
-                        <li><a href="">Lab Manuals</a></li>
-                        <li><a href="">Achievements</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech and M.Tech</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
                     </ul>
                 </div>
             </div>

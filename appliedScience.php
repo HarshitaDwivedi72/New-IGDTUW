@@ -21,7 +21,22 @@
     
 </head>
 
-<body>
+<body onload="main()">
+     <script>
+        function main()
+        {
+            
+            var r=<?php echo $_GET['id'];?>;
+            $('#'+r).addClass('high');
+        }   
+    </script>
+    <?php 
+        if(isset($_GET['id']))
+        $id=$_GET['id'];
+        else
+        $id='';
+    ?>
+
    <!-- header -->
       <?php include 'header.php';?>
     <!-- main body -->
@@ -35,20 +50,47 @@
                         INFORMATION TECHNOLOGY
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">Objectives</a></li>
-                        <li><a href="">Head Of Department</a></li>
-                        <li><a href="">Faculty Directory</a></li>
-                        <li><a href="">Labs</a></li>
-                        <li><a href="">Exteranlly Funded Research Projects</a></li>
-                        <li><a href="">Achievements & Awards</a></li>
-                        <li><a href="">FDPs/Workshops/Expert Lectures</a></li>
-                        <li><a href="">Extra Curricular Activities</a></li>
+                        <li><a href="appliedScience.php?id=1" id="1"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Objectives</a></li>
+                        <li><a href="appliedScience.php?id=2" id="2"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Head Of Department</a></li>
+                        <li><a href="appliedScience.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
+                        <li><a href="appliedScience.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
+                        <li><a href="appliedScience.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Exteranlly Funded Research Projects</a></li>
+                        <li><a href="appliedScience.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements & Awards</a></li>
+                        <li><a href="appliedScience.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>FDPs/Workshops/Expert Lectures</a></li>
+                        <li><a href="appliedScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Extra Curricular Activities</a></li>
                     </ul>
 
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="box-1">
+                <?php
+                    if($id==1){
+
+                    }
+                    else if($id==2){
+
+                    }
+                    elseif ($id==3){
+                        # code...
+                    }
+                    elseif ($id==4){
+                        # code...
+                    }
+                    else if($id==5){
+
+                    }
+                    else if($id==6){
+
+                    }
+                    else if($id==7){
+
+                    }
+                    else if($id==8)
+                    {
+
+                    }
+                    else{
+                        echo '<div class="box-1">
                     <div class="title">
                         DEPARTMENT OF APPLIED SCIENCES
                     </div>
@@ -57,7 +99,9 @@
                        A strong high-rise building can be built only on a strong foundation, which signifies the importance of the Department of Applied Sciences. The important objective of the Department is to prepare and train the first year B. Tech students in Physics, Chemistry, Mathematics and Communication skills with an applied approach. The Applied Sciences Department constitutes of eight highly qualified faculties of respective subjects. The department has two well equipped laboratories of Applied Chemistry/ Environmental Studies and Applied Physics with trained staff.
                     </div>
 
-                </div>
+                </div>';
+                    }
+                ?>
             </div>
             <div class="col-sm-3">
                 <div class="sideNav">
@@ -65,14 +109,14 @@
                         QUICK LINKS - ASH
                     </div>
                     <ul class="sidenav">
-                        <li><a href="">B.Tech (1st year)- Syllabus</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (1st year)- Syllabus</a></li>
                         
                     </ul>
 
                     <div class="sideHeading">Time Table</div>
                     <ul class="sidenav">
                        
-                        <li><a href="">B.Tech</a></li>
+                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech</a></li>
                         
                     </ul>
                 </div>

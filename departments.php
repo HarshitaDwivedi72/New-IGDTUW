@@ -31,12 +31,12 @@
                         DEPARTMENTS
                     </div>
                     <ul class="sidenav">
-                        <li><a href="appliedScience.php">Applied Sciences & Humanities</a></li>
-                        <li><a href="computerScience.php">Computer Science & Engineering</a></li>
-                        <li><a href="ece.php">Electronics & Communication Engineering</a></li>
-                        <li><a href="itdepartment.php">Information Technology</a></li>
-                        <li><a href="mechanical.php">Mechanical & Automation Engineering</a></li>
-                        <li><a href="architecture.php">Architecture and Planning</a></li>
+                        <li><a href="appliedScience.php"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Applied Sciences & Humanities</a></li>
+                        <li><a href="computerScience.php"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Computer Science & Engineering</a></li>
+                        <li><a href="ece.php"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Electronics & Communication Engineering</a></li>
+                        <li><a href="itdepartment.php"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Information Technology</a></li>
+                        <li><a href="mechanical.php"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Mechanical & Automation Engineering</a></li>
+                        <li><a href="architecture.php"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Architecture and Planning</a></li>
                     </ul>
                 </div>
             </div>

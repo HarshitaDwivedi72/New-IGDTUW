@@ -35,7 +35,7 @@ ul {
 }
 
 .sidenav li {
-    margin: 5px 10px;
+    margin: 5px 5px;
     padding: 5px;
     border-bottom: 1px dotted #999999;
     font-size: 14px;
@@ -86,19 +86,24 @@ ul {
     padding: 10px;
     margin: 5px;
     color: black;
+    text-align: justify;
 }
 
 table {
-    margin: auto;
+    margin-top: 10px;
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid #03224435;
+    border-radius: 1px;
+
+    /*border: 1px solid grey;*/
 }
 
 table tr td,
 th {
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
+     border: 1px solid #03224435;
     width: 200px;
     padding: 10px;
 }
@@ -131,5 +136,69 @@ table tr td ul li {
 }
 
 .high{
-    color:red;
+   font-weight: bolder;
+   }
+
+
+.middleBox{
+    flex-grow: 1;
+    flex-basis: 300px;
+    color: black;
+    flex-shrink: 0px;
+    border: 1px solid #03224435;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+
+}
+@media(max-width: 1200px) {
+    .middleBox {
+        flex-grow: 1;
+        flex-basis: 300px;
+        
+        color: black;
+        flex-shrink: 0px;
+        border: 1px solid #03224435;
+        border-radius: 5px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: white;
+    }
+}
+.headingPara ul{
+    margin:5px;
+
+}
+.headingPara ul li{
+    margin:5px;
+    padding: 5px;
+
+}
+.profile{
+    margin: 5px;
+
+}
+.profile img{
+float:right;
+margin: 10px;
+
+}
+.pHeading ,
+.pText{
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.fTitle{
+      font-size: 18px;
+   
+    padding: 3px 10px;
+    color: #011c38;
+    font-weight: bold;
+    /*color: white;*/
+    background-color: #8e99a535;
+    text-align: center;
 }
