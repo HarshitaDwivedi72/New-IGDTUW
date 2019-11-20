@@ -38,9 +38,7 @@
         else
         $id='';
     ?>
-    <style>
-        
-    </style>
+    
 
     <!-- header -->
     <?php include 'header.php';?>
@@ -48,25 +46,27 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <div class="sideNav">
                     <div class="sideHeading">
                         INFORMATION TECHNOLOGY
                     </div>
                     <ul class="sidenav">
-                        <li><a href="itdepartment.php?id=1" id="1" ><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Objectives</a></li>
+                        <li><a href="itdepartment.php?id=1" id="1"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Objectives</a></li>
                         <li><a href="itdepartment.php?id=2" id="2"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Head Of Department</a></li>
                         <li><a href="itdepartment.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
                         <li><a href="itdepartment.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
                         <li><a href="itdepartment.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
                         <li><a href="itdepartment.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
                         <li><a href="itdepartment.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Placement</a></li>
+                        <li><a href="itdepartment.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href="itdepartment.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
 
                     </ul>
 
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-8">
                 <?php 
                 
                 if($id==1)
@@ -99,7 +99,7 @@
                     Head Of Department
                     </div>
                     <div class="profile">
-                    <img src="https://www.igdtuw.ac.in//images/stories/IT%20fac%20photos/Dr.%20Arun.png" alt="Dr. Arun Sharma" height="100px" width="auto">
+                    <img src="images/Dr.Arun.png" alt="Dr. Arun Sharma" height="200px" width="auto">
                         <div class="pHeading">Dr. Arun Sharma</div>
                         <div class="pText">(Associate Professor & Head)</div>
                         
@@ -125,7 +125,7 @@
                                 <tr>
                                     <td>Name : </td>
                                     <td><a href="">Prof. R K Singh</a></td>
-                                    <td rowspan="4"><img src="images/rksingh.jpg" width="auto" height="100px"></td>
+                                    <td rowspan="4"><img src="images/rksingh.jpg" width="auto" height="100px" vertical-align="top"></td>
                                 </tr>
                                 <tr>
                                     <td>Designation : </td>
@@ -160,6 +160,13 @@
                             
                             </table>';
                 }
+                else if($id==4){
+
+                }
+                else if($id==5){
+
+                }
+
                 else if($id==6) {
                     
                     echo '<div class="middleBox">
@@ -195,8 +202,40 @@
         <div class="headingPara">
              The lab is equipped with FRED Server (i7 5th Gen, 32GB Ram 1 TB Hard Disk) and Net Force Suite –a forensic suite developed by C-DAC. The Server facilitates various ethical hacking modules to be performed.Many forensics tools like encase and FTK are installed and used frequently. Centralized forensic experiments are performed in this lab. All the systems are Dual Booted with Ubuntu 14.04 and Windows 8. HP Proactive care Server is installed in this Lab. The lab has been equipped with real time test bed “SenseNuts: IoT Platform for Excellence” for experimenting sensor for IoT applications. This lab provides infrastructure facility suitable for testing small wireless sensor devices and heterogeneous communicating objects. This lab is developed under the ISEA Project Grant, DeitY, Govt. of India.
         </div>
-    </div>
-    ';
+    </div>';
+                }
+                else if($id==7){
+
+                }
+                 else if($id==8){
+                    
+                    echo '<div class="middleBox">
+                                <div class="title">SYLLABUS</div>
+                                <div class="headingPara">
+                            <ul class="sidenav">
+                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) - Syllabus</a></li>
+                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 1st year</a></li>
+                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
+                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
+                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
+                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Lab Manuals</a></li>
+                            </ul>
+                                </div>
+                          </div>';
+                }
+                 else if($id==9){
+                    
+                    echo '<div class="middleBox">
+
+                                <div class="title">TIME TABLE </div>
+                                <div class="headingPara">
+                                     <ul class="sidenav">
+                        <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech</a></li>
+                        <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech</a></li>
+                        <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA</a></li>
+                                    </ul>
+                                </div>
+                          </div>';
                 }
                 else{
                     echo '<div class="middleBox">
@@ -213,33 +252,23 @@
 
             </div>
             
-            <div class="col-sm-3">
+            <!-- <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
                         QUICK LINKS - IT
                     </div>
-                    <ul class="sidenav">
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (IT) - Syllabus</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>MCA - Syllabus 1st year</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li>
-                    </ul>
+                    
                 </div>
                 <div class="sideNav">
                     <div class="sideHeading">
                         Time Table
                     </div>
-                    <ul class="sidenav">
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>MCA</a></li>
-                    </ul>
+                   
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
+</div>
     
     <!-- footer -->
     <br>

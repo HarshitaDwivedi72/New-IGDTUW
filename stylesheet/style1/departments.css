@@ -37,13 +37,14 @@ ul {
 .sidenav li {
     margin: 5px 5px;
     padding: 5px;
-    border-bottom: 1px dotted #999999;
+   
     font-size: 14px;
 }
 
 .sidenav li a {
     display: block;
     color: black;
+    border-bottom: 1px dotted #999999;
     text-decoration: none;
 }
 
@@ -157,7 +158,6 @@ table tr td ul li {
     .middleBox {
         flex-grow: 1;
         flex-basis: 300px;
-        
         color: black;
         flex-shrink: 0px;
         border: 1px solid #03224435;
@@ -193,8 +193,7 @@ margin: 10px;
     text-align: center;
 }
 .fTitle{
-      font-size: 18px;
-   
+    font-size: 18px;
     padding: 3px 10px;
     color: #011c38;
     font-weight: bold;
