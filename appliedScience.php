@@ -118,37 +118,37 @@
                            <table>
                                 <tr>
                                     <td>Name : </td>
-                                    <td><a href="">Prof. R K Singh</a></td>
-                                    <td rowspan="4"><img src="images/" width="auto" height="200px" vertical-align="top"></td>
+                                    <td><a href="">Dr. Ranu Gadi</a></td>
+                                    <td rowspan="4"><img src="images/DrRanu.png" width="auto" height="200px" vertical-align="top"></td>
                                 </tr>
                                 <tr>
                                     <td>Designation : </td>
-                                     <td>Professor and Dean (Plg and Dev), Registrar</td>
+                                     <td>Dy. Dean (Industrial Research & Development), Chief Warden (Hostels) and Associate Professor (Chemistry)  </td>
                                 </tr>
                                 <tr>
                                     <td>Qualification : </td>
-                                    <td>Ph.D. (IT),GGSIP University, M.S., BITS Pilani </td>
+                                    <td>Ph.D. (Chemistry) IIT Roorkee, Post Doctoral Fellowship (Environmental Sciences) Lancaster University, Lancaster, U.K.</td>
                                 </tr>
                                 <tr>
                                     <td>Area of Specialisation </td>
-                                    <td>Software Engineering , Project Management </td>
+                                    <td>Atmospheric Chemistry and Climate Change, Biomass emissions, Characterization of atmospheric aerosols (elemental, organics, carbonaceous, metals), Environmental Analytical Chemistry, Speciation and Bioremediation of priority pollutants in water/wastewater. </td>
                                 </tr>
                                 <tr>
                                     <td>Name : </td>
-                                    <td><a href="">Dr. A.K. Mohapatra</a> (on Deputation in Delhi Police)</td>
-                                    <td rowspan="4"><img src="images/ak.jfif" height="100px" width="auto"></td>
+                                    <td><a href="">Dr. Chhaya Ravikant</a> (on Deputation in Delhi Police)</td>
+                                    <td rowspan="4"><img src="images/DrChhaya.png" height="200px" width="200"></td>
                                 </tr>
                                 <tr>
                                     <td>Designation : </td>
-                                    <td>Associate Professor</td>
+                                    <td>Dy. Dean (Research & Consultancy), First Appellate Authority and Associate Professor (Physics)</td>
                                 </tr>
                                 <tr>
                                     <td>Qualification : </td>
-                                    <td>Ph.D. (IT), GGSIP University, M.Tech (Computer Science), ISM Dhanbad</td>
+                                    <td>Ph.D. (Physics), Delhi University, M.S. (Software Systems), BITS Pilani</td>
                                 </tr>
                                 <tr>
                                     <td>Area of Specialisation </td>
-                                    <td>Cryptography, Information Security, Network Security</td>
+                                    <td>Nanomaterials, Condensed Matter Physics, Plasma Science and Technology, Mobile Communication.</td>
                                 </tr>
 
                             

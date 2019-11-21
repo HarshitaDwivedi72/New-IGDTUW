@@ -201,3 +201,10 @@ margin: 10px;
     background-color: #8e99a535;
     text-align: center;
 }
+
+.labImages{
+   /* float: right;*/
+    margin: auto;
+    align-self: center;
+    display: block;
+}
