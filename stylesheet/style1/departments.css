@@ -116,6 +116,14 @@ table tr td ul {
 table tr td ul li {
     list-style-type: square;
 }
+table .facultyDImage{
+    
+    display: block;
+    margin:auto;
+    height:150px; 
+    width:150px;
+}
+
 
 @media (max-width: 767px) {
     .sideNav {
@@ -207,4 +215,5 @@ margin: 10px;
     margin: auto;
     align-self: center;
     display: block;
+    margin-bottom:10px; 
 }

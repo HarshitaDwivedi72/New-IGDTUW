@@ -58,14 +58,16 @@
                         <li><a href="itdepartment.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
                         <li><a href="itdepartment.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
                         <li><a href="itdepartment.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                        <li><a href="itdepartment.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Placement</a></li>
-                        <li><a href="itdepartment.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                        <li><a href="itdepartment.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                       
+                        <li><a href="itdepartment.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href="itdepartment.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
 
                     </ul>
 
                 </div>
             </div>
+
+           
             <div class="col-sm-9">
                 <?php 
                 
@@ -125,7 +127,7 @@
                                 <tr>
                                     <td>Name : </td>
                                     <td><a href="">Prof. R K Singh</a></td>
-                                    <td rowspan="4"><img src="images/rksingh.jpg" width="auto" height="100px" vertical-align="top"></td>
+                                    <td rowspan="4"><img class="facultyDImage" src="images/rksingh.jpg" width="100px" height="100px"></td>
                                 </tr>
                                 <tr>
                                     <td>Designation : </td>
@@ -142,7 +144,7 @@
                                 <tr>
                                     <td>Name : </td>
                                     <td><a href="">Dr. A.K. Mohapatra</a> (on Deputation in Delhi Police)</td>
-                                    <td rowspan="4"><img src="images/ak.jfif" height="100px" width="auto"></td>
+                                    <td rowspan="4"><img class="facultyDImage" src="images/ak.jfif" ></td>
                                 </tr>
                                 <tr>
                                     <td>Designation : </td>
@@ -161,10 +163,64 @@
                             </table>';
                 }
                 else if($id==4){
-
+                        echo ' <div class="middleBox">
+                <div class="title">
+                    Achievements
+                </div>
+                <div class="headingPara">
+                    <table>
+                        <tr>
+                            <th>NAME OF THE STUDENT</th>
+                            <th>ACHIEVEMENT</th>
+                        </tr>
+                        <tr>
+                            <td>Taniya Bhatia (M.Tech ISM) </td>
+                            <td colspan="3">Awarded with the Best Paper Award , “Malware Detection in Android based on Dynamic Analysis”, International Conference on Cyber Security and Protection of Digital Services (Cyber Security 2017)London, on June 19-20, 2017, IEEE Xplore Digital Library.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="title">
+                    Poster Presentations 
+                </div>
+                <div class="headingPara">
+                    <table>
+                        <tr>
+                            <th>NAME OF THE STUDENT</th>
+                            <th>ACHIEVEMENT</th>
+                        </tr>
+                        <tr>
+                            <td>Madhuri and Rishabh Kaushal</td>
+                            <td> “Creation and Impact of Social Bots in Twitter”,4th, Security and Privacy Symposium 2016,IIITD,New Delhi,India.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+                    ';
                 }
                 else if($id==5){
 
+                        echo ' <div class="middleBox">
+                <div class="title">
+                    Latest Events/ Workshops/ Seminars / Expert Lectures
+                </div>
+                <div class="headingPara">
+                    <table>
+                        <tr>
+                            <th>Year</th>
+                            
+                            <th>Event</th>
+                            <th>Date</th>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                           
+                            <td>Workshop on “Digital Forensics and Cyber Crime Investigation” conducted under ISEA Project.
+                            <a href=""> Read More</a></td>
+                             <td>17 - 18 March</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>';
                 }
 
 
@@ -211,26 +267,24 @@
         </div>
     </div>';
                 }
-                else if($id==7){
-
-                }
-                 else if($id==8){
+                
+                 else if($id==7){
                     
                     echo '<div class="middleBox">
                                 <div class="title">SYLLABUS</div>
                                 <div class="headingPara">
                             <ul class="sidenav">
-                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) - Syllabus</a></li>
-                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 1st year</a></li>
-                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
-                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
-                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
+                <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) - Syllabus</a></li>
+                <li><a href="syllabus/mca1.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 1st year</a></li>
+                <li><a href="syllabus/mca2.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
+                <li><a href="syllabus/mca3.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
+                <li><a href="syllabus/mtechIsm" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
                 <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Lab Manuals</a></li>
                             </ul>
                                 </div>
                           </div>';
                 }
-                 else if($id==9){
+                 else if($id==8){
                     
                     echo '<div class="middleBox">
 
@@ -280,7 +334,7 @@
     <!-- footer -->
     <br>
     <br>
-    <img src="labAS1.png" class="labImages">
+    
     <?php include 'footer.php';?>
 
 </body>
