@@ -104,7 +104,7 @@ table {
 table tr td,
 th {
     /*border: 1px solid grey;*/
-     border: 1px solid #03224435;
+    border: 1px solid #03224435;
     width: 200px;
     padding: 10px;
 }
@@ -116,7 +116,7 @@ table tr td ul {
 table tr td ul li {
     list-style-type: square;
 }
-table .facultyDImage{
+.facultyDImage{
     
     display: block;
     margin:auto;

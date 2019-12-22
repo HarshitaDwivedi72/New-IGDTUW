@@ -56,7 +56,8 @@
                         <li><a href="itdepartment.php?id=2" id="2"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Head Of Department</a></li>
                         <li><a href="itdepartment.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
                         <li><a href="itdepartment.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
-                        <li><a href="itdepartment.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
+                        <li><a href="itdepartment.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events /Workshops /Seminars</a></li>
+
                         <li><a href="itdepartment.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
                        
                         <li><a href="itdepartment.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
@@ -170,12 +171,12 @@
                 <div class="headingPara">
                     <table>
                         <tr>
-                            <th>NAME OF THE STUDENT</th>
-                            <th>ACHIEVEMENT</th>
+                            <th>NAME </th>
+                            <th colspan="2">ACHIEVEMENT</th>
                         </tr>
                         <tr>
-                            <td>Taniya Bhatia (M.Tech ISM) </td>
-                            <td colspan="3">Awarded with the Best Paper Award , “Malware Detection in Android based on Dynamic Analysis”, International Conference on Cyber Security and Protection of Digital Services (Cyber Security 2017)London, on June 19-20, 2017, IEEE Xplore Digital Library.</td>
+                            <td><b>Taniya Bhatia (M.Tech ISM) </td>
+                            <td colspan="2">Awarded with the Best Paper Award , “Malware Detection in Android based on Dynamic Analysis”, International Conference on Cyber Security and Protection of Digital Services (Cyber Security 2017)London, on June 19-20, 2017, IEEE Xplore Digital Library.</td>
                         </tr>
                     </table>
                 </div>
@@ -185,12 +186,12 @@
                 <div class="headingPara">
                     <table>
                         <tr>
-                            <th>NAME OF THE STUDENT</th>
-                            <th>ACHIEVEMENT</th>
+                            <th>NAME </th>
+                            <th colspan="2">ACHIEVEMENT</th>
                         </tr>
                         <tr>
-                            <td>Madhuri and Rishabh Kaushal</td>
-                            <td> “Creation and Impact of Social Bots in Twitter”,4th, Security and Privacy Symposium 2016,IIITD,New Delhi,India.</td>
+                            <td><b>Madhuri & Rishabh Kaushal</td>
+                            <td colspan="2"> “Creation and Impact of Social Bots in Twitter”,4th, Security and Privacy Symposium 2016,IIITD,New Delhi,India.</td>
                         </tr>
                     </table>
                 </div>
