@@ -39,8 +39,7 @@
 
    <!-- header -->
       <?php include 'header.php';?>
-    <!-- main body -->
-
+    
 <!-- Main Body -->
 <div class="container">
         <div class="row">
@@ -65,13 +64,7 @@
 
                 </div>
             </div>
-            <!-- <div class="middleBox">
-                            <div class="title">
-
-                            </div>
-                            <div class="headingPara">
-                            </div>
-                        </div> -->
+           
             <div class="col-sm-9">
                 <?php
                     if($id==1){
@@ -205,72 +198,68 @@
                                                 </tr>
                                             </table>
                                         </div>
-                                </div>';
-
-                    }
+                                </div>'; }
                     else if($id==6){
 
                          echo '<div class="middleBox">
-        <div class="title">
-           Applied Physics Lab 1:
-        </div>
-        <div class="headingPara">
-            <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
-           The lab hosts experiments based on Mechanics, Thermal Physics, Electronics and basic experiments on electricity and magnetism.
-        </div>
-        <div class="title">
-           Applied Physics Lab 2 (Optics Lab):
-        </div>
-        <div class="headingPara">
-            <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
-           The lab is housed in a Dark Room with experiments based on optics, ultrasonics and Lasers.
-        </div>
-        <div class="title">
-           Applied Chemistry Lab:
-        </div>
-        <div class="headingPara">
-            <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
-          The lab is fully equipped to hold experiments on quantitative chemical analysis like volumetric titrations, conductometric titrations etc. Experiments based on thermo-chemistry and rate of reaction are also performed.
-        </div>
+                                    <div class="title">
+                                       Applied Physics Lab 1:
+                                    </div>
+                                    <div class="headingPara">
+                                        <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                       The lab hosts experiments based on Mechanics, Thermal Physics, Electronics and basic experiments on electricity and magnetism.
+                                    </div>
+                                    <div class="title">
+                                       Applied Physics Lab 2 (Optics Lab):
+                                    </div>
+                                    <div class="headingPara">
+                                        <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                       The lab is housed in a Dark Room with experiments based on optics, ultrasonics and Lasers.
+                                    </div>
+                                    <div class="title">
+                                       Applied Chemistry Lab:
+                                    </div>
+                                    <div class="headingPara">
+                                        <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                      The lab is fully equipped to hold experiments on quantitative chemical analysis like volumetric titrations, conductometric titrations etc. Experiments based on thermo-chemistry and rate of reaction are also performed.
+                                    </div>
 
 
-        <div class="title">
-            Environmental Studies Lab:
-        </div>
-        <div class="headingPara">
-        <img src="images/labAS2.png" class="labImages" height="200px" width="auto">
-           The lab holds experiments on water analysis like DO, BOD, COD, TDS etc., spectrophotometric determination of metals, soil analysis, particulate matter in the ambient atmosphere and polymer preparation.
-           <br>
-           <br>
-            In addition, the department provides cutting edge research, innovation and education in emerging areas of Science and Technology. 
-            <br>
-            The Department presently has three Research labs:
-            <div class="title">
-               1. Environmental Analysis and Research Lab:         
-            </div>
-            <div class="headingPara">
-            <img src="images/labAS3.png" class="labImages" height="200px" width="auto">
-                The lab is equipped for the measurement, processing and analysis of aerosols and organic pollutants in the ambient Atmosphere.
-                    Active research work is being carried out on emissions estimates of organic compounds from biomass and fossil fuels, aerosols and volatile organic compounds in atmosphere. Work is also being undertaken on bioremediation of trace metals in the waste waters.
-            </div>
-            <div class="title">
-               2. Nanomaterials and Thin Films Lab:        
-            </div>
-            <div class="headingPara">
-            <img src="images/labAS4.png" class="labImages" height="200px" width="auto">
-                The lab has a Hind High Vac Thermal Evaporation Coating Unit used by several Ph.D research Scholars for deposition of nanomaterials and thin films.  Research work is presently being undertaken in application oriented thrust areas of nanotechnology like White Light LEDs, Surface Plasmonics and Nanocomposites.
-            </div>
-            <div class="title">
-               3. Digital Image and Speech Processing Lab:     
-            </div>
-            <div class="headingPara">
-            <img src="images/labAS5.png" class="labImages" height="200px" width="auto">
-                The lab is equipped with Image Processing software and equipments like Matrox Image processing library and Pinnacle studio plus. The laboratory has a panoramic imaging lens and a stereo camera along with range of lenses and other optical research instruments.
-            </div>
-            </div>
-            </div>';
-                
-                    }
+                                    <div class="title">
+                                        Environmental Studies Lab:
+                                    </div>
+                                    <div class="headingPara">
+                                            <img src="images/labAS2.png" class="labImages" height="200px" width="auto">
+                                               The lab holds experiments on water analysis like DO, BOD, COD, TDS etc., spectrophotometric determination of metals, soil analysis, particulate matter in the ambient atmosphere and polymer preparation.
+                                               <br>
+                                               <br>
+                                                In addition, the department provides cutting edge research, innovation and education in emerging areas of Science and Technology. 
+                                                <br>
+                                                The Department presently has three Research labs:
+                                                <div class="title">
+                                                   1. Environmental Analysis and Research Lab:         
+                                                </div>
+                                                <div class="headingPara">
+                                                <img src="images/labAS3.png" class="labImages" height="200px" width="auto">
+                                                    The lab is equipped for the measurement, processing and analysis of aerosols and organic pollutants in the ambient Atmosphere.
+                                                        Active research work is being carried out on emissions estimates of organic compounds from biomass and fossil fuels, aerosols and volatile organic compounds in atmosphere. Work is also being undertaken on bioremediation of trace metals in the waste waters.
+                                                </div>
+                                                <div class="title">
+                                                   2. Nanomaterials and Thin Films Lab:        
+                                                </div>
+                                                <div class="headingPara">
+                                                <img src="images/labAS4.png" class="labImages" height="200px" width="auto">
+                                                    The lab has a Hind High Vac Thermal Evaporation Coating Unit used by several Ph.D research Scholars for deposition of nanomaterials and thin films.  Research work is presently being undertaken in application oriented thrust areas of nanotechnology like White Light LEDs, Surface Plasmonics and Nanocomposites.
+                                                </div>
+                                                <div class="title">
+                                                   3. Digital Image and Speech Processing Lab:     
+                                                </div>
+                                                <div class="headingPara">
+                                                <img src="images/labAS5.png" class="labImages" height="200px" width="auto">
+                                                    The lab is equipped with Image Processing software and equipments like Matrox Image processing library and Pinnacle studio plus. The laboratory has a panoramic imaging lens and a stereo camera along with range of lenses and other optical research instruments.
+                                                </div>
+                                        </div>
+                          </div>'; }
                     else if($id==7){
                          echo '<div class="middleBox">
                                      <div class="title">SYLLABUS</div>
@@ -310,29 +299,16 @@
                     }
                 ?>
             </div>
-            <!-- <div class="col-sm-3">
-                <div class="sideNav">
-                    <div class="sideHeading">
-                        QUICK LINKS - ASH
-                    </div>
-                    <ul class="sidenav">
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (1st year)- Syllabus</a></li>
-                        
-                    </ul>
-
-                    <div class="sideHeading">Time Table</div>
-                    <ul class="sidenav">
-                       
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech</a></li>
-                        
-                    </ul>
-                </div>
-            </div> -->
+       
         </div>
 </div>
+
    
    <!-- footer -->
-    <?php include 'footer.php';?>
+   <br>
+    <br>
+<?php include 'footer.php';?>
+
 </body>
 
 </html>
