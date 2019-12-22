@@ -49,7 +49,7 @@
             <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
-                        INFORMATION TECHNOLOGY
+                        <a href="itdepartment.php">INFORMATION TECHNOLOGY</a>
                     </div>
                     <ul class="sidenav">
                         <li><a href="itdepartment.php?id=1" id="1"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Objectives</a></li>
