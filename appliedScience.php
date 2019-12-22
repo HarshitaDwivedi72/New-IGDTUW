@@ -103,7 +103,7 @@
                             Dr. Shalini Arora is presently heading the Department of Applied Sciences and Humanities and is working as an Associate Professor at IGDTUW.  She did her Masters and Ph.D in Mathematics from IIT Delhi. Prior to joining IGDTUW  She  worked as Assistant Professor at the Operations Management Group,  IIM Calcutta and Department of Mathematics at Lady Shri Ram College. She is a recipient of the ‘Young Scientist Award’ by the SERC division of DST. She has a teaching experience of more than 12 years. Her areas of research interest include Mathematical Programming, Allocation Problems, Combinatorial optimization etc.
                             <br>
                             <br>
-                            <a href="pdfs/" target="_blank">Click here</a>&nbsp&nbspfor her detailed Research Publications. 
+                            <a href="pdfs/Research_Publications_shalini.pdf" target="_blank">Click here</a>&nbsp&nbspfor her detailed Research Publications. 
 
                     </div>
                     </div>';
@@ -120,7 +120,7 @@
                            <table>
                                 <tr>
                                     <td>Name : </td>
-                                    <td><a href="">Dr. Ranu Gadi</a></td>
+                                    <td><a href="images/DrRanu.png" target="_blank">Dr. Ranu Gadi</a></td>
                                     <td rowspan="4"><img class="facultyDImage" src="images/DrRanu.png" width="auto" height="200px" vertical-align="top"></td>
                                 </tr>
                                 <tr>
@@ -137,7 +137,7 @@
                                 </tr>
                                 <tr>
                                     <td>Name : </td>
-                                    <td><a href="">Dr. Chhaya Ravikant</a> (on Deputation in Delhi Police)</td>
+                                    <td><a href="images/DrChhaya.png" target="_blank">Dr. Chhaya Ravikant</a> (on Deputation in Delhi Police)</td>
                                     <td rowspan="4"><img class="facultyDImage" src="images/DrChhaya.png" height="200px" width="200"></td>
                                 </tr>
                                 <tr>

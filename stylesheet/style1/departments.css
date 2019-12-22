@@ -8,7 +8,16 @@ body {
 a {
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+     color: #011c38;
+}
+a:active{
+    text-decoration: none;
+     color: #011c38;
+     font-weight: bold;
 
+}
 ul {
     padding: 0px;
     margin: 0px;

@@ -127,7 +127,7 @@
                            <table>
                                 <tr>
                                     <td>Name : </td>
-                                    <td><a href="">Prof. R K Singh</a></td>
+                                    <td><a href="images/rksingh.jpg" target="_blank">Prof. R K Singh</a></td>
                                     <td rowspan="4"><img class="facultyDImage" src="images/rksingh.jpg" width="100px" height="100px"></td>
                                 </tr>
                                 <tr>
@@ -144,7 +144,7 @@
                                 </tr>
                                 <tr>
                                     <td>Name : </td>
-                                    <td><a href="">Dr. A.K. Mohapatra</a> (on Deputation in Delhi Police)</td>
+                                    <td><a href="ak.jfif" target="_blank">Dr. A.K. Mohapatra</a> (on Deputation in Delhi Police)</td>
                                     <td rowspan="4"><img class="facultyDImage" src="images/ak.jfif" ></td>
                                 </tr>
                                 <tr>
@@ -216,7 +216,7 @@
                             <td>2018</td>
                            
                             <td>Workshop on “Digital Forensics and Cyber Crime Investigation” conducted under ISEA Project.
-                            <a href=""> Read More</a></td>
+                            <a href="pdfs/ItEventWorkshopOnDigitalForensics.pdf" target="_blank"> Read More</a></td>
                              <td>17 - 18 March</td>
                         </tr>
                     </table>
@@ -280,7 +280,7 @@
                 <li><a href="syllabus/mca2.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
                 <li><a href="syllabus/mca3.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
                 <li><a href="syllabus/mtechIsm" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
-                <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Lab Manuals</a></li>
+                <li><a href="itdepartment.php?id=9" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Lab Manuals</a></li>
                             </ul>
                                 </div>
                           </div>';
@@ -298,6 +298,39 @@
                                     </ul>
                                 </div>
                           </div>';
+                }
+                else if($id==9){
+                    echo '<div class="middleBox">
+                <div class="title">
+                    LAB MANUALS
+                </div>
+                <div class="headingPara">
+                    <ul>
+                        <li><b> M.Tech  (ISM) LAB MANUALS</b></li>
+                            <ul>
+                                <li><a href="labManuals/crypto_mtechIsm.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Cryptographic Protocols and Algorithms (MIS 526)</a></li>
+                                <li><a href="labManuals/OSH_mtechISm.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Operating System Hardening (MIS 528) </a></li>
+                            </ul>
+                        <li><b>B.TECH  (IT) LAB MANUALS</b></li>
+                            <ul>
+                                <li><a href="labManuals/OOSE_btechit.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Object Oriented Software Engineering</a></li>
+                                <li><a href="labManuals/softwareengineering_btechit.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Software Enginnering</a></li>
+                                <li><a href="labManuals/Computergraphics_btechit.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Computer Graphics</a></li>
+                                <li><a href="labManuals/AAD_btechIt.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Algorithm Analysis and Design</a></li>
+                            </ul>
+                        <li><b>MCA LAB MANUALS</b></li>
+                            <ul>
+                                <li><a href="labManuals/MCAcomputernetwork.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Advanced Computer Network </a></li>
+                                <li><a href="labManuals/DAA_MCA.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Design and Analysis of Algorithms</a></li>
+                                <li><a href="labManuals/DFS_mca.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Data and File Structure</a></li>
+                                <li><a href="labManuals/OOP_mca.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Object oriented programming</a></li>
+                                <li><a href="dbms_mca.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Database Mangement System</a></li>
+
+                            </ul>
+                    </ul>
+                </div>
+            </div>
+            ';
                 }
                 else{
                     echo '<div class="middleBox">
