@@ -36,14 +36,15 @@ ul {
 
 /*main css*/
 .sideHeading {
-
+    font-weight: bolder;
+    color: #011c38;
     font-size: 15px;
     margin: 10px;
     margin-top: 20px;
     padding: 5px;
 }
 .sideHeading a{
-     font-weight: bolder;
+    font-weight: bolder;
     color: #011c38;
 }
 
@@ -226,6 +227,12 @@ margin: 10px;
 .labImages{
    /* float: right;*/
     margin: auto;
+    align-self: center;
+    display: block;
+    margin-bottom:10px; 
+}
+.societyImages{
+     margin: auto;
     align-self: center;
     display: block;
     margin-bottom:10px; 
