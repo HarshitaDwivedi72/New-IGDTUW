@@ -49,7 +49,9 @@
             <div class="col-sm-3">
                 <div class="sideNav">
                     <div class="sideHeading">
-                        <a href="itdepartment.php">INFORMATION TECHNOLOGY</a>
+                        <a href="itdepartment.php">INFORMATION 
+
+                        TECHNOLOGY</a>
                     </div>
                     <ul class="sidenav">
                         <li><a href="itdepartment.php?id=1" id="1"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Objectives</a></li>
@@ -121,9 +123,8 @@
                                 <div class="fTitle">
                                     FACULTY DIRECTORY OF INFORMATION TECHNOLOGY
                                 </div>
-                                            
-                                    
-                               <table>
+                                 <div class="headingPara">
+                                    <table>
                                     <tr>
                                         <td>Name : </td>
                                         <td><a href="images/rksingh.jpg" target="_blank">Prof. R K Singh</a></td>
@@ -161,6 +162,9 @@
 
                                 
                                 </table>
+                                 </div>           
+                                    
+                               
                         </div>';
                 }
                 else if($id==4){

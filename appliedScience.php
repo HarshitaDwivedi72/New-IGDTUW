@@ -110,9 +110,8 @@
                         <div class="fTitle">
                             FACULTY DIRECTORY OF INFORMATION TECHNOLOGY
                         </div>
-                        </div>
-        
-                           <table>
+                        <div class="headingPara">
+                            <table>
                                 <tr>
                                     <td>Name : </td>
                                     <td><a href="images/DrRanu.png" target="_blank">Dr. Ranu Gadi</a></td>
@@ -149,7 +148,11 @@
                                 </tr>
 
                             
-                            </table>';
+                            </table>
+                        </div>
+                        </div>
+        
+                           ';
                 
                     }
                     elseif ($id==4){
