@@ -208,6 +208,9 @@ float:right;
 margin: 10px;
 
 }
+.pHeading{
+    font-size: 18px;
+}
 .pHeading ,
 .pText{
     font-weight: bold;
