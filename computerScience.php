@@ -120,7 +120,7 @@
                    # code...
                     echo '<div class="middleBox">
                                 <div class="fTitle">
-                                    FACULTY DIRECTORY OF INFORMATION TECHNOLOGY
+                                    FACULTY DIRECTORY OF Computer Science & Engineering
                                 </div>
                                  <div class="headingPara">
                                     <table>

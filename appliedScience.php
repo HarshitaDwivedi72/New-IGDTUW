@@ -108,7 +108,7 @@
                          echo '
                         <div class="middleBox">
                         <div class="fTitle">
-                            FACULTY DIRECTORY OF INFORMATION TECHNOLOGY
+                            FACULTY DIRECTORY OF APPLIED SCIENCES
                         </div>
                         <div class="headingPara">
                             <table>
