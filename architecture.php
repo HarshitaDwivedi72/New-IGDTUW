@@ -21,7 +21,21 @@
 
 </head>
 
-<body>
+<body  onload="main()">
+       <script>
+        function main()
+        {
+            
+            var r=<?php echo $_GET['id'];?>;
+            $('#'+r).addClass('high');
+        }   
+    </script>
+    <?php 
+        if(isset($_GET['id']))
+        $id=$_GET['id'];
+        else
+        $id='';
+    ?>
     <!-- header -->
 
        <?php include 'header.php';?>
@@ -36,19 +50,25 @@
                     </div>
                     <ul class="sidenav">
                         
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>HOD STATEMENT</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>FACULTY ACHIEVEMENTS</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>STUDENT ACHIEVEMENTS</a></li>
-                        <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>PHOTO GALLERY</a></li>
+                        <li><a ><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>HOD STATEMENT</a></li>
+
+                        <li><a ><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
+
+                        <li><a ><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>FACULTY ACHIEVEMENTS</a></li>
+
+                        <li><a ><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
+
+                        <li><a><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
+
+                        <li><a><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>STUDENT ACHIEVEMENTS</a></li>
+
+                        <li><a><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>PHOTO GALLERY</a></li>
 
                     </ul>
 
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-9">
                 <div class="box-1">
                     <div class="title">
                         DEPARTMENT OF ARCHITECTURE AND PLANNING
@@ -85,7 +105,8 @@
         </div>
     </div>
    
-
+ <br>
+   <br>
     <!-- footer -->
     <?php include 'footer.php';?>
 
