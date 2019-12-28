@@ -181,12 +181,13 @@
 .navbar-default .navbar-nav>li>a:focus {
     /*color: #333;*/
     color: white;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #555;
+    color: white;
     background-color: #E7E7E7;
 }
 
@@ -206,9 +207,8 @@
 .navbar-default .navbar-nav>.dropdown>a .caret {
     border-top-color: white;
     border-bottom-color: white;
-    /*border-top-color: #777;*/
-    /*border-bottom-color: #777;*/
-}
+   
+   }
 
 .navbar-default .navbar-nav>.dropdown>a:hover .caret,
 .navbar-default .navbar-nav>.dropdown>a:focus .caret {
@@ -266,11 +266,37 @@
     }
 }
 
-@media (max-width: 1200) {
-    .responsiveNavContainer {
-        padding-left: 0;
-        padding-right: 0;
+@media screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+     }
+     .dropdown:hover {
+        background-color: white;
+        color: black;
     }
+    .dropdown:hover .navbar-default .navbar-nav>li>a  {
+        color: black;
+    }
+
+
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus {
+        background-color: white;
+        color: black;
+    }
+
+    .navbar-default .navbar-nav>.dropdown>a:hover .caret,
+    .navbar-default .navbar-nav>.dropdown>a:focus .caret {
+        border-top-color: black;
+        border-bottom-color: black;
+        /*border-top-color: #333;*/
+        /*border-bottom-color: #333;*/
+    }
+    /*to get navbar in single line for 1024 resolution*/
+    .responsive-container{
+        padding: 0px;
+    } 
 }
 
 
