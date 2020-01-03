@@ -193,7 +193,7 @@
                     <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=132&Itemid=34"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IT SERVICES</a></li>
                     <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=176&Itemid=651"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>ADMINISTRATION</a></li>
                     <li><a href="https://www.igdtuw.ac.in/images/stories/IGDTUW%20-%20Privacy%20Policy.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IGDTUW PRIVACY POLICY</a></li>
-                    <li class="hideOnSmall"><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=90:abouttnp&catid=2:1&Itemid=428"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Placements</a></li>
+                    <!-- <li class="hideOnSmall"><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=90:abouttnp&catid=2:1&Itemid=428"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Placements</a></li> -->
                     <li class="hideOnSmall"><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=161&Itemid=38"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>LIBRARY</a></li>
 
                 </ul>

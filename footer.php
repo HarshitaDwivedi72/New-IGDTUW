@@ -22,10 +22,11 @@
                             </li>
                             <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=252:tendersniq&catid=2:1">Tenders</a>
                             </li>
-                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Webmail</a>
+                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Placements</a>
                             </li>
                             <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=301:directory&catid=2:1&Itemid=545">Directory</a>
                             </li>
+                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Webmail</a>
                         </ul>
                     </div>
                 </div>
