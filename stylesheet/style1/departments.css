@@ -109,6 +109,8 @@ ul {
     margin: 5px;
     color: black;
     text-align: justify;
+    height: auto;
+    overflow: auto;
 }
 
 table {
@@ -142,25 +144,6 @@ table tr td ul li {
     margin: auto;
     height: 150px;
     width: 150px;
-}
-
-@media (max-width: 767px) {
-    .sideNav {
-        color: black;
-        border: 1px solid #03224435;
-        border-radius: 5px;
-        margin: 20px 0px;
-        background-color: white;
-    }
-    .sideHeading {
-        font-size: 18px;
-        margin: 0px;
-        margin-bottom: 10px;
-        padding: 3px 10px;
-        color: #011c38;
-        background-color: #8e99a535;
-        text-align: center;
-    }
 }
 
 .high {
@@ -208,9 +191,10 @@ table tr td ul li {
     margin: 5px;
 }
 
-.profile img {
+.headingPara img {
     float: right;
-    margin: 10px;
+    margin: 15px;
+    margin-top: 0px;
 }
 
 .pHeading {
@@ -247,4 +231,32 @@ table tr td ul li {
     align-self: center;
     display: block;
     margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .sideNav {
+        color: black;
+        border: 1px solid #03224435;
+        border-radius: 5px;
+        margin: 20px 0px;
+        background-color: white;
+    }
+    .sideHeading {
+        font-size: 18px;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 3px 10px;
+        color: #011c38;
+        background-color: #8e99a535;
+        text-align: center;
+    }
+    .headingPara img {
+        /* clear: both; */
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 150px;
+        /* align-items: center; */
+    }
 }

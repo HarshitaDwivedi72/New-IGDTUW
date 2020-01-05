@@ -66,7 +66,7 @@
 
                         <li><a href="architecture.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
 
-                        <li><a href="architecture.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li>
+                        <!-- <li><a href="architecture.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li> -->
 
                     </ul>
 
@@ -81,12 +81,13 @@
                             Head Of Department
                             </div>
                             <div class="profile">
-                            <img src="images/preetichauhan.png" alt="Ar. Preeti Chauhan" height="200px" width="auto">
+                            
                                 <div class="pHeading">Ar. Preeti Chauhan
                                 </div>
                                 
                             </div>
                             <div class="headingPara">
+                            <img src="images/preetichauhan.png" alt="Ar. Preeti Chauhan" height="200px" width="auto">
                                 At the drop of an autumn leaf,
                                 <br>
                                <b> ‘ she thought it was over and was about to cry, when a small light within her shone bright and clear. she saw and understood, that the autumn leaf has left footprints for the new fresh green leaf, opening its eyes to a new sun from the womb of a nurturing stem.’</b>
@@ -177,21 +178,6 @@
                                                 </tr>
                                             </table>
                                     </div>
-                                    <div class="title">
-                                        Poster Presentations 
-                                    </div>
-                                    <div class="headingPara">
-                                        <table>
-                                            <tr>
-                                                <th>NAME </th>
-                                                <th colspan="2">ACHIEVEMENT</th>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Madhuri & Rishabh Kaushal</td>
-                                                <td colspan="2"> “Creation and Impact of Social Bots in Twitter”,4th, Security and Privacy Symposium 2016,IIITD,New Delhi,India.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
                                 </div>';
                 }
                 elseif ($id==4) {
@@ -234,7 +220,7 @@
                                    CAD Lab
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                 Computer aided design lab is an essential component of Architectural Education. It is equipped with twenty latest computers (20 HP 406G1, CORE 17,500GB HARD DISC, 4GB RAM, HP 18.5 LED Monitor), eight computers for staff, an A1 printer with scanner and LAN Connectivity on each workstation. All computers are equipped with Windows 8 pro operating system, Autodesk 2017 user licence, Revit 2017 user licence and Microsoft office. These tool help the students in two and three dimensional visualisation of Buildings, documentation work, presentation techniques and Graphic skills. Autocad is a drafting tool that helps in producing drawings as per project proposals. It is a faster and easy to use replacement for drafting boards in studios. Revit is an advanced drafting tool. The knowledge of software tools enhance the students creativity and makes them industry ready as most architectural consultancy firms work on Computer Aided Design Softwares. 
                                     <br>
                                     <br>
@@ -244,7 +230,7 @@
                                     SURVEY LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     Understanding the site is the integral part of Architectural Design process. Only through understanding the site and the context properly can the students develop a design which uses the site features and site topography in a way that the resources available are used in the most optimal and sustainable manner.  Hence the Department is endeavouring to provide a good skill set to the students in conducting the survey, analysing the data and assimilating the information gathered in the design problem in the design studios.
                                     <br>
                                     <br>
@@ -260,7 +246,7 @@
                                    CARPENTRY AND METAL CUTTING WORKSHOP
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     Department of Architecture and Planning has a state of art carpentry and metal cutting workshop. The premise is shared with Department Of Mechanical And Automation Engineering. The basic carpentry tools like hand Saw, working tables, Hexa blades, Pincers, chisels, engineering trisquare, steel scales, marketing guage, dividers, bevel edge, energy stone, cross pin hammer, drill bit set, fret saw blades and frames, hack saw blades and frames, hand drill machine, spirit level, and safety equipment is presently available. Advanced machinery for the same is under the process of procurement. 
                                     <br>
                                     <br>
@@ -275,7 +261,7 @@
                                     FOUNDRY AND CLAY MODELLING WORKSHOP
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                      Department of Architecture and Planning has a Foundry and Clay Modelling workshop. The premise is shared with Department Of Mechanical And Automation Engineering. This is a start up workshop and has basic modelling tools like moulding box, rammer steel, shovel, moulding sand, drawing board with sunmica top, karni, pipe, plastic stool, bucket, sand rammer and assorted patterns. The students learn model making techniques for visual presentation of their design studio projects.
                                      <br>
                                      <br>
@@ -290,7 +276,7 @@
                                     MATERIAL MUSEUM
                                    </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     Department of Architecture and Planning has a state of art Material Museum of around 40 square meter of space. The museum has display of building construction materials used for both interior and exterior use in the building. The display includes materials available in the construction market for flooring, roofing, false ceiling, panelling, furniture, sanitary ware, electrical fixtures, doors, windows, cladding and façade materials etc.
                                     <br>
                                     <br>
@@ -308,7 +294,7 @@
                                     CLIMATOLOGY LAB
                                    </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                 In keeping with the vision of the Department, climatic studies are an integral part of the design studios. Climatic information of the place is an important parameter applied in the design of buildings. Hence climatology forms an important part of the curriculum of the B.Arch. programme.  To meet the quality of standard and conduct experiments as per curriculum of B.Arch., Climatology Lab with modern instruments is being setup in the Department of Architecture and Planning. Basic tools and equipments have been obtained in order to facilitate understanding and importance of climatology in the Architectural Design Process and the lab shall be upgraded soon.
                                 <br><br>
 
@@ -319,7 +305,7 @@
                                    RESOURCE ROOM
                                    </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                 Department of Architecture and Planning has a start up resource room with basic tools like brick kits for beginners. The resource room teaches students about all building systems like structural skeleton of the building, plumbing layouts, electrical layouts, water supply and drainage systems etc. The knowledge of integrated and coordinated know-how of all the systems working under the envelope of building infrastructure is part of the resource room learning. Documentation like CBRI papers, journals, other architectural reference resources, documentaries and toolkits shall also be part of resource room.
                                 <br>
                                 <br>
@@ -334,11 +320,14 @@
                                 <div class="title">SYLLABUS</div>
                                 <div class="headingPara">
                                         <ul class="sidenav">
-                                            <li><a href="syllabus/" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.TEch</a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 1st year</a></li>
 
-                                            <li><a href="syllabus/" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.TEch</a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 2nd year</a></li>
 
-                                            <li><a href="syllabus/" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.TEch</a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 3rd year</a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 4th year</a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 1st year</a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 2nd year</a></li>
                                             
                                         </ul>
                                 </div>
@@ -350,27 +339,31 @@
                                 <div class="title">TIME TABLE </div>
                                 <div class="headingPara">
                                      <ul class="sidenav">
-                                            <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech</a></li>
-                                            <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 1st year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 2nd year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 3rd year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 4th year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 1st year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 2nd year</a></li>
                                             
                                     </ul>
                                 </div>
                           </div>';
                 }
-                elseif ($id==8) {
-                    echo '<div class="middleBox">
-                                        <div class="title">
-                                            LAB MANUALS
-                                        </div>
-                                        <div class="headingPara">
-                                            <ul>
+                // elseif ($id==8) {
+                //     echo '<div class="middleBox">
+                //                         <div class="title">
+                //                             LAB MANUALS
+                //                         </div>
+                //                         <div class="headingPara">
+                //                             <ul>
                                                 
-                                                <li><a href="labManuals/crypto_mtechIsm.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>Cryptographic Protocols and Algorithms (MIS 526)</a></li>
+                //                                 <li><a href="labManuals/crypto_mtechIsm.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Cryptographic Protocols and Algorithms (MIS 526)</a></li>
 
-                                            </ul>
-                                        </div>
-                                </div>';
-                }
+                //                             </ul>
+                //                         </div>
+                //                 </div>';
+                // }
                 else{
                     echo '<div class="box-1">
                     <div class="title">

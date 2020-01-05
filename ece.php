@@ -54,8 +54,8 @@
                         <li><a href="ece.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
                         <li><a href="ece.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
                         <li><a href="ece.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                         <li><a href="ece.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
-                          <li><a href="ece.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li>
+                        <li><a href="ece.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <!-- <li><a href="ece.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li> -->
 <!-- SMDP for Chip to System Design ????? -->
                     </ul>
 
@@ -69,11 +69,12 @@
                             Head Of Department
                             </div>
                             <div class="profile">
-                            <img src="images/nidhiece.png" alt="Dr. Nidhi Goel" height="200px" width="auto">
+                            
                                 <div class="pHeading">Dr. Nidhi Goel</div>
                                 <div class="pText">(Associate Professor )</div>
                             </div>
                             <div class="headingPara">
+                            <img src="images/nidhiece.png" alt="Dr. Nidhi Goel" height="200px" width="auto">
                             <b>Email Id :</b>nidhigoel@igdtuw.ac.in
                             <br>
                             <b>Office Location :</b>Room No. 102, Electrical Block
@@ -158,21 +159,7 @@
                                                 </tr>
                                             </table>
                                     </div>
-                                    <div class="title">
-                                        Poster Presentations 
-                                    </div>
-                                    <div class="headingPara">
-                                        <table>
-                                            <tr>
-                                                <th>NAME </th>
-                                                <th colspan="2">ACHIEVEMENT</th>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Madhuri & Rishabh Kaushal</td>
-                                                <td colspan="2"> “Creation and Impact of Social Bots in Twitter”,4th, Security and Privacy Symposium 2016,IIITD,New Delhi,India.</td>
-                                            </tr>
-                                        </table>
-                                    </div>
+                                    
                                 </div>';
                 
                      }
@@ -213,84 +200,84 @@
                                    DSP LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    COMMUNICATION LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    ANALOG ELECTRONICS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    MICROWAVE LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                 TELE COMMUNICATION NETWORKS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    MICROPROCESSOR LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    DIGITAL CIRCUIT & SYSTEMS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    ELECTRICAL SCIENCE LAB/CONTROL ENGINEERING LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    CIRCUIT & SYSTEMS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    MOBILE COMMUNICATION LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    VLSI DESIGN LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
                                 <div class="title">
                                    OPTICAL COMMUNICATION LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
                                     <a href="">...Read More</a>
                                 </div>
 
@@ -302,8 +289,8 @@
                                 <div class="title">SYLLABUS</div>
                                 <div class="headingPara">
                                         <ul class="sidenav">
-                                            <li><a href="syllabus/" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech </a></li>
-                                            <li><a href="syllabus/" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech </a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech </a></li>
+                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI</a></li>
                                             
                                         </ul>
                                 </div>
@@ -315,29 +302,33 @@
                                 <div class="title">TIME TABLE </div>
                                 <div class="headingPara">
                                      <ul class="sidenav">
-                                            <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>B.Tech</a></li>
-                                            <li><a href="" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>M.Tech</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI 1st year</a></li>
+                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI 2nd year</a></li>
                                     </ul>
                                 </div>
                           </div>';
                 
                      }
-                     elseif ($id==8) {
+                    //  elseif ($id==8) {
                         
-                    echo '<div class="middleBox">
-                            <div class="title">
-                                LAB MANUALS
-                            </div>
-                            <div class="headingPara">
-                                <ul>
+                    // echo '<div class="middleBox">
+                    //         <div class="title">
+                    //             LAB MANUALS
+                    //         </div>
+                    //         <div class="headingPara">
+                    //             <ul>
                     
-                                    <li><a href="labManuals/SoCMTech2sem_CSE.pdf" target="_blank"><i class="far fa-hand-point-right">&nbsp&nbsp&nbsp</i>SoC Architecture</a></li>
+                    //                 <li><a href="labManuals/SoCMTech2sem_CSE.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>SoC Architecture</a></li>
 
                                     
-                                </ul>
-                            </div>
-                        </div>';
-                     }
+                    //             </ul>
+                    //         </div>
+                    //     </div>';
+                    //  }
                     else{
                         echo ' <div class="box-1">
                     <div class="title">

@@ -110,7 +110,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php#">ACADEMICS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li>
+                                <!-- <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=275&Itemid=201">B.Tech</a>
                                 </li>
                                 <li>
@@ -121,6 +121,9 @@
                                 </li>
                                 <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=66&Itemid=476">MCA</a>
+                                </li> -->
+                                <li>
+                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=275&Itemid=201">Courses Offered</a>
                                 </li>
                                 <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=610&Itemid=196">Academic Calender</a>
@@ -129,19 +132,22 @@
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=305&Itemid=200">Scholarships</a>
                                 </li>
                                 <li>
+                                    <a href="">Dean Academic Affairs</a>
+                                </li>
+                                <!-- <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=240&Itemid=197">Syllabus</a>
                                 </li>
                                 <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=624&Itemid=198">Time Table</a>
-                                </li>
+                                </li> -->
 
-                                <li>
+                                <!-- <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=332&Itemid=443">Lesson Plans</a>
                                 </li>
 
                                 <li>
                                     <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=345&Itemid=593">Assignments</a>
-                                </li>
+                                </li> -->
 
                             </ul>
 
