@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <script>
+    <!-- <script>
         var currentStyle=1;
         function changestyle(n) {
 
@@ -29,7 +29,7 @@
             // $(".stylesheet").attr("href",link);
                 
         }
-    </script>
+    </script> -->
 
     <div class="setting_container">
         <span id="sbutton"><i class="fa fa-gear"></i></span>
@@ -42,12 +42,12 @@
     <div class="upperheadernav">
         <div class="container">
             <ul>
-                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=90:abouttnp&catid=2:1&Itemid=428">PLACEMENTS</a></li>
-                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=161&Itemid=38">LIBRARY</a></li>
-                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=346:rti&catid=2:1">RTI</a></li>
-                <li> <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=252:tendersniq&catid=2:1">TENDERS</a></li>
-                <li> <a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1">WEBMAIL</a></li>
-                <li> <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=301:directory&catid=2:1&Itemid=545">DIRECTORY</a></li>
+                <li><a href="">MEDIA</a></li>
+                <li><a href="">TENDERS</a></li>
+                <li><a href="">CAREERS</a></li>
+                <li> <a href="">FACILITIES</a></li>
+                <li> <a href="">ARCHIVES</a></li>
+                
             </ul>
         </div>
     </div>
@@ -81,14 +81,16 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=1&Itemid=2">ABOUT US
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">ABOUT US
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="vision/vision.php">Vision/Mission</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=601&Itemid=833">VC's Message</a></li>
-
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=467&Itemid=4">Founder VC's Message</a></li>
-                                <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=503&Itemid=529">Registrar's Message</a></li>
+                                <li><a href="">Institute's History</a></li>
+                                <li><a href="">Vision/Mission</a></li>
+                                <li><a href="">Vice Chancellor</a></li>
+                                <li><a href="">Registrar</a></li>
+                                <li><a href="">Statutory Bodies</a></li>
+                                <li><a href="">Administration</a></li>
+                                
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -107,59 +109,72 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.igdtuw.ac.in/index.php#">ACADEMICS
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">ACADEMICS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <!-- <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=275&Itemid=201">B.Tech</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=480&Itemid=713">B.Arch</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=276&Itemid=453">M.Tech</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=66&Itemid=476">MCA</a>
-                                </li> -->
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=275&Itemid=201">Courses Offered</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=610&Itemid=196">Academic Calender</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=305&Itemid=200">Scholarships</a>
-                                </li>
-                                <li>
-                                    <a href="">Dean Academic Affairs</a>
-                                </li>
-                                <!-- <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=240&Itemid=197">Syllabus</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=624&Itemid=198">Time Table</a>
-                                </li> -->
-
-                                <!-- <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=332&Itemid=443">Lesson Plans</a>
-                                </li>
-
-                                <li>
-                                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=345&Itemid=593">Assignments</a>
-                                </li> -->
-
+                                <li><a href="">Dean Academic Affairs</a></li>
+                                <li><a href="">Programmes Offered</a></li>
+                                <li><a href="">Scheme & Syllabus</a></li>
+                                <li><a href="">Time Table</a></li>
+                                <li><a href="">Academic Calender</a></li>
                             </ul>
-
-
                         </li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=175&Itemid=21">STUDENT LIFE</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=165&Itemid=35">FACILITIES</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=414&Itemid=588">EXAMINATION</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">STUDENT LIFE
+                              <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="">Dean (Student Welfare)</a></li>
+                               <li><a href="">Clubs & Societies</a></li>
+                               <li><a href="">Student Notice Board</a></li>
+                            </ul>
                         </li>
-
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=442&Itemid=804">RESEARCH</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=595&Itemid=594">ADMISSSION</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">RESEARCH 
+                              <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="">Deans (IRD & R&C)</a></li>
+                               <li><a href="">Clubs and Societies</a></li>
+                               <li><a href="">Student Notice Board</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">PLACEMENTS
+                              <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="">TPOs</a></li>
+                               <li><a href="">Companies Visited</a></li>
+                               <li><a href="">Placement Record</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">ADMISSIONS
+                              <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="">Admission Officers</a></li>
+                               <li><a href="">Admission Notices</a></li>
+                               <li><a href="">Hostel Admissions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">EXAMINATIONS                           
+                             <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="">Dean (Examinations)</a></li>
+                               <li><a href="">Date Sheet</a></li>
+                               <li><a href="">Notices</a></li>
+                               <li><a href="">Results</a></li>
+                               <li><a href="">Exam Portal</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">STUDENT LIFE
+                              <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li><a href=""></a></li>
+                               <li><a href=""></a></li>
+                               <li><a href=""></a></li>
+                            </ul>
+                        </li> -->
                     </ul>
                 </div>
             </div>

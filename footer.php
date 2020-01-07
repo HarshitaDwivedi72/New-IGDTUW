@@ -18,15 +18,16 @@
                             <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=509&Itemid=468">Archives</a></li>
                         </ul>
                         <ul class="hideOnSmall">
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=346:rti&catid=2:1">RTI</a>
+                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=346:rti&catid=2:1">Media</a>
                             </li>
                             <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=252:tendersniq&catid=2:1">Tenders</a>
                             </li>
-                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Placements</a>
+                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Facilities</a>
                             </li>
-                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=301:directory&catid=2:1&Itemid=545">Directory</a>
+                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Archives</a>
+                            <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=301:directory&catid=2:1&Itemid=545">Archives</a>
                             </li>
-                            <li><a href="https://www.google.com/a/igit.ac.in/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/a/igit.ac.in/&ss=1&ltmpl=default&ltmplcache=2&emr=1 ">Webmail</a>
+                            
                         </ul>
                     </div>
                 </div>
@@ -39,7 +40,7 @@
                     </div>
                 </div>
                 <style>
-                    #map {
+                    #map{
                         padding: 20px;
                         margin-top: 20px;
                         background-color: aqua;
