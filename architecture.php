@@ -41,6 +41,7 @@
     <!-- header -->
 
        <?php include 'header.php';?>
+        <?php include 'backend/getData.php';?>
     <!-- main body -->
     <!-- main body -->
     <div class="container">
@@ -87,7 +88,7 @@
                                 
                             </div>
                             <div class="headingPara">
-                            <img src="images/preetichauhan.png" alt="Ar. Preeti Chauhan" height="200px" width="auto">
+                            <img src="images/preetichauhan.png" class="hodImage" alt="Ar. Preeti Chauhan" height="200px" width="auto">
                                 At the drop of an autumn leaf,
                                 <br>
                                <b> ‘ she thought it was over and was about to cry, when a small light within her shone bright and clear. she saw and understood, that the autumn leaf has left footprints for the new fresh green leaf, opening its eyes to a new sun from the womb of a nurturing stem.’</b>
@@ -116,49 +117,11 @@
                                 <div class="fTitle">
                                     FACULTY DIRECTORY of Architecture and Planning
                                 </div>
-                                 <div class="headingPara">
-                                    <table>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/dr.vaJPAYEE.png" target="_blank">Dr. Preeti Vajpeyi
-                                        </a></td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/dr.vaJPAYEE.png" width="100px" height="100px"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                         <td>Associate Professor</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td> PhD ( SPA Delhi), M.Plan(SPA, Delhi), B.Arch (MANIT, Bhopal).</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Built environment as Pedagogical Resource, Sustainable Architecture, Responsive Architecture. </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="preetichauhan.jpg" target="_blank">Ar. Preeti Chauhan</a></td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/preetichauhan.jpg" ></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                        <td>Associate Professor, Head of Department</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>M.Sc. - Planning Buildings for Health (Medical Architecture Research Unit MARU) from London South Bank University, London, M.Plan- Town Planning from Institute of Town Planners India (ITPI, New Delhi), B.Arch from Government College of Architecture (GCA), Lucknow University, Lucknow, UP</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Healthcare Planning and Design, Evidence Based Design Techniques, Therapeutic Environmental Design in Hospitals, Product and Furniture Design, Sustainable Architecture, Town Planning, Interpersonal and Presentation skills.</td>
-                                    </tr>
+                                <div class="headingPara">';
+                        getFaculty("ASH");
 
-                                
-                                </table>
-                                 </div>           
-                                    
-                               
+
+                    echo '</div>           
                         </div>';
                 }
                 elseif ($id==3) {

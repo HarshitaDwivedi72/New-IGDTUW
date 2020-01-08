@@ -41,6 +41,7 @@
 
     <!-- header -->
     <?php include 'header.php';?>
+    <?php include 'backend/getData.php';?>
     <!-- main body -->
 
     <div class="container">
@@ -106,7 +107,7 @@
                                 <div class="pText">(Associate Professor & Head)</div>
                             </div>
                             <div class="headingPara">
-                            <img src="images/Dr.Arun.png" alt="Dr. Arun Sharma" height="200px" width="auto">
+                            <img  class="hodImage" src="images/Dr.Arun.png" alt="Dr. Arun Sharma" height="200px" width="auto">
                             Dr. Arun Sharma, is presently Associate Professor and Head of the IT Department. He completed his PhD Degree from Thapar University, Patiala in 2009. Prior to this, he did M.Sc. (Applied Mathematics) from University of Roorkee (now IIT Roorkee) in 1994
                             and M. Tech. (CSE) from Punjabi University, Patiala in 1997. He has a vast teaching experience of approx 20 years in various reputed Govt. and Pvt. Institutions. His areas of interests include Big Data, Data Mining, Software Engineering and
                             Soft Computing Approaches. He has published more than 60 papers (SCI/SCIE/SCOPUS and others) in international journals and conferences including IEEE, ACM, Springer, Elsevier, Wiley, IGI Global and several others. Dr. Sharma is a Senior Member
@@ -121,48 +122,11 @@
                                 <div class="fTitle">
                                     FACULTY DIRECTORY OF INFORMATION TECHNOLOGY
                                 </div>
-                                 <div class="headingPara">
-                                    <table>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/rksingh.jpg" target="_blank">Prof. R K Singh</a></td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/rksingh.jpg" width="100px" height="100px"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                         <td>Professor and Dean (Plg and Dev), Registrar</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>Ph.D. (IT),GGSIP University, M.S., BITS Pilani </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Software Engineering , Project Management </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="ak.jfif" target="_blank">Dr. A.K. Mohapatra</a> (on Deputation in Delhi Police)</td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/ak.jfif" ></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                        <td>Associate Professor</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>Ph.D. (IT), GGSIP University, M.Tech (Computer Science), ISM Dhanbad</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Cryptography, Information Security, Network Security</td>
-                                    </tr>
-
-                                
-                                </table>
-                                 </div>           
-                                    
-                               
+                                 
+                                <div class="headingPara">';
+                                getFaculty("ASH");
+                                   
+                        echo '</div>
                         </div>';
                 }
                 else if($id==4){

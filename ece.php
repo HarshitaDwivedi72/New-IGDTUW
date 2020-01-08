@@ -37,6 +37,7 @@
     ?>
     <!-- header -->
     <?php include 'header.php';?>
+    <?php include 'backend/getData.php';?>
     <!-- main body -->
     <!-- main body -->
     <div class="container">
@@ -74,7 +75,7 @@
                                 <div class="pText">(Associate Professor )</div>
                             </div>
                             <div class="headingPara">
-                            <img src="images/nidhiece.png" alt="Dr. Nidhi Goel" height="200px" width="auto">
+                            <img class="hodImage" src="images/nidhiece.png" alt="Dr. Nidhi Goel" height="200px" width="auto">
                             <b>Email Id :</b>nidhigoel@igdtuw.ac.in
                             <br>
                             <b>Office Location :</b>Room No. 102, Electrical Block
@@ -96,48 +97,10 @@
                                 <div class="fTitle">
                                     FACULTY DIRECTORY OF  Electronics & Communication Engineering 
                                 </div>
-                                 <div class="headingPara">
-                                    <table>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/AshwniKumar.jpg" target="_blank">  
-                                        PROF. ASHWANI KUMAR </a></td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/AshwniKumar.jpg" width="100px" height="100px"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                         <td>Professor</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>B.E.(ECE), DCE M.E.(ECE), DCE,Ph.D.(ECE),DU, MBA(FMS), DU.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Optical Communication, Digital Signal Processing, Strategic Management.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/drjasdeep.jfif" target="_blank">Dr. Jasdeep Kaur Dhanoa</a> </td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/drjasdeep.jfif" ></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                        <td>Associate  Professor. </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>B.E. (Electronics), M.E. (ECE), DCE, Ph.D (Low Voltage Analog Design), GGSIPU.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Low voltage Analog Designs,  VLSI, CMOS & Mixed Signal Design, Analog Signal Processing,Digital Electronics.</td>
-                                    </tr>
-
-                                
-                                </table>
-                                 </div>           
-                                    
+                                  <div class="headingPara">';
+                                getFaculty("ASH");
+                                   
+                        echo '</div>
                                
                         </div>';
                 

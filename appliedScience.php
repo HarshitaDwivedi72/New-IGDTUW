@@ -40,6 +40,8 @@
 
    <!-- header -->
       <?php include 'header.php';?>
+      <?php include 'backend/getData.php';?>
+
 
 <!-- Main Body -->
 <div class="container">
@@ -96,7 +98,7 @@
                         
                     </div>
                     <div class="headingPara">
-                    <img src="images/Dr.Shalini.jpg" alt="Dr. Shalini Arora" height="200px" width="auto">
+                    <img class="hodImage" src="images/Dr.Shalini.jpg" alt="Dr. Shalini Arora" height="200px" width="auto">
                             Dr. Shalini Arora is presently heading the Department of Applied Sciences and Humanities and is working as an Associate Professor at IGDTUW.  She did her Masters and Ph.D in Mathematics from IIT Delhi. Prior to joining IGDTUW  She  worked as Assistant Professor at the Operations Management Group,  IIM Calcutta and Department of Mathematics at Lady Shri Ram College. She is a recipient of the ‘Young Scientist Award’ by the SERC division of DST. She has a teaching experience of more than 12 years. Her areas of research interest include Mathematical Programming, Allocation Problems, Combinatorial optimization etc.
                             <br>
                             <br>
@@ -112,49 +114,10 @@
                         <div class="fTitle">
                             FACULTY DIRECTORY OF APPLIED SCIENCES
                         </div>
-                        <div class="headingPara">
-                            <table>
-                                <tr>
-                                    <td>Name : </td>
-                                    <td><a href="images/DrRanu.png" target="_blank">Dr. Ranu Gadi</a></td>
-                                    <td rowspan="4"><img class="facultyDImage" src="images/DrRanu.png" width="auto" height="200px" vertical-align="top"></td>
-                                </tr>
-                                <tr>
-                                    <td>Designation : </td>
-                                     <td>Dy. Dean (Industrial Research & Development), Chief Warden (Hostels) and Associate Professor (Chemistry)  </td>
-                                </tr>
-                                <tr>
-                                    <td>Qualification : </td>
-                                    <td>Ph.D. (Chemistry) IIT Roorkee, Post Doctoral Fellowship (Environmental Sciences) Lancaster University, Lancaster, U.K.</td>
-                                </tr>
-                                <tr>
-                                    <td>Area of Specialisation </td>
-                                    <td>Atmospheric Chemistry and Climate Change, Biomass emissions, Characterization of atmospheric aerosols (elemental, organics, carbonaceous, metals), Environmental Analytical Chemistry, Speciation and Bioremediation of priority pollutants in water/wastewater. </td>
-                                </tr>
-                                <tr>
-                                    <td>Name : </td>
-                                    <td><a href="images/DrChhaya.png" target="_blank">Dr. Chhaya Ravikant</a> (on Deputation in Delhi Police)</td>
-                                    <td rowspan="4"><img class="facultyDImage" src="images/DrChhaya.png" height="200px" width="200"></td>
-                                </tr>
-                                <tr>
-                                    <td>Designation : </td>
-                                    <td>Dy. Dean (Research & Consultancy), First Appellate Authority and Associate Professor (Physics)</td>
-                                </tr>
-                                <tr>
-                                    <td>Qualification : </td>
-                                    <td>Ph.D. (Physics), Delhi University, M.S. (Software Systems), BITS Pilani</td>
-                                </tr>
-                                <tr>
-                                    <td>Area of Specialisation </td>
-                                    <td>Nanomaterials, Condensed Matter Physics, Plasma Science and Technology, Mobile Communication.</td>
-                                </tr>
-
-                            
-                            </table>
-                        </div>
-                        </div>
-        
-                           ';
+                        <div class="headingPara">';
+                        getFaculty("ASH");
+                        echo '</div>
+                        </div>';
                 
                     }
                     elseif ($id==4){
@@ -231,7 +194,7 @@
                                        Applied Physics Lab 1:
                                     </div>
                                     <div class="headingPara">
-                                        <img src="images/labAS1.png" class="labImages" height="200px" width="auto">
+                                        <img src="images/LabAS1.png" class="labImages" height="200px" width="auto">
                                        The lab hosts experiments based on Mechanics, Thermal Physics, Electronics and basic experiments on electricity and magnetism.
                                     </div>
                                     <div class="title">
@@ -254,7 +217,7 @@
                                         Environmental Studies Lab:
                                     </div>
                                     <div class="headingPara">
-                                            <img src="images/labAS2.png" class="labImages" height="200px" width="auto">
+                                            <img src="images/LabAS2.png" class="labImages" height="200px" width="auto">
                                                The lab holds experiments on water analysis like DO, BOD, COD, TDS etc., spectrophotometric determination of metals, soil analysis, particulate matter in the ambient atmosphere and polymer preparation.
                                                <br>
                                                <br>
@@ -266,7 +229,7 @@
                                                    1. Environmental Analysis and Research Lab:         
                                                 </div>
                                                 <div class="headingPara">
-                                                <img src="images/labAS3.png" class="labImages" height="200px" width="auto">
+                                                <img src="images/LabAS3.png" class="labImages" height="200px" width="auto">
                                                     The lab is equipped for the measurement, processing and analysis of aerosols and organic pollutants in the ambient Atmosphere.
                                                         Active research work is being carried out on emissions estimates of organic compounds from biomass and fossil fuels, aerosols and volatile organic compounds in atmosphere. Work is also being undertaken on bioremediation of trace metals in the waste waters.
                                                 </div>
@@ -274,14 +237,14 @@
                                                    2. Nanomaterials and Thin Films Lab:        
                                                 </div>
                                                 <div class="headingPara">
-                                                <img src="images/labAS4.png" class="labImages" height="200px" width="auto">
+                                                <img src="images/LabAS4.png" class="labImages" height="200px" width="auto">
                                                     The lab has a Hind High Vac Thermal Evaporation Coating Unit used by several Ph.D research Scholars for deposition of nanomaterials and thin films.  Research work is presently being undertaken in application oriented thrust areas of nanotechnology like White Light LEDs, Surface Plasmonics and Nanocomposites.
                                                 </div>
                                                 <div class="title">
                                                    3. Digital Image and Speech Processing Lab:     
                                                 </div>
                                                 <div class="headingPara">
-                                                <img src="images/labAS5.png" class="labImages" height="200px" width="auto">
+                                                <img src="images/LabAS5.png" class="labImages" height="200px" width="auto">
                                                     The lab is equipped with Image Processing software and equipments like Matrox Image processing library and Pinnacle studio plus. The laboratory has a panoramic imaging lens and a stereo camera along with range of lenses and other optical research instruments.
                                                 </div>
                                         

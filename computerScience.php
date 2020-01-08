@@ -38,6 +38,7 @@
     ?>
    <!-- header -->
        <?php include 'header.php';?>
+       <?php include 'backend/getData.php';?>
     <!-- main body -->
 <!-- Main Body -->
 <div class="container">
@@ -112,7 +113,7 @@
                                 <div class="pText">(Associate Professor)</div>
                             </div>
                             <div class="headingPara">
-                                <img src="images/DrSeeja.png" alt="Dr. Seeja. K.R." height="200px" width="auto">
+                                <img class="hodImage" src="images/DrSeeja.png" alt="Dr. Seeja. K.R." height="200px" width="auto">
                                 <b>Email Id :</b>krseeja@gmail.com
                             <br>
                             <b>Office Location :</b>Room No. 205, Electrical Block
@@ -130,51 +131,10 @@
                                 <div class="fTitle">
                                     FACULTY DIRECTORY OF Computer Science & Engineering
                                 </div>
-                                 <div class="headingPara">
-                                    <table>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/Ela_Kumar.jfifs" target="_blank">Prof. Ela Kumar</a></td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/Ela_Kumar.jfif" width="100px" height="100px"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                         <td>Professor & Head</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>Ph.D.(DU) ,M.Tech IIT Roorkee, B.E. IIT Roorkee. </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Artificial Intelligence, Natural Language Processing, Semantic Web , Web Technology. </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="DKTAYAL.jfif" target="_blank">  
-                                        Prof. D. K. Tayal       </a> </td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/DKTAYAL.jfif" ></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                        <td>    
-                                        Professor & Dean  (Academic Affairs), Chairman (Academic Quality Assurance Committee), IGDTUW Chairman (Faculty Grievance Redressal Committee), IGDTUW
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>Ph.D. (Computer Sc. & Technology), JNU, M.Tech. (Computer Sc. & Technology), JNU, MSc(Maths), Delhi University, BSc(Honours) Maths, Delhi University.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Artificial Intelligence, Database Management Systems, Fuzzy Logic, Data Mining, Graph Theory, Sentiment Analysis, Opinion Mining</td>
-                                    </tr>
-
-                                
-                                </table>
-                                 </div>           
-                                    
-                               
+                                  <div class="headingPara">';
+                                getFaculty("ASH");
+                                   
+                        echo '</div>
                         </div>';
                }
                elseif ($id==4) {

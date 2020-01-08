@@ -48,6 +48,7 @@
     <!-- header -->
 
         <?php include 'header.php';?>
+        <?php include 'backend/getData.php';?>
     <!-- main body -->
     <div class="container">
         <div class="row">
@@ -92,7 +93,7 @@
                                         </div>
                                     </div>
                                     <div class="headingPara">
-                                    <img src="images/DrManoj.png" alt="Dr. Arun Sharma" height="200px" width="auto">
+                                    <img class="hodImage" src="images/DrManoj.png" alt="Dr. Arun Sharma" height="200px" width="auto">
                                         Dr. Manoj Soni did his  doctoral research from DTU erstwhile DCE in the area of Artificial Intelligence to Above Knee Prosthetic leg. He did his M.Tech in Production Engineering from IIT, Delhi ; M .S. Consultancy Management from BITS Pilani - CDC and  B.Tech. Mechanical Engineering, G. B. Pant University of Agriculture and technology, Pantnagar, Nainital, U.P. He had a total experience of more than 21 years. He is honoured with National Award in public recognition for development of new cost effective product for manufacturing aimed at improving the life of persons with disabilities by president of India Smt. Pratibha Devi Singh Patil on 03-December 2009. He is also honoured with best teachers Award in Department of Mechanical and Automation Engineering, MAIT, Rohini, Delhi-86 for year 2005.
                                     </div>
                              </div>';
@@ -104,52 +105,10 @@
                                 <div class="fTitle">
                                     FACULTY DIRECTORY OF Mechanical & Automation Engineering
                                 </div>
-                                <div class="headingPara">
-                                    <table>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/Dr.Chauhan.png" target="_blank">Dr. N.R. Chauhan</a></td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/Dr.Chauhan.png" width="100px" height="100px"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                         <td>   
-                                            Associate Professor , Training and Placement Officer (MAE)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>M.Tech from IIT Roorkee, Ph.D  from IIT Roorkee
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Machine Design Engineering, Tribology, Fluid Film Bearing, Alternate Fuels, Composite Materials, Robotics and Automation</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name : </td>
-                                        <td><a href="images/DrManoj.png" target="_blank">Dr. Manoj Soni</a> </td>
-                                        <td rowspan="4"><img class="facultyDImage" src="images/DrManoj.png" ></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Designation : </td>
-                                        <td>Associate Professor ,Head of Deapartment</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Qualification : </td>
-                                        <td>M.Tech (IIT Delhi), Ph.D  from DTU erstwhile DCE.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Area of Specialisation </td>
-                                        <td>Prosthetics, Mechatronics, Production Engineering</td>
-                                    </tr>
-
-                                
-                                </table>
-                                </div>
-                                            
-                                    
-                               
+                                <div class="headingPara">';
+                                getFaculty("ASH");
+                                   
+                        echo '</div>
                         </div>';
                     }
                     elseif($id==3){
