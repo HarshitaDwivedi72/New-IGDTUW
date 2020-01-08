@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vision/Mission</title>
+    <title>Registrar's Message</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -33,7 +33,8 @@
         else
         $id='';
     ?>
-    <?php include 'header.php'?>
+      <?php include 'header.php';?>
+
     <!-- Main body -->
     <div class="container">
         <div class="row">
@@ -43,16 +44,16 @@
                         ABOUT IGDTUW
                     </div>
                     <ul class="sidenav">
-                      <li><a href="Vision.php">Vision/Mission</a></li>
-                      <li><a href="VC_Message.php">VC's Message</a></li>
-                      <li><a href="FounderVC_Message.php">Founder VC's Message</a></li>
-                      <li><a href="Registrar_Message.php">Registrar's Message</a></li>
-                      <li><a href="Vision.php?id=1">Message-Dean(Examination Affairs)</a></li>
-                      <li><a href="Vision.php?id=2">Message-Dean(Academic Affairs)</a></li>
-                      <li><a href="Vision.php?id=3">Message-Dy. Dean(Industrial Research and Development)</a></li>
-                      <li><a href="Vision.php?id=4">Message-Dy. Dean(Students' Welfare)</a></li>
-                      <li><a href="Vision.php?id=5">Message-Dy. Dean(Research and Consultancy)</a></li>
-                      <li><a href="Vision.php?id=6">Chronicles</a></li>
+                        <li><a href="Vision.php">Vision/Mission</a></li>
+                        <li><a href="VC_Message.php">VC's Message</a></li>
+                        <li><a href="FounderVC_Message.php">Founder VC's Message</a></li>
+                        <li><a href="Registrar_Message.php">Registrar's Message</a></li>
+                        <li><a href="Registrar_Message.php?id=1">Message-Dean(Examination Affairs)</a></li>
+                        <li><a href="Registrar_Message.php?id=2">Message-Dean(Academic Affairs)</a></li>
+                        <li><a href="Registrar_Message.php?id=3">Message-Dy. Dean(Industrial Research and Development)</a></li>
+                        <li><a href="Registrar_Message.php?id=4">Message-Dy. Dean(Students' Welfare)</a></li>
+                        <li><a href="Registrar_Message.php?id=5">Message-Dy. Dean(Research and Consultancy)</a></li>
+                        <li><a href="Registrar_Message.php?id=6">Chronicles</a></li>
                     </ul>
                 </div>
             </div>
@@ -249,40 +250,36 @@ echo '
 </div>
 </div>';
 }
-  else{
-        echo '        <div class="box-1">
+
+    else{          echo' <div class="box-1">
                     <div class="title">
-                        VISION
+                        MESSAGE FROM REGISTRAR
                     </div>
+                    <div class="VCimg">
+                      <img src="images/rksingh.jpg" alt="Prof. R.K. Singh" width="160" height="159">
+                    </div>
+
                     <div class="headingPara">
-                        To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management and Technology.
-                        To become one of the top technical Universities in the country known for its value based, quality technical education supported with industry relevant research, with focus on environmental and social issues.
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="box-1">
-                  <div class="title">
-                            MISSION
+                      <h3 class="quote">”Education is not the learning of facts, but the training of the mind to think.”</h3>
+                        <br> <h4 class="name">-- Albert Einstein</h4>
+                          <p> It is my proud privilege and honor to be a part of Indira Gandhi Delhi Technical University for Women, Delhi (IGDTUW), which has made its present felt not only in the academic fraternity but also in industry. In short span of time, the University has received a number of sponsored research projects from the leading Industry/organizations like Microsoft, ITR, Nokia, Department of Science & Technology, Ministry of Electronics & IT, Govt of India and latest being the CURIE Grant amounting Rs. 3.63 crores from Ministry of Science & Technology. This has developed an environment of Research & Development in the University in true sense.
+                          <br><br>
+                          The infrastructure of the University has been renovated providing the conducive environment for teachers and students to carry out their studies and research work. IT infrastructure of the University has been recently upgraded providing seamless wireless internet connectivity to students in secure environment.
+                          <br><br>
+                          The real achievement is not about how you start your journey with IGDTUW but it’s about how you finish your journey by sustaining to your goals, learning and unlearning various facts in the journey and practicing the profession with highest ethical standards.
+                          <br><br>
+                          I, with my committed and dedicated administrative officers/staff assure to provide all possible administrative support to all the young and budding engineering and architect students  of the university.
+                          <br><br>
+                          I wish all students of IGDTUW the very best in all their future endeavors and welcome you all to the first women technical university of India i.e. IGDTUW.</p>
+                      <br><br><br> <p class="sig">Prof. R.K. Singh <br>
+                                           Registrar, IGDTUW
+                                  </p>
                   </div>
-                <div class="headingPara">
-                  <ul>
-                  <li>To foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and Technology, while striking out a work-life balance.</li>
-
-                  <li>To start new professional courses for women in sun-rise disciplines and forge alliances with industry to impart industry relevant education.</li>
-
-                  <li>To emancipate women through pursuit of knowledge enabling them to gain  equal status in society through realization of their rights and responsibilities</li>
-
-                  <li>To develop sustainable systems and state-of-the-art infrastructure to enable the Indian women to become the future leaders, managers, researchers and productive team players in the field of science, technology and management.</li>
-                </ul>
-               </div>
+                </div>
               </div>';
-         }
-?>
-             </div>
-           </div>
-         </div>
-          <!-- footer -->
-          <?php include 'footer.php'?>
+            } ?>
+            </div>
+          </div>
+        <?php include 'footer.php';?>
       </body>
-      </html>
+    </html>

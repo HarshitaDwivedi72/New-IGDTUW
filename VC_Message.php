@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vision/Mission</title>
+    <title>VC Message</title>
+
+
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="stylesheet/style1/departments.css">
+    <link rel="stylesheet" href="stylesheet/style1/VC_Message.css">
 
-<!-- main department stylesheet -->
-    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/departments.css">
-    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/VC_Message.css">
+
+
 </head>
 
 <body onload="main()">
@@ -33,7 +36,8 @@
         else
         $id='';
     ?>
-    <?php include 'header.php'?>
+      <?php include 'header.php';?>
+
     <!-- Main body -->
     <div class="container">
         <div class="row">
@@ -43,16 +47,16 @@
                         ABOUT IGDTUW
                     </div>
                     <ul class="sidenav">
-                      <li><a href="Vision.php">Vision/Mission</a></li>
-                      <li><a href="VC_Message.php">VC's Message</a></li>
-                      <li><a href="FounderVC_Message.php">Founder VC's Message</a></li>
-                      <li><a href="Registrar_Message.php">Registrar's Message</a></li>
-                      <li><a href="Vision.php?id=1">Message-Dean(Examination Affairs)</a></li>
-                      <li><a href="Vision.php?id=2">Message-Dean(Academic Affairs)</a></li>
-                      <li><a href="Vision.php?id=3">Message-Dy. Dean(Industrial Research and Development)</a></li>
-                      <li><a href="Vision.php?id=4">Message-Dy. Dean(Students' Welfare)</a></li>
-                      <li><a href="Vision.php?id=5">Message-Dy. Dean(Research and Consultancy)</a></li>
-                      <li><a href="Vision.php?id=6">Chronicles</a></li>
+                        <li><a href="Vision.php">Vision/Mission</a></li>
+                        <li><a href="VC_Message.php">VC's Message</a></li>
+                        <li><a href="FounderVC_Message.php">Founder VC's Message</a></li>
+                        <li><a href="Registrar_Message.php">Registrar's Message</a></li>
+                        <li><a href="VC_Message.php?id=1">Message-Dean(Examination Affairs)</a></li>
+                        <li><a href="VC_Message.php?id=2">Message-Dean(Academic Affairs)</a></li>
+                        <li><a href="VC_Message.php?id=3">Message-Dy. Dean(Industrial Research and Development)</a></li>
+                        <li><a href="VC_Message.php?id=4">Message-Dy. Dean(Students' Welfare)</a></li>
+                        <li><a href="VC_Message.php?id=5">Message-Dy. Dean(Research and Consultancy)</a></li>
+                        <li><a href="VC_Message.php?id=6">Chronicles</a></li>
                     </ul>
                 </div>
             </div>
@@ -249,40 +253,36 @@ echo '
 </div>
 </div>';
 }
-  else{
-        echo '        <div class="box-1">
-                    <div class="title">
-                        VISION
-                    </div>
-                    <div class="headingPara">
-                        To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management and Technology.
-                        To become one of the top technical Universities in the country known for its value based, quality technical education supported with industry relevant research, with focus on environmental and social issues.
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
+
+      else{
+        echo'
                 <div class="box-1">
-                  <div class="title">
-                            MISSION
-                  </div>
-                <div class="headingPara">
-                  <ul>
-                  <li>To foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and Technology, while striking out a work-life balance.</li>
+                    <div class="title">
+                        MESSAGE FROM VICE CHANCELLOR
+                    </div>
+                    <div class="VCimg">
+                      <img src="images/Pro_vc.png" alt="Dr(Mrs).Amita Dev" width="160" height="159">
+                      <h3>“YOU EDUCATE A MAN; YOU EDUCATE A MAN. <br>
+                        YOU EDUCATE A WOMAN; YOU EDUCATE A GENERATION.”</h3>
+                    </div>
 
-                  <li>To start new professional courses for women in sun-rise disciplines and forge alliances with industry to impart industry relevant education.</li>
-
-                  <li>To emancipate women through pursuit of knowledge enabling them to gain  equal status in society through realization of their rights and responsibilities</li>
-
-                  <li>To develop sustainable systems and state-of-the-art infrastructure to enable the Indian women to become the future leaders, managers, researchers and productive team players in the field of science, technology and management.</li>
-                </ul>
-               </div>
-              </div>';
-         }
-?>
-             </div>
-           </div>
-         </div>
-          <!-- footer -->
-          <?php include 'footer.php'?>
-      </body>
-      </html>
+                    <div class="headingPara">
+                      It feels great to be the wind beneath the wings of one of the top ranking Emerging Engineering Institutes of Technology in India. The devouring stride of IGDTUW, since its inception in 1998 as IGIT, has been exemplary, culminating in transforming itself into an icon for women empowerment. To be a vibrant part of this illustrious edifice of teaching and learning is certainly a matter of stupendous pride and a new-found privilege for me. <br>
+                      IGDTUW has evolved to become a national flagship, research-led university with a mission to foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and Technology, thereby attempting to strike out a fine balance between world of work and life. The university vows to devise sustainable systems and state-of-the-art infrastructure to enable the Indian women to dawn the role of future leaders, managers, researchers and productive team players in the field of science, technology.<br>
+                      The University offers a number of B.Tech, B.Arch, M.Tech and Ph.D programmes in faculty of Engineering and Technology. It also aims at teaching, training and elevating the students to an independent level where they can achieve higher level of excellence and professionalism.<br>
+                      The University is equipped with the state of the art Learning Resource Centre to support the learning and research activities of students and faculty. The renovated infrastructure, the qualified and experienced faculty members, latest equipments, instruments, Hi-end computers, teaching aids, multimedia, wi-fi connectivity required for modern day teaching create an edge over other universities. The hostel, the common room equipped with fitness equipments, yoga facility and indoor games, a guest house, the dispensary and banking facility conjure up a spell of being the most ideal campus.<br>
+                      Our university has always been a placement/ job utopia for our students. There has been an unprecedented boom in the visiting list of companies. Many of our students have been placed in renowned National and Multinational companies. We hope to retain and revitalize the placement hub.<br>
+                      With that note, I extend my best wishes to the students of the University and I envisage a very promising and successful professional career for you. My flights of fancy would revel to foresee you in the guise of Savitri Jyotirao Phule, Pratibha patil, Kalpana Chawala ,Vineet Jain, Priya Paul, Suchi Mukherjee, Anisha Singh and a lot other women luminaries who have left their indelible footprints in the history of our nation.
+                    <br><br><br> <p class="sig">Dr(Mrs).Amita Dev <br>
+                                Vice Chancellor, IGDTUW </p>
+                    <strong>
+                    <a class="sig1" href="/index.php?option=com_content&amp;view=article&amp;id=613%3Apro-vcs-profile&amp;catid=2%3A1&amp;Itemid=832">Brief Profile of Dr(Mrs). Amita Dev</a> </strong>
+                </div>
+              </div>
+            </div>';}
+            ?>
+          </div>
+        </div>
+    <?php include 'footer.php';?>
+ </body>
+</html>

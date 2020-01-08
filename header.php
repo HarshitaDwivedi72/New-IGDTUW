@@ -85,9 +85,9 @@
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="">Institute's History</a></li>
-                                <li><a href="">Vision/Mission</a></li>
-                                <li><a href="">Vice Chancellor</a></li>
-                                <li><a href="">Registrar</a></li>
+                                <li><a href="Vision.php">Vision/Mission</a></li>
+                                <li><a href="VC_Message.php">Vice Chancellor</a></li>
+                                <li><a href="Registrar_Message.php">Registrar</a></li>
                                 <li><a href="">Statutory Bodies</a></li>
                                 <li><a href="">Administration</a></li>
                                 

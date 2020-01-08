@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vision/Mission</title>
+    <title>Founder VC Message</title>
+
+
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="stylesheet/style1/departments.css">
+    <link rel="stylesheet" href="stylesheet/style1/VC_Message.css">
 
-<!-- main department stylesheet -->
-    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/departments.css">
-    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/VC_Message.css">
+
+
 </head>
 
 <body onload="main()">
@@ -33,7 +36,8 @@
         else
         $id='';
     ?>
-    <?php include 'header.php'?>
+      <?php include 'header.php';?>
+
     <!-- Main body -->
     <div class="container">
         <div class="row">
@@ -43,16 +47,16 @@
                         ABOUT IGDTUW
                     </div>
                     <ul class="sidenav">
-                      <li><a href="Vision.php">Vision/Mission</a></li>
-                      <li><a href="VC_Message.php">VC's Message</a></li>
-                      <li><a href="FounderVC_Message.php">Founder VC's Message</a></li>
-                      <li><a href="Registrar_Message.php">Registrar's Message</a></li>
-                      <li><a href="Vision.php?id=1">Message-Dean(Examination Affairs)</a></li>
-                      <li><a href="Vision.php?id=2">Message-Dean(Academic Affairs)</a></li>
-                      <li><a href="Vision.php?id=3">Message-Dy. Dean(Industrial Research and Development)</a></li>
-                      <li><a href="Vision.php?id=4">Message-Dy. Dean(Students' Welfare)</a></li>
-                      <li><a href="Vision.php?id=5">Message-Dy. Dean(Research and Consultancy)</a></li>
-                      <li><a href="Vision.php?id=6">Chronicles</a></li>
+                        <li><a href="Vision.php">Vision/Mission</a></li>
+                        <li><a href="VC_Message.php">VC's Message</a></li>
+                        <li><a href="FounderVC_Message.php">Founder VC's Message</a></li>
+                        <li><a href="Registrar_Message.php">Registrar's Message</a></li>
+                        <li><a href="FounderVC_Message.php?id=1">Message-Dean(Examination Affairs)</a></li>
+                        <li><a href="FounderVC_Message.php?id=2">Message-Dean(Academic Affairs)</a></li>
+                        <li><a href="FounderVC_Message.php?id=3">Message-Dy. Dean(Industrial Research and Development)</a></li>
+                        <li><a href="FounderVC_Message.php?id=4">Message-Dy. Dean(Students' Welfare)</a></li>
+                        <li><a href="FounderVC_Message.php?id=5">Message-Dy. Dean(Research and Consultancy)</a></li>
+                        <li><a href="FounderVC_Message.php?id=6">Chronicles</a></li>
                     </ul>
                 </div>
             </div>
@@ -249,40 +253,34 @@ echo '
 </div>
 </div>';
 }
-  else{
-        echo '        <div class="box-1">
-                    <div class="title">
-                        VISION
+
+    else{
+
+      echo'    <div class="box-1">
+              <div class="title">
+                        MESSAGE FROM FOUNDER VICE CHANCELLOR
+              </div>
+                    <div class="VCimg">
+                      <img src="images/Prof.NupurPrakash.jpg" alt="Prof. Nupur Prakash" width="160" height="159">
                     </div>
+
                     <div class="headingPara">
-                        To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management and Technology.
-                        To become one of the top technical Universities in the country known for its value based, quality technical education supported with industry relevant research, with focus on environmental and social issues.
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="box-1">
-                  <div class="title">
-                            MISSION
+                      Capability is Gender Neutral! It is always recognized and rewarded sooner or later irrespective of gender. However, the field of science and technology has traditionally witnessed low female participation and the representation of women in engineering industry is around 20% only. There is a huge demand for competent women engineers in our country and therefore Indira Gandhi Delhi Technical University for Women has a major role to play in capacity building and imparting high quality technical education to the women of our country. The mandate of this University is to educate women leading towards their enlightenment, employment and empowerment.<br><br>
+
+                      The University aims to incubate new ideas, encourage innovation and research work in the discipline of Engineering, Science and Technology.  The University offers a number of B.Tech, B.Arch, M.Tech and Ph.D programmes in the area of engineering and technology. The objective of the University is to promote research among young women engineers and to provide knowledge workers to boost the knowledge economy of our country. I am extremely confident that Indira Gandhi Delhi Technical University for Women will continue to scale new heights and serve the society by nurturing budding women engineers.<br><br>
+
+                      The students of our University have been placed in many prestigious companies in the last 10 years and continue to excel in higher studies within India and abroad. Our mission is to foster an environment for attaining excellence in professional education and promote active participation of women in the field of Engineering, Science, Architecture and Technology.
+                      <br><br><br> <p class="sig">Prof. Nupur Prakash
+                                  </p>
+                      <strong>
+                      <a class="sig1" href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=199:principal-profile&catid=2:1&Itemid=4">Brief Profile of Prof. Nupur Prakash</a> </strong>
                   </div>
-                <div class="headingPara">
-                  <ul>
-                  <li>To foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and Technology, while striking out a work-life balance.</li>
-
-                  <li>To start new professional courses for women in sun-rise disciplines and forge alliances with industry to impart industry relevant education.</li>
-
-                  <li>To emancipate women through pursuit of knowledge enabling them to gain  equal status in society through realization of their rights and responsibilities</li>
-
-                  <li>To develop sustainable systems and state-of-the-art infrastructure to enable the Indian women to become the future leaders, managers, researchers and productive team players in the field of science, technology and management.</li>
-                </ul>
-               </div>
+                </div>
               </div>';
-         }
-?>
-             </div>
-           </div>
-         </div>
-          <!-- footer -->
-          <?php include 'footer.php'?>
+            }
+            ?>
+            </div>
+          </div>
+        <?php include 'footer.php';?>
       </body>
-      </html>
+    </html>

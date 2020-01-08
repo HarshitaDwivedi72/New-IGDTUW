@@ -108,12 +108,23 @@
                             </div>
                             <div class="profile">
                             
-                                <div class="pHeading">Prof. Ela Kumar</div>
-                                <div class="pText">(Professor & Head)</div>
+                                <div class="pHeading">Dr. Seeja. K. R.</div>
+                                <div class="pText">(Associate Professor)</div>
                             </div>
                             <div class="headingPara">
-                                <img src="images/Ela_Kumar.jfif" alt="Prof. Ela Kumar" height="200px" width="auto">
-                                Dr. Ela Kumar has done, B. Tech , Electronics and Communication from IIT Roorkee in 1988. M. Tech in  Computer Science and Technology in  1990, from IIT Roorkee and Ph.D in  Natural Language Processing  ( sub-area of Artificial Intelligence)  from  Delhi University  in 2004. She has cleared GATE in 1988 with 94.29 percentile.  She has professional experience of 27 years. She is actively engaged in teaching and research in areas of Computer Science since 1991. She has published more than 60 research papers in International journals / National journals / International conferences of repute. She has guided more than 45 M.Tech / MPhil   dissertation and many Ph.D scholars. She has represented her research work in countries like USA, UK, Hong Kong and Thailand.  She has authored 4 books and written articles published in newspaper.   She is member of many professional societies like IEEE, IE, ISTE, CSI, International Association of Engineers, Women in Science and Engineering etc. She was chairperson of Centre of Intelligence Systems in GBU and initiated the process of installation of centre of excellence in the area of Artificial intelligence. She is on the reviewer panel / editorial board of many journals. She has organized many   professional activities like FDPs, Workshops, expert lectures. She has delivered many expert talks, keynote speaker, session chair in national / international conferences. She has undertaken various responsibilities in university administration including   Dean Academic Affairs   at IGDTUW for a period of three years, till November 2017.  She has been conferred by Rashtriya Gaurav Award.  She is member of many academic and professional bodies.
+                                <img src="images/DrSeeja.png" alt="Dr. Seeja. K.R." height="200px" width="auto">
+                                <b>Email Id :</b>krseeja@gmail.com
+                            <br>
+                            <b>Office Location :</b>Room No. 205, Electrical Block
+                            <br>
+                            <b>Area of Interest:</b>Data mining, Algorithm Design, Intelligent Computing, Bioinformatics.
+                            <br>
+                            <br>
+
+                            <br>
+                            <b>Publications : </b><a href="pdfs/profile-seeja-website.PDF" target="_blank">Click here for detailed Research Contributions</a>
+
+                               
                             </div>
                         </div>';
                }
