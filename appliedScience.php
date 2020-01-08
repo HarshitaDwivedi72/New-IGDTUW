@@ -28,7 +28,10 @@
         {
             
             var r=<?php echo $_GET['id'];?>;
-            $('#'+r).addClass('high');
+             $('#'+r).addClass('high');
+            if(r=='10')
+                $('#3').addClass('high');
+           
         }   
     </script>
     <?php 
@@ -524,6 +527,12 @@
                     //                 </div>
                     //             </div> ';
                     // }
+
+                    elseif(isset($_GET['name']) && $_GET['name'] !='')
+                    {     
+                        $username=$_GET['name'];
+                        getFacultyInfo($username);
+                    }
                     else{
                         echo '<div class="box-1">
                     <div class="title">
