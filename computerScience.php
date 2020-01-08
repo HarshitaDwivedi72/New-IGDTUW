@@ -119,12 +119,8 @@
                             <br>
                             <b>Area of Interest:</b>Data mining, Algorithm Design, Intelligent Computing, Bioinformatics.
                             <br>
-                            <br>
-
-                            <br>
+                            <br><br>
                             <b>Publications : </b><a href="pdfs/profile-seeja-website.PDF" target="_blank">Click here for detailed Research Contributions</a>
-
-                               
                             </div>
                         </div>';
                }
