@@ -81,15 +81,15 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="">ABOUT US
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="AboutUs.php">ABOUT US
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="">Institute's History</a></li>
-                                <li><a href="Vision.php">Vision/Mission</a></li>
-                                <li><a href="VC_Message.php">Vice Chancellor</a></li>
-                                <li><a href="Registrar_Message.php">Registrar</a></li>
-                                <li><a href="">Statutory Bodies</a></li>
-                                <li><a href="">Administration</a></li>
+                                <li><a href="AboutUs.php?id=1">Institute's History</a></li>
+                                <li><a href="AboutUs.php?id=2">Vision/Mission</a></li>
+                                <li><a href="AboutUs.php?id=3">Vice Chancellor</a></li>
+                                <li><a href="AboutUs.php?id=4">Registrar</a></li>
+                                <li><a href="AboutUs.php?id=5">Statutory Bodies</a></li>
+                                <li><a href="AboutUs.php?id=6">Administration</a></li>
                                 
                             </ul>
                         </li>
