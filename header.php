@@ -123,9 +123,9 @@
                             <a class="dropdown-toggle" data-toggle="dropdown"  href="">STUDENT LIFE
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <li><a href="">Dean (Student Welfare)</a></li>
-                               <li><a href="">Clubs & Societies</a></li>
-                               <li><a href="">Student Notice Board</a></li>
+                               <li><a href="studentlife.php?id=1">Dean (Student Welfare)</a></li>
+                               <li><a href="studentlife.php?id=2">Clubs & Societies</a></li>
+                               <li><a href="studentlife.php?id=3">Student Notice Board</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

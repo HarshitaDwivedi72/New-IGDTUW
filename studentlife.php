@@ -71,11 +71,11 @@
                                     <div class="title">DEAN ( STUDENT WELFARE )
                                     </div>
 									 <div class="profile">
-                            <div class="pHeading">Prof. Ela Kumar</div>
-                                <div class="pText">Dean (Student Welfare)</div>
-                            </div>
+                                        <div class="pHeading">Prof. Ela Kumar</div>
+                                        <div class="pText">Dean (Student Welfare)</div>
+                                    </div>
                                     <div class="headingPara">
-                                       <img src="images/ElaKumar.jpg" alt="Prof.Ela Kumar" height="200px" width="auto">
+                                       <img src="images/ElaKumar.jpg" alt="Prof.Ela Kumar" class="hodImage" height="200px" width="auto">
                                          Soon after independence of India President Radhakrishnan, made an important recommendation in 1948, for the appointment of Dean Student welfare and created an office of students welfare in all educational institutes to reduce the disparity among Indian society prevailing that time in India. In 1960, UGC through education commission again directed to all universities to establish office of dean student welfare for providing opportunity for holistic development to inoculate the understanding of their social responsibility of passing out.
                                          <br><br>
 										 It has long recognized at education has long contribute to social & economic development, while bring out treasure within the student. The aim of higher education system should toaster a deeper and more harmonious human development to include values like general personality, attribute like respect tradition and loyalty to culture and idea to establish. Thus dean student welfare IGDTUW provide ample scope, opportunity &facility for all around development of personality & leadership quality among student. Student effectively participate in social & culture activity, sports activity, literally activity, professional society under various clubs and society under various advisory and faculty
