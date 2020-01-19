@@ -16,18 +16,13 @@
     <link rel="stylesheet" href="stylesheet/style1/departments.css">
     
    
-
-<!-- <i class="fa fa-hand-o-right" aria-hidden="true"></i> -->
 </head>
 
 <body onload="main()">
-
-    
     <script>
         function main()
         {
-            
-            var r=<?php echo $_GET['id'];?>;
+             var r=<?php echo $_GET['id'];?>;
             $('#'+r).addClass('high');
         }   
     </script>
