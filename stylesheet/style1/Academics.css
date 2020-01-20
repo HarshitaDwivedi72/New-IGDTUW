@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-size: 14px;
+    /* #7ba566 */
+}
+
+a {
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #011c38;
+}
+
+a:active {
+    text-decoration: none;
+    color: #011c38;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    color: #011c38;
+    font-weight: bold;
+    /*color: white;*/
+    background-color: #8e99a535;
+    text-align: center;
+}
+
+
+/*main css*/
+
+.sideHeading {
+    font-weight: bolder;
+    color: #011c38;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.sideHeading a {
+    font-weight: bolder;
+    color: #011c38;
+}
+
+.sidenav li {
+    margin: 5px 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.sidenav li a {
+    display: block;
+    color: black;
+    border-bottom: 1px dotted #999999;
+    text-decoration: none;
+}
+
+.sidenav li a:hover {
+    color: #011c38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box-1 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    color: black;
+    flex-shrink: 0px;
+    border: 1px solid #03224435;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+@media(max-width: 1200px) {
+    .box-1 {
+        flex-grow: 1;
+        flex-basis: 250px;
+        max-height: 500px;
+        color: black;
+        flex-shrink: 0px;
+        border: 1px solid #03224435;
+        border-radius: 5px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: white;
+    }
+}
+
+.headingPara {
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    text-align: justify;
+    height: auto;
+    overflow: auto;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #03224435;
+    border-radius: 1px;
+    /*border: 1px solid grey;*/
+}
+
+table tr td,
+th {
+    /*border: 1px solid grey;*/
+    border: 1px solid #03224435;
+    width: 200px;
+    padding: 10px;
+}
+
+table tr td ul {
+    padding-left: 40px;
+}
+
+table tr td ul li {
+    list-style-type: square;
+}
+
+.high {
+    font-weight: bolder;
+}
+
+.middleBox {
+    flex-grow: 1;
+    flex-basis: 300px;
+    color: black;
+    flex-shrink: 0px;
+    border: 1px solid #03224435;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+@media(max-width: 1200px) {
+    .middleBox {
+        flex-grow: 1;
+        flex-basis: 300px;
+        color: black;
+        flex-shrink: 0px;
+        border: 1px solid #03224435;
+        border-radius: 5px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: white;
+    }
+}
+
+.headingPara ul {
+    margin: 5px;
+}
+
+.headingPara ul li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.profile {
+    margin: 5px;
+}
+
+.headingPara .hodImage {
+    float: right;
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.pHeading {
+    font-size: 18px;
+}
+
+.pHeading,
+.pText {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.fTitle {
+    font-size: 18px;
+    padding: 3px 10px;
+    color: #011c38;
+    font-weight: bold;
+    /*color: white;*/
+    background-color: #8e99a535;
+    text-align: center;
+}
+
+.facultyDImage {
+    display: block;
+    margin: auto;
+    float: none;
+    height: 150px;
+    width: 150px;
+}
+
+.labImages {
+    /* float: right;*/
+    display: block;
+    margin: auto;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.societyImages {
+    margin: auto;
+    align-self: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .sideNav {
+        color: black;
+        border: 1px solid #03224435;
+        border-radius: 5px;
+        margin: 20px 0px;
+        background-color: white;
+    }
+    .sideHeading {
+        font-size: 18px;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 3px 10px;
+        color: #011c38;
+        background-color: #8e99a535;
+        text-align: center;
+    }
+    .headingPara .hodImage {
+        /* clear: both; */
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 150px;
+        /* align-items: center; */
+    }
+}

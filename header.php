@@ -112,11 +112,11 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="">ACADEMICS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="">Dean Academic Affairs</a></li>
-                                <li><a href="">Programmes Offered</a></li>
-                                <li><a href="">Scheme & Syllabus</a></li>
-                                <li><a href="">Time Table</a></li>
-                                <li><a href="">Academic Calender</a></li>
+                                <li><a href="Academics.php?id=1">Dean Academic Affairs</a></li>
+                                <li><a href="Academics.php?id=2">Programmes Offered</a></li>
+                                <li><a href="Academics.php?id=3">Scheme & Syllabus</a></li>
+                                <li><a href="Academics.php?id=4">Time Table</a></li>
+                                <li><a href="Academics.php?id=5">Academic Calender</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
