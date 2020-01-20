@@ -17,7 +17,7 @@ function getFaculty($name){
 			if($myrow['name']!='' && $myrow['designation']!=''){
 
 				echo 	'<tr>
-		        	<td>Name : </td>
+		        	<th>Name : </th>
 		        	<td><a href="appliedScience.php?name='.$myrow['username'].'" target="_blank">'.$myrow['name'].'</a></td>
 		        	<td rowspan="2"><img class="facultyDImage" src="uploads/'.$myrow['file'].'" width="auto" height="200px"></td>
 		    	</tr>
@@ -40,7 +40,7 @@ function getFacultyInfo($username)
 	if($myrow['name']!='' && $myrow['designation']!=''){
 
 		echo '<tr>
-        	<td>Name : </td>
+        	<th>Name : </th>
         	<td><a href="appliedScience.php?name='.$myrow['username'].'" target="_blank">'.$myrow['name'].'</a></td>
         	<td rowspan="2"><img class="facultyDImage" src="uploads/'.$myrow['file'].'" width="auto" height="200px"></td>
     	</tr>

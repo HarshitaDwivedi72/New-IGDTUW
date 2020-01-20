@@ -61,8 +61,8 @@
                         <li><a href="appliedScience.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements & Awards</a></li>
                         <li><a href="appliedScience.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events /Workshops /Seminars</a></li>
                         <li><a href="appliedScience.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                        <li><a href="appliedScience.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                        <li><a href="appliedScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <!-- <li><a href="appliedScience.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href="appliedScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
                         <li><a href="appliedScience.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp</i>Externally Funded Research Projects</a></li>
                         <!-- <li><a href="appliedScience.php?id=10" id="10"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Extra Corricular Acitivities</a></li> -->
                     
@@ -252,36 +252,36 @@
                                                 </div>
                                         
                           </div>'; }
-                    else if($id==7){
-                         echo '<div class="middleBox">
-                                     <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                            <ul class="sidenav">
-                <li><a href="Syllabus/btechAS1st.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (1st year)- Syllabus</a></li>
-                <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (2nd year)- Syllabus</a></li>
-                <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (3rd year)- Syllabus</a></li>
-                <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (4th year)- Syllabus</a></li>
+                //     else if($id==7){
+                //          echo '<div class="middleBox">
+                //                      <div class="title">SYLLABUS</div>
+                //                 <div class="headingPara">
+                //             <ul class="sidenav">
+                // <li><a href="Syllabus/btechAS1st.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (1st year)- Syllabus</a></li>
+                // <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (2nd year)- Syllabus</a></li>
+                // <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (3rd year)- Syllabus</a></li>
+                // <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (4th year)- Syllabus</a></li>
                 
-                            </ul>
-                                </div>
-                          </div>';
-                    }
-                    else if($id==8)
-                    {
-                         echo '<div class="middleBox">
+                //             </ul>
+                //                 </div>
+                //           </div>';
+                //     }
+                //     else if($id==8)
+                //     {
+                //          echo '<div class="middleBox">
 
-                                <div class="title">TIME TABLE </div>
-                                <div class="headingPara">
-                                     <ul class="sidenav">
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
+                //                 <div class="title">TIME TABLE </div>
+                //                 <div class="headingPara">
+                //                      <ul class="sidenav">
+                //         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
+                //         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
+                //         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
+                //         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
 
-                                    </ul>
-                                </div>
-                          </div>';
-                    }
+                //                     </ul>
+                //                 </div>
+                //           </div>';
+                //     }
                     else if($id==9){
                         echo ' <div class="middleBox">
                                     <div class="title">
