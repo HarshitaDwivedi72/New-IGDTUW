@@ -327,7 +327,63 @@
                         $username=$_GET['name'];
                         getFacultyInfo($username);
                     }
-                    else{
+                //     <tr>
+                //     <th>Profile</th>
+                //     <td></td>
+                //    </tr>
+                    elseif($id=='tanya')
+                        {
+                            echo '
+                            <div class="middleBox">
+                                <div class="title">
+                                    Department of Applied Science and Humanities
+                                    <br>
+                                    Faculty Profile
+                                </div>
+                            <div class="headingPara">
+                                <div class="pHeading">Dr. Ranu Gadi</div>
+                                <img src="images/DrRanu.png" alt="" class="labImages" width="200px" height="150px">
+                                    
+                                    <table class="facultyTable">
+                                        <tr>
+                                            <th>Qualifications :</th>
+                                            <td colspan="2">Ph.D. (Chemistry) IIT Roorkee, Post Doctoral Fellowship (Environmental Sciences), Lancaster University, Lancaster, U.K.</td>
+                                        </tr>
+                                        <tr>
+                                        <th>Designation :</th>
+                                        <td colspan="2">dfghjk</td>
+                                        </tr>
+                                        <tr>
+                                        <th>Teaching Interests :</th>
+                                        <td colspan="2">dfghjk</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Office Address "</th>
+                                            <td colspan="2">dfghjk</td>
+                                        </tr>
+                                        <tr>
+                                        <th>Office Phone Number :</th>
+                                        <td colspan="2">dfghjk</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Email :</th>
+                                            <td colspan="2">dfghjk</td>
+                                        </tr>
+                                       
+                                        
+                                        <tr>
+                                            <th>Research Areas :</th>
+                                            <td colspan="2">dfghjk</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Website :</th>
+                                            <td colspan="2">dfghjk</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>';
+                        }                    
+                        else{
                         echo '<div class="box-1">
                     <div class="title">
                         DEPARTMENT OF APPLIED SCIENCES
@@ -346,6 +402,7 @@
 </div>
 
    <!-- footer -->
+
    <br>
     <br>
 <?php include 'footer.php';?>

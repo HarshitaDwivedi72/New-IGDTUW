@@ -139,8 +139,6 @@ table tr td ul li {
     list-style-type: square;
 }
 
-
-
 .high {
     font-weight: bolder;
 }
@@ -212,19 +210,20 @@ table tr td ul li {
     background-color: #8e99a535;
     text-align: center;
 }
+
 .facultyDImage {
     display: block;
     margin: auto;
-    float:none;
+    float: none;
     height: 150px;
     width: 150px;
 }
+
 .labImages {
     /* float: right;*/
     display: block;
     margin: auto;
     align-self: center;
-   
     margin-bottom: 10px;
 }
 
@@ -233,6 +232,12 @@ table tr td ul li {
     align-self: center;
     display: block;
     margin-bottom: 10px;
+}
+
+.facultyTable,
+.facultyTable tr th,
+.facultyTable tr td {
+    border: 0px;
 }
 
 @media (max-width: 767px) {
