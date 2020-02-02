@@ -132,7 +132,7 @@
                                     FACULTY DIRECTORY OF Computer Science & Engineering
                                 </div>
                                   <div class="headingPara">';
-                                getFaculty("ASH");
+                                getFaculty("CSE");
                                    
                         echo '</div>
                         </div>';
@@ -143,19 +143,10 @@
                                     <div class="title">
                                         Achievements
                                     </div>
-                                    <div class="headingPara">
-                                            <table>
-                                                <tr>
-                                                    <th>NAME </th>
-                                                    <th colspan="2">ACHIEVEMENT</th>
-                                                </tr>
-                                                <tr>
-                                                    <td><b>Taniya Bhatia (M.Tech ISM) </td>
-                                                    <td colspan="2">Awarded with the Best Paper Award , “Malware Detection in Android based on Dynamic Analysis”, International Conference on Cyber Security and Protection of Digital Services (Cyber Security 2017)London, on June 19-20, 2017, IEEE Xplore Digital Library.</td>
-                                                </tr>
-                                            </table>
-                                    </div>
-                                   </div>';
+                                    <div class="headingPara">';
+                    getAchievements("CSE");
+                                    echo '</div>
+                                        </div>';
                }
                elseif ($id==5) {
                    # code...
@@ -163,24 +154,11 @@
                                         <div class="title">
                                             Latest Events/ Workshops/ Seminars / Expert Lectures
                                         </div>
-                                        <div class="headingPara">
-                                            <table>
-                                                <tr>
-                                                    <th>Year</th>
-                                                    
-                                                    <th>Event</th>
-                                                    <th>Date</th>
-                                                </tr>
-                                                <tr>
-                                                    <td>2018</td>
-                                                   
-                                                    <td>Workshop on “Digital Forensics and Cyber Crime Investigation” conducted under ISEA Project.
-                                                    <a href="pdfs/ItEventWorkshopOnDigitalForensics.pdf" target="_blank"> Read More</a></td>
-                                                     <td>17 - 18 March</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                </div>';
+                                        <div class="headingPara">';
+                         
+                                          getEvents("CSE");
+                                          echo '  </div>
+                                          </div>';
                }
                elseif ($id==6) {
                    # code...

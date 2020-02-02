@@ -337,6 +337,9 @@
                         $username=$_GET['name'];
                         getFacultyInfo($username);
                     }
+                    elseif($id=='tanya'){
+                        getDataAll();
+                    }
                 else{
                         echo '<div class="box-1">
                     <div class="title">

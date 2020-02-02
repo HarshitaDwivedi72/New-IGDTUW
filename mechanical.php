@@ -106,7 +106,7 @@
                                     FACULTY DIRECTORY OF Mechanical & Automation Engineering
                                 </div>
                                 <div class="headingPara">';
-                                getFaculty("ASH");
+                                getFaculty("MAE");
                                    
                         echo '</div>
                         </div>';
@@ -116,46 +116,21 @@
                                     <div class="title">
                                         Achievements
                                     </div>
-                                    <div class="headingPara">
-                                            <table>
-                                                <tr>
-                                                    <th>NAME </th>
-                                                    <th colspan="2">ACHIEVEMENT</th>
-                                                </tr>
-                                                <tr>
-                                                    <td><b>Taniya Bhatia (M.Tech ISM) </td>
-                                                    <td colspan="2">Awarded with the Best Paper Award , “Malware Detection in Android based on Dynamic Analysis”, International Conference on Cyber Security and Protection of Digital Services (Cyber Security 2017)London, on June 19-20, 2017, IEEE Xplore Digital Library.</td>
-                                                </tr>
-                                            </table>
-                                    </div>
-                                    
-                                </div>';
+                                    <div class="headingPara">';
+                                    getAchievements("MAE");
+                                    echo '</div>
+                                        </div>';
                 
                     }
                     elseif($id==4){
                           echo '<div class="middleBox">
-                                    <div class="title">
-                                        Events/Workshops/Seminars
-                                    </div>
-                                    
-                                    <div class="headingPara">
-
-                                         <ul>
-                                            <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MODEL UNITED NATIONS WORKSHOP</b></li>
-                                            <div class="headingPara">
-                                                A model United Nations Workshop is going to be organized by MAE Department under SAE Collegiate Club on 28-29th January 2012. A Model United Nations(MUN) conference is a student model simulation of the actual United Nations proceedings. In this the students act as representatives of various member nations of United Nations and debate and discuss the agenda that is provided to them in advance while keeping in mind the foreign policies of the respective nations. These students are judged on the basis of their research regarding the agenda and knowledge regarding the world affair and the United Nations. The following councils will be simulated at IGDTUW MUN 2012: NSG-Nuclear Supplier Group, UNCSTD-United Nation Commission on Science and Technology for Development.
-                                            </div>
-
-                                            <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ETHICAL HACKING WORKSHOP</b></li>
-                                            <div class="headingPara">
-                                                MAE Department conducted a workshop on Ethical Hacking on 12th and 13th November 2011 organized by SAE Collegiate Club. SAE conducts many projects which require knowledge of softwares, operating systems and their information securities.Thus ethical hacking workshops provides a unique opportunity to learn and get clear perspective of ethical hacking, information security and cyber crime investigation. It would be an ideal platform to acquire the required knowledge to take counter measures and deal with cyber crime in an organization and personal life. The following issues were discussed in the workshop: Cyber ethics, Trojans and backdoors, Google Hacking, Web application attacks, Cyber crime investigation & information security & many more.
-                                                <br>
-                                                There was live demonstration of latest hacking techniques and tools, hands on practice sessions, interaction of students with the hacking expert.The certificates were distributed to the students jointly byTech fest IIT Bombay, Tech Defence & IGDTUW.
-                                            </div>
-
-                                    </div>
-
-                             </div> ';
+                          <div class="title">
+                          Latest Events/ Workshops/ Seminars / Expert Lectures
+                      </div>
+                      <div class="headingPara">';
+                      getEvents("MAE");
+                      echo '  </div>
+                      </div>';
                 
                     }
                     elseif($id==5){

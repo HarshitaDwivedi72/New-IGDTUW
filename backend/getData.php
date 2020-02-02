@@ -1,5 +1,15 @@
 <?php
 	$UPLOADS_DIR='../uploads/';
+
+function getDataAll(){
+	include ('connect.php');
+	$sql="SELECT department FROM users where type='faculty' order by seniority";
+	$result = mysqli_query($conn,$sql);
+ 		while($row = mysqli_fetch_array($result)){
+			echo '<pre>'.$row['department'].'</pre>'; }
+
+		 }
+
 function getFaculty($name){
 	include ('connect.php');
 
