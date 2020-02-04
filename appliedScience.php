@@ -25,12 +25,9 @@
 <body onload="main()">
      <script>
         function main()
-        {
-            
+        {    
             var r=<?php echo $_GET['id'];?>;
-             $('#'+r).addClass('high');
-            
-           
+            $('#'+r).addClass('high');
         }   
     </script>
     <?php 
@@ -60,8 +57,8 @@
                         <li><a href="appliedScience.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements & Awards</a></li>
                         <li><a href="appliedScience.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events /Workshops /Seminars</a></li>
                         <li><a href="appliedScience.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                        <li><a href="appliedScience.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                        <li><a href="appliedScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <!-- <li><a href="appliedScience.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href="appliedScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
                         <li><a href="appliedScience.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp</i>Externally Funded Research Projects</a></li>
                         <!-- <li><a href="appliedScience.php?id=10" id="10"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Extra Corricular Acitivities</a></li> -->
                     
@@ -132,43 +129,7 @@
                                       echo '</div>
                                           </div>';
                             }
-                            
-//  <div class="headingPara">
-//  <table>
-//      <tr>
-//          <th>NAME </th>
-//          <th colspan="2">ACHIEVEMENT</th>
-//      </tr>
-//      <tr>
-//          <td><b>Taniya Bhatia (M.Tech ISM) </td>
-//          <td colspan="2">Awarded with the Best Paper Award , “Malware Detection in Android based on Dynamic Analysis”, International Conference on Cyber Security and Protection of Digital Services (Cyber Security 2017)London, on June 19-20, 2017, IEEE Xplore Digital Library.</td>
-//      </tr>
-//  </table>
-// </div>
-//  <div class="middleBox">
-//  <div class="title">
-//      Achievements
-//  </div>
-//  <div class="headingPara">
-//    <ul>
-//    <li><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Dr. Ranu Gadi was conferred with the Third Best Researcher Award at GGSIP University, Delhi in September 2012 for the Academic year 2011-12.</li>
-//    <li><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Dr. Ranu Gadi has also been awarded with the ‘Thomas Kuhn Honour Pin’ as hope for sustainable region for her research paper presented at the Third Int. Symposium on Non-CO2Green house Gases, 21st-23rdJanuary, 2002 at Maastricht, The Netherlands.</li>
-//    <li><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Two Indian patents have been granted  to Dr. Chhaya Ravikant in collaboration with National Research Development Corporation of India, INDIA
-//    <ol>
-//      <li>“A method of depositing thin films of metals and non metals”<br>
-//     <b> Patentee:</b> Prof. M.P.Srivastava, Savita Roy and Dr. Chhaya Ravi Kant
-//      <br>
-//      <b>Patent no.</b> 232763, Dt: 21/03/2009</li>
-
-//      <li>
-//          Dr. Shailini Arora has been awarded the ‘Young Scientist Award’ by the SERC division of DST.
-//      </li>
-//    </ol>
-//    </li>
-
-//    </ul>
-//  </div>
-// </div>
+        
                     else if($id==5){
                          echo ' <div class="middleBox">
                                         <div class="title">
@@ -179,55 +140,30 @@
                                         echo '  </div>
                                         </div>';
                                     }
-                                //          <div class="headingPara">
-                                //             <table>
-                                //                 <tr>
-                                //                     <th>Year</th>
-                                                    
-                                //                     <th colspan="4">Event</th>
-                                //                     <th>Date</th>
-                                //                 </tr>
-                                //                 <tr>
-                                //                     <td>2017</td>
-                                                   
-                                //                     <td colspan="4">Expert Lecture in association with EDP Cell IGDTUW by Mr. Deepak Sar, IT Professional, Oracle, on “Campus to Corporate World” in the Seminar Hall, Administrative Block.<a href=""> Read More</a></td>
-                                //                      <td> April</td>
-                                //                 </tr>
-                                //             </table>
-                                //         </div>
-                                // </div>';
-                    else if($id==6){
+                     else if($id==6){
 
                          echo '<div class="middleBox">
                                     <div class="title">
-                                       Applied Physics Lab 1:
+                                       Applied Physics Lab 1 &  Applied Physics Lab 2 (Optics Lab):
                                     </div>
                                     <div class="headingPara">
                                         <img src="images/LabAS1.png" class="labImages" height="200px" width="auto">
-                                       The lab hosts experiments based on Mechanics, Thermal Physics, Electronics and basic experiments on electricity and magnetism.
-                                    </div>
-                                    <div class="title">
-                                       Applied Physics Lab 2 (Optics Lab):
-                                    </div>
-                                    <div class="headingPara">
-                                        <img src="" alt="Image does not exist." class="labImages" height="200px" width="auto">
-                                       The lab is housed in a Dark Room with experiments based on optics, ultrasonics and Lasers.
-                                    </div>
-                                    <div class="title">
-                                       Applied Chemistry Lab:
-                                    </div>
-                                    <div class="headingPara">
-                                        <img src="" alt="Image does not exist." class="labImages" height="200px" width="auto">
-                                      The lab is fully equipped to hold experiments on quantitative chemical analysis like volumetric titrations, conductometric titrations etc. Experiments based on thermo-chemistry and rate of reaction are also performed.
-                                    </div>
+                                       <b>LAB 1 : </b>The lab hosts experiments based on Mechanics, Thermal Physics, Electronics and basic experiments on electricity and magnetism.
+                                       <br>
+                                       <br>
 
-
+                                       <b>LAB 2 : </b>The lab is housed in a Dark Room with experiments based on optics, ultrasonics and Lasers.
+                                    </div>
+                                   
                                     <div class="title">
-                                        Environmental Studies Lab:
+                                        Environmental Studies Lab & Applied Chemistry Lab:
                                     </div>
                                     <div class="headingPara">
                                             <img src="images/LabAS2.png" class="labImages" height="200px" width="auto">
-                                               The lab holds experiments on water analysis like DO, BOD, COD, TDS etc., spectrophotometric determination of metals, soil analysis, particulate matter in the ambient atmosphere and polymer preparation.
+                                            <b>Applied Chemistry Lab </b>The lab is fully equipped to hold experiments on quantitative chemical analysis like volumetric titrations, conductometric titrations etc. Experiments based on thermo-chemistry and rate of reaction are also performed.
+                                            <br>
+                                            <b>Environmental Lab  : </b>   
+                                            The lab holds experiments on water analysis like DO, BOD, COD, TDS etc., spectrophotometric determination of metals, soil analysis, particulate matter in the ambient atmosphere and polymer preparation.
                                                <br>
                                                <br>
                                                 In addition, the department provides cutting edge research, innovation and education in emerging areas of Science and Technology. 
@@ -258,40 +194,6 @@
                                                 </div>
                                         
                           </div>'; }
-                    else if($id==7){
-                         echo '<div class="middleBox">
-                                     <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                                Department of Applied Science and Humanities offers courses in first year undergraduate programmes across all branches.<br> Refer below for scheme and syllabus of first year.
-
-                            <ul class="sidenav">
-                <li><a href="Syllabus/btechAS1st.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (1st year)- Syllabus</a></li>
-                <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (2nd year)- Syllabus</a></li>
-                <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (3rd year)- Syllabus</a></li>
-                <li><a href="Syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (4th year)- Syllabus</a></li>
-                
-                            </ul>
-                                </div>
-                          </div>';
-                    }
-                    else if($id==8)
-                    {
-                         echo '<div class="middleBox">
-
-                                <div class="title">TIME TABLE </div>
-                                <div class="headingPara">
-                                Department of Applied Science and Humanities offers courses in first year undergraduate programmes across all branches.<br> Refer below for time table of first year.
-
-                                     <ul class="sidenav">
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
-                        <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
-
-                                    </ul>
-                                </div>
-                          </div>';
-                    }
                     else if($id==9){
                         echo ' <div class="middleBox">
                                     <div class="title">
@@ -329,13 +231,20 @@
                                             </ul>
                                     </div>
                                  </div>';}
-                                 // <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i></b>
-                                 //<p></p>
+                                 
                     
                     elseif(isset($_GET['name']) && $_GET['name'] !='')
                     {     
                         $username=$_GET['name'];
+                        echo '
+                        <div class="middleBox">
+                            <div class="title">
+                                Department of Applied Science and Humanities
+                                <br>
+                                Faculty Profile
+                            </div>';
                         getFacultyInfo($username);
+                        echo '</div>';
                     }
                     elseif($id=='tanya'){
                         getDataAll();

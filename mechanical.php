@@ -10,8 +10,8 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-    <script src="jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="jquery.min.js"></script> -->
    
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -30,11 +30,11 @@
     <body onload="main()">
 
     <script>
-        function main()
-        {
-            
+        function main(){
+
             var r=<?php echo $_GET['id'];?>;
-            $('#'+r).addClass('high');
+            $("#"+r).css("font-weight", "bold");
+            
         }   
     </script>
     <?php 
@@ -64,8 +64,8 @@
                         <li><a href="mechanical.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
                         <li><a href="mechanical.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
                         <li><a href="mechanical.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                        <li><a href="mechanical.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                        <li><a href="mechanical.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <!-- <li><a href="mechanical.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href="mechanical.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
                         <!-- <li><a href="mechanical.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li> -->
                        
                         
@@ -139,7 +139,7 @@
                                                 KOM/DOM Lab
                                             </div>
                                             <div class="headingPara">
-                                                <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                                
                                                 KOM/DOM lab of IGDTUW, MAE Dept. was established to cater the practical learning needs of the students of second year undergoing KOM/DOM theory course.The KOM/DOM(kinematics of machines/dynamics of machines) Laboratory of the department is well equipped with standard equipment as per requirement of the curriculum.Out of the large number of machines available, the names of some of machines available are as under: Simple and compound pendulum apparatus, cam analysis machine, helical spring apparatus. The course contributes towards knowledge and understanding of various equipments through its practical orientation in the form of models. The students are given a practical introduction on these models of machines.
                                                 <br>
                                                 <br>
@@ -155,7 +155,7 @@
                                               Machine Shop Lab
                                             </div>
                                             <div class="headingPara">
-                                            <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                            
                                                 Machine Shop lab of IGDTUW, MAE Dept. was established to cater the practical learning needs of the students of second year undergoing Manufacturing Machines theory course.
                                                 <br>
                                                 The machine shop of the institute provides a true industrial environment where the students can hone their skills in manufacturing technology through a number of machines such as Lathe, shaper, milling, drilling machines.Machine shop practice course familiarize the students with the basic shop safety and machine shop equipment. The course unit is practical, and students will be given access to machines for exercises.
@@ -167,7 +167,7 @@
                                                 PRO-E
                                             </div>
                                             <div class="headingPara">
-                                            <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                            
                                                                                                 
                                                 The P-IV (PRO-E LAB) aims at learning basic features in part module and drawing module of the PROE Package and practicing the exercises to nourish the skills to develop models in PRO-E.
                                                 <br>
@@ -179,7 +179,7 @@
                                                Robotics Lab
                                             </div>
                                             <div class="headingPara">
-                                            <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                            
                                                 Robotics lab of IGDTUW, MAE Dept. was established to cater the practical learning needs of the students of Final year undergoing Robotics theory course (ETME-404).
                                                 <br>
                                                 <br>
@@ -218,54 +218,54 @@
                                                 Metrology Lab
                                             </div>
                                             <div class="headingPara">
-                                            <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                            
                                                  Metrology lab of IGDTUW, MAE Dept. was established to cater the practical learning needs of the students of sixth semester undergoing Metrology theory course (ETME-306). The lab is equipped with high quality measuring instruments for linear and angular measurements such as Sine bar, slip gauges, dial indicator , vernier caliper , vernier height and depth gauges, micrometer etc.
                                             </div>
                                             <div class="title">
                                                 Metal Cutting and Tool Design Lab
                                             </div>
                                             <div class="headingPara">
-                                            <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                            
                                                 Metal Cutting and Tool Design lab of IGDTUW, MAE Dept. was established to cater the practical learning needs of the students of sixth semester undergoing Metal Cutting and Tool Design theory course (ETME-310). Metal cutting is one of the most important methods of removing unwanted material in the production of mechanical components.The lab is equipped with Tool maker’s microscope to measure various angles of cutting tools as well as various machines to analyse the concept of metal cutting practically.
                                             </div>
 
                             </div>';
                
                     }
-                    elseif($id==6){
-                         echo '<div class="middleBox">
+                    // elseif($id==6){
+                    //      echo '<div class="middleBox">
 
-                                <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                                     <ul class="sidenav">
+                    //             <div class="title">SYLLABUS</div>
+                    //             <div class="headingPara">
+                    //                  <ul class="sidenav">
                                            
-                                            <li><a href="Syllabus/btech_mae"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (MAE)</a></li>
-                                            <li><a href="Syllabus/mtech_mae"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech (R&A)</a></li>
+                    //                         <li><a href="Syllabus/btech_mae"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech (MAE)</a></li>
+                    //                         <li><a href="Syllabus/mtech_mae"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech (R&A)</a></li>
                         
-                                    </ul>
-                                </div>
-                          </div>
-                          ';
+                    //                 </ul>
+                    //             </div>
+                    //       </div>
+                    //       ';
                 
-                    }
-                    elseif($id==7){
+                    // }
+                    // elseif($id==7){
                         
-                    echo '<div class="middleBox">
-                                <div class="title">TIME TABLE</div>
-                                <div class="headingPara">
-                                        <ul class="sidenav">
-                                             <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 1st year</a></li>
-                                             <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 2nd year</a></li>
-                                             <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 3rd year</a></li>
-                                             <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 4th year</a></li>
-                                             <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech R&A 1st year</a></li>
-                                             <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech R&A 2nd year</a></li>
+                    // echo '<div class="middleBox">
+                    //             <div class="title">TIME TABLE</div>
+                    //             <div class="headingPara">
+                    //                     <ul class="sidenav">
+                    //                          <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 1st year</a></li>
+                    //                          <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 2nd year</a></li>
+                    //                          <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 3rd year</a></li>
+                    //                          <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>B.Tech MAE 4th year</a></li>
+                    //                          <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech R&A 1st year</a></li>
+                    //                          <li><a href=""><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>M.Tech R&A 2nd year</a></li>
 
-                                        </ul>
-                                </div>
-                          </div>';
+                    //                     </ul>
+                    //             </div>
+                    //       </div>';
                 
-                    }
+                    // }
                     // elseif($id==8){
                     //     echo '<div class="middleBox">
                     //                     <div class="title">
@@ -286,6 +286,19 @@
                     //                     </div>
                     //             </div>';
                     // }
+                    elseif(isset($_GET['name']) && $_GET['name'] !='')
+                    {     
+                        $username=$_GET['name'];
+                        echo '
+                        <div class="middleBox">
+                            <div class="title">
+                                Department of Mechanical and Automation Engineering
+                                <br>
+                                Faculty Profile
+                            </div>';
+                        getFacultyInfo($username);
+                        echo '</div>';
+                    }
                     else{
                         echo '<div class="box-1">
                                     <div class="title">

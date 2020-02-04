@@ -6,6 +6,10 @@ body {
     /* #7ba566 */
 }
 
+.high {
+    font-weight: bolder;
+}
+
 a {
     text-decoration: none;
     word-wrap: break-word;
@@ -137,10 +141,6 @@ table tr td ul {
 
 table tr td ul li {
     list-style-type: square;
-}
-
-.high {
-    font-weight: bolder;
 }
 
 .middleBox {

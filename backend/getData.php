@@ -12,8 +12,6 @@ function getDataAll(){
 
 function getFaculty($name){
 	include ('connect.php');
-
-
 	echo '<table>';
 		$count=0;	
 		$sql="SELECT name,username FROM users where department='".$name."' and type='faculty' order by seniority";
@@ -51,13 +49,7 @@ function getFacultyInfo($username)
 	if($myrow['name']!='' && $myrow['designation']!=''&& $myrow['qualification']!=''){
 	
 		echo '
-		<div class="middleBox">
-			<div class="title">
-				Department of Applied Science and Humanities
-				<br>
-				Faculty Profile
-			</div>
-		<div class="headingPara">
+			<div class="headingPara">
 			<div class="pHeading">'.$myrow['name'].'</div>
 			<img src="' . $UPLOADS_DIR . $myrow['file'] .'" alt="" class="labImages" width="200px" height="150px">
 				
@@ -97,8 +89,72 @@ function getFacultyInfo($username)
 						<td colspan="2"><a href="'. $myrow['website'].'" target="_blank" class="sideHeading">'.$myrow['website'].'</a></td>
 					</tr>
 				</table>
-			</div>
-		</div>';
+			</div>';
+			
+			//journal
+			$selected ="SELECT * from journal where username='$username' order by pub_year desc";
+			if($result=mysqli_query($conn,$selected))
+			 {
+			   $rowcount = mysqli_num_rows($result);
+			 }
+			 if($rowcount){
+				
+					echo '<div class="title">
+								JOURNAL PAPERS
+						</div>
+						<div class="headingPara">
+						<table>';
+
+			while ($row = mysqli_fetch_array($result)){
+				echo '
+				
+					<tr>
+						<td><b>'.$row['authors'].' </b>:'.$row['title'].' ,'
+						.$row['name_of_journal'].' ,
+						 VOL : '.$row['volume'].',
+						PP :'.$row['page_no'].',
+					 YEAR : '.$row['pub_year'].'.</td>
+					</tr>
+				
+				';
+			}
+
+			echo '</table>
+			</div>';
+			
+			}
+
+			// conference
+	$selected ="SELECT * from conference where username='$username' order by year desc";
+		if($result=mysqli_query($conn,$selected))
+			{
+			$rowcount = mysqli_num_rows($result);
+			}
+			if($rowcount)
+			{
+				echo '<div class="title">
+				CONFERENCE PAPERS
+				</div>
+				<div class="headingPara">
+				<table>
+				';
+				while ($row = mysqli_fetch_array($result)){
+					echo '
+					
+						<tr>
+							<td><b>'.$row['authors'].'</b> : '.$row['title'].',
+							'.$row['name_of_conf'].',YEAR: '.$row['year'].', VENUE: '.$row['venue'].','
+							.$row['publisher'].'
+						PP : '.$row['page_no'].'.</td>
+						</tr>
+					
+					';
+				}
+	
+				echo '</table>
+				</div>';
+			}
+	
     }
 }
 
@@ -168,6 +224,47 @@ function getEvents($name) {
         echo '</table>';
 }
 
+
+function getArchives(){
+	include ('connect.php');
+	$result = mysqli_query($conn,"SELECT * FROM notices where expiryDate <= now() order by expiryDate desc");
+    while($row = mysqli_fetch_array($result)){
+		echo '<tr>
+			<th>'.$row['Title'].'</th>
+			<td>'.$row['types'].'</td>
+			<td>'.$row['expiryDate'].'</td>
+			<td><a target="_blank" class="sideHeading" href="' . $UPLOADS_DIR . $row['file'] .'">View/Download</a></td>
+			<td>'.$row['postingDate'].'</td>
+		</tr>';
+	}
+}
+function getTenders(){
+	
+	include ('connect.php');
+	$result = mysqli_query($conn,"SELECT * FROM notices where types=\"Tenders\"order by postingDate desc");
+    while($row = mysqli_fetch_array($result)){
+		echo '<tr>
+			<th>'.$row['Title'].'</th>
+			
+			<td><a target="_blank" class="sideHeading" href="' . $UPLOADS_DIR . $row['file'] .'">View/Download</a></td>
+			<td>'.$row['postingDate'].'</td>
+		</tr>';
+	}
+}
+
+function getCareers(){
+	
+	include ('connect.php');
+	$result = mysqli_query($conn,"SELECT * FROM notices where types=\"careers\"order by postingDate desc");
+    while($row = mysqli_fetch_array($result)){
+		echo '<tr>
+		<th>'.$row['Title'].'</th>
+			
+		<td><a target="_blank" class="sideHeading" href="' . $UPLOADS_DIR . $row['file'] .'">View/Download</a></td>
+		<td>'.$row['postingDate'].'</td>
+		</tr>';
+	}
+}
 
 ?>
 

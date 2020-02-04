@@ -42,11 +42,11 @@
     <div class="upperheadernav">
         <div class="container">
             <ul>
-                <li><a href="">MEDIA</a></li>
-                <li><a href="">TENDERS</a></li>
-                <li><a href="">CAREERS</a></li>
-                <li> <a href="">FACILITIES</a></li>
-                <li> <a href="">ARCHIVES</a></li>
+                <!-- <li><a href="tenders.php?id=5">MEDIA</a></li> -->
+                <li><a href="tenders.php?id=4">TENDERS</a></li>
+                <li><a href="tenders.php?id=3">CAREERS</a></li>
+                <li> <a href="tenders.php?id=2">FACILITIES</a></li>
+                <li> <a href="tenders.php?id=1">ARCHIVES</a></li>
                 
             </ul>
         </div>
@@ -115,8 +115,8 @@
                                 <li><a href="Academics.php?id=1">Dean Academic Affairs</a></li>
                                 <li><a href="Academics.php?id=2">Programmes Offered</a></li>
                                 <li><a href="Academics.php?id=3">Scheme & Syllabus</a></li>
-                                <li><a href="Academics.php?id=4">Time Table</a></li>
-                                <li><a href="Academics.php?id=5">Academic Calender</a></li>
+                                <li><a href="Academics.php?id=5">Time Table</a></li>
+                                <li><a href="Academics.php?id=4">Academic Calender</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -129,13 +129,19 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">RESEARCH 
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="Research.php">RESEARCH 
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <li><a href="">Deans (IRD & R&C)</a></li>
-                               <li><a href="">Clubs and Societies</a></li>
-                               <li><a href="">Student Notice Board</a></li>
-                            </ul>
+                               
+		<li><a href="Research.php?id=1" id="1">Dean(IRD & R&C)</a></li>
+                      <li><a href="Research.php?id=2" id="2">Ph.D Guidelines</a></li>
+                      <li><a href="Research.php?id=3" id="3">Research Areas</a></li>
+                      <li><a href="Research.php?id=4" id="4">Research Scholars</a></li>
+                      <li><a href="Research.php?id=5" id="5">University Approved Supervisors</a></li>
+                      <li><a href="Research.php?id=6" id="6">Forms and Applications</a></li>
+                      <li><a href="Research.php?id=7" id="7">Ongoing Research Projects</a></li>
+ 
+                           </ul>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown"  href="">PLACEMENTS

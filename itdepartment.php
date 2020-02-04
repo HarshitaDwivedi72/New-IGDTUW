@@ -54,9 +54,9 @@
                         <li><a href="itdepartment.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events /Workshops /Seminars</a></li>
 
                         <li><a href="itdepartment.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                       
+<!--                        
                         <li><a href="itdepartment.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                        <li><a href="itdepartment.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <li><a href="itdepartment.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
 
                     </ul>
 
@@ -154,7 +154,7 @@
                                     Computer Center
                                 </div>
                                 <div class="headingPara">
-                                    <img src="images/"  alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                    
                                     The Computer Center is housed in centrally air conditioned premises and equipped with state-of-art computing facilities. All the computers are connected using local area network (LAN). The Server hosts software for various disciplines related to Computer Engineering and Information Technology like SQL Server, Java, Microsoft Visual Studio, CASE Tool etc. Computer centre is also connected with the various labs in the campus using optical fiber in Client Server Computing environment. This has enhanced the ambit of Computer Centre by providing programming environment along with computational requirement of the users across the campus. All the computers in the centre are connected to uninterrupted power supply for safe operations. Various software like VIM, GDB, Turbo C, Microsoft Visual Studio.net, Microsoft Office 2007, gcc/g++, Virtual Box and Cloud SIM are installed in the lab with high specification computers.
                                     
                                 </div>
@@ -163,14 +163,14 @@
                                     Software Design Lab
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                     Software Design lab caters to the computing needs of the specialized and elective courses and offers in-depth treatment of some topic in Information Technology. The lab is equipped with CASE Tools required in Design and Testing of the software applications. The lab helps the students to reinforce concepts discussed in the class through case studies or projects. The instructors may stimulate the advanced undergraduate to participate in research efforts by means of a project course or a directed independent study. Various softwares like Turbo C, Microsoft Visual Studio.net, Rational Rose, Microsoft Office 2007 are installed in the lab with high specification computers.
                                 </div>
                                 <div class="title">
                                     Information Security Lab
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                     The Information Security Lab is an offensive security research environment where students analyze and understand how attackers take advantage of real systems.  This approach gives our students a unique perspective and a proper foundation that allows them to master any area of security.
                                 </div>
                                 
@@ -178,57 +178,57 @@
                                     Distributed Computing Lab
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                     Distributed Computing lab is well equipped with i7 systems. All the required softwares like virtual box, vmware, MySql, Dev++,Turbo C, Visual C++ and Java are installed in all the systems. All the systems are LAN Connected with 24x7 internet facility.
                                 </div>
                                 <div class="title">
                                     Cyber Forensics and IOT Lab
                                 </div>
                                 <div class="headingPara">
-                                <img src="images/" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                      The lab is equipped with FRED Server (i7 5th Gen, 32GB Ram 1 TB Hard Disk) and Net Force Suite –a forensic suite developed by C-DAC. The Server facilitates various ethical hacking modules to be performed.Many forensics tools like encase and FTK are installed and used frequently. Centralized forensic experiments are performed in this lab. All the systems are Dual Booted with Ubuntu 14.04 and Windows 8. HP Proactive care Server is installed in this Lab. The lab has been equipped with real time test bed “SenseNuts: IoT Platform for Excellence” for experimenting sensor for IoT applications. This lab provides infrastructure facility suitable for testing small wireless sensor devices and heterogeneous communicating objects. This lab is developed under the ISEA Project Grant, DeitY, Govt. of India.
                                 </div>
 </div>';
                 }
                 
-                 else if($id==7){
+                //  else if($id==7){
                     
-                    echo '<div class="middleBox">
-                                <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                                        <ul class="sidenav">
-                                            <li><a href="syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 1st year</a></li>
-                                            <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 2nd year</a></li>    
-                                            <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 3rd year</a></li>
-                                            <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 4th year</a></li>
-                                            <li><a href="syllabus/mca1.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 1st year</a></li>
-                                            <li><a href="syllabus/mca2.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
-                                            <li><a href="syllabus/mca3.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
-                                            <li><a href="syllabus/mtechIsm.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
+                //     echo '<div class="middleBox">
+                //                 <div class="title">SYLLABUS</div>
+                //                 <div class="headingPara">
+                //                         <ul class="sidenav">
+                //                             <li><a href="syllabus/.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 1st year</a></li>
+                //                             <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 2nd year</a></li>    
+                //                             <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 3rd year</a></li>
+                //                             <li><a href="syllabus/btechIt2nd.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech (IT) 4th year</a></li>
+                //                             <li><a href="syllabus/mca1.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 1st year</a></li>
+                //                             <li><a href="syllabus/mca2.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 2nd year</a></li>
+                //                             <li><a href="syllabus/mca3.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA - Syllabus 3rd year</a></li>
+                //                             <li><a href="syllabus/mtechIsm.pdf" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech (ISM) Syllabus</a></li>
                                             
-                                        </ul>
-                                </div>
-                          </div>';
-                }
-                // <li><a href="itdepartment.php?id=9" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Lab Manuals</a></li>
-                 else if($id==8){
+                //                         </ul>
+                //                 </div>
+                //           </div>';
+                // }
+                // // <li><a href="itdepartment.php?id=9" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Lab Manuals</a></li>
+                //  else if($id==8){
                     
-                    echo '<div class="middleBox">
+                //     echo '<div class="middleBox">
 
-                                <div class="title">TIME TABLE </div>
-                                <div class="headingPara">
-                                     <ul class="sidenav">
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 2nd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA 2nd year</a></li>
-                                    </ul>
-                                </div>
-                          </div>';
-                }
+                //                 <div class="title">TIME TABLE </div>
+                //                 <div class="headingPara">
+                //                      <ul class="sidenav">
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 1st year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 2nd year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA 1st year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>MCA 2nd year</a></li>
+                //                     </ul>
+                //                 </div>
+                //           </div>';
+                // }
                 // else if($id==9){
                 //     echo '<div class="middleBox">
                 //                         <div class="title">
@@ -262,6 +262,19 @@
                 //                 </div>';
                 // }
                 // 
+                elseif(isset($_GET['name']) && $_GET['name'] !='')
+                {     
+                    $username=$_GET['name'];
+                    echo '
+                    <div class="middleBox">
+                        <div class="title">
+                            Department of Information Technology
+                            <br>
+                            Faculty Profile
+                        </div>';
+                    getFacultyInfo($username);
+                    echo '</div>';
+                }
                 else{
                     echo '<div class="middleBox">
                                 <div class="title">
@@ -286,4 +299,4 @@
 
 </body>
 
-</html
+</html>

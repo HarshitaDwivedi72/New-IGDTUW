@@ -57,15 +57,15 @@
 
                         <li><a href="architecture.php?id=2" id="2"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Faculty Directory</a></li>
 
-                        <li><a href="architecture.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>ACHIEVEMENTS</a></li>
+                        <li><a href="architecture.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
 
                         <li><a href="architecture.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
 
                         <li><a href="architecture.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
 
-                        <li><a href="architecture.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <!-- <li><a href="architecture.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
 
-                        <li><a href="architecture.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <li><a href="architecture.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
 
                         <!-- <li><a href="architecture.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li> -->
 
@@ -160,7 +160,7 @@
                                    CAD Lab
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                 Computer aided design lab is an essential component of Architectural Education. It is equipped with twenty latest computers (20 HP 406G1, CORE 17,500GB HARD DISC, 4GB RAM, HP 18.5 LED Monitor), eight computers for staff, an A1 printer with scanner and LAN Connectivity on each workstation. All computers are equipped with Windows 8 pro operating system, Autodesk 2017 user licence, Revit 2017 user licence and Microsoft office. These tool help the students in two and three dimensional visualisation of Buildings, documentation work, presentation techniques and Graphic skills. Autocad is a drafting tool that helps in producing drawings as per project proposals. It is a faster and easy to use replacement for drafting boards in studios. Revit is an advanced drafting tool. The knowledge of software tools enhance the students creativity and makes them industry ready as most architectural consultancy firms work on Computer Aided Design Softwares. 
                                     <br>
                                     <br>
@@ -170,7 +170,7 @@
                                     SURVEY LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                     Understanding the site is the integral part of Architectural Design process. Only through understanding the site and the context properly can the students develop a design which uses the site features and site topography in a way that the resources available are used in the most optimal and sustainable manner.  Hence the Department is endeavouring to provide a good skill set to the students in conducting the survey, analysing the data and assimilating the information gathered in the design problem in the design studios.
                                     <br>
                                     <br>
@@ -186,7 +186,7 @@
                                    CARPENTRY AND METAL CUTTING WORKSHOP
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                     Department of Architecture and Planning has a state of art carpentry and metal cutting workshop. The premise is shared with Department Of Mechanical And Automation Engineering. The basic carpentry tools like hand Saw, working tables, Hexa blades, Pincers, chisels, engineering trisquare, steel scales, marketing guage, dividers, bevel edge, energy stone, cross pin hammer, drill bit set, fret saw blades and frames, hack saw blades and frames, hand drill machine, spirit level, and safety equipment is presently available. Advanced machinery for the same is under the process of procurement. 
                                     <br>
                                     <br>
@@ -201,7 +201,7 @@
                                     FOUNDRY AND CLAY MODELLING WORKSHOP
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                      Department of Architecture and Planning has a Foundry and Clay Modelling workshop. The premise is shared with Department Of Mechanical And Automation Engineering. This is a start up workshop and has basic modelling tools like moulding box, rammer steel, shovel, moulding sand, drawing board with sunmica top, karni, pipe, plastic stool, bucket, sand rammer and assorted patterns. The students learn model making techniques for visual presentation of their design studio projects.
                                      <br>
                                      <br>
@@ -216,7 +216,7 @@
                                     MATERIAL MUSEUM
                                    </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                     Department of Architecture and Planning has a state of art Material Museum of around 40 square meter of space. The museum has display of building construction materials used for both interior and exterior use in the building. The display includes materials available in the construction market for flooring, roofing, false ceiling, panelling, furniture, sanitary ware, electrical fixtures, doors, windows, cladding and façade materials etc.
                                     <br>
                                     <br>
@@ -234,7 +234,7 @@
                                     CLIMATOLOGY LAB
                                    </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                 In keeping with the vision of the Department, climatic studies are an integral part of the design studios. Climatic information of the place is an important parameter applied in the design of buildings. Hence climatology forms an important part of the curriculum of the B.Arch. programme.  To meet the quality of standard and conduct experiments as per curriculum of B.Arch., Climatology Lab with modern instruments is being setup in the Department of Architecture and Planning. Basic tools and equipments have been obtained in order to facilitate understanding and importance of climatology in the Architectural Design Process and the lab shall be upgraded soon.
                                 <br><br>
 
@@ -245,7 +245,7 @@
                                    RESOURCE ROOM
                                    </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                
                                 Department of Architecture and Planning has a start up resource room with basic tools like brick kits for beginners. The resource room teaches students about all building systems like structural skeleton of the building, plumbing layouts, electrical layouts, water supply and drainage systems etc. The knowledge of integrated and coordinated know-how of all the systems working under the envelope of building infrastructure is part of the resource room learning. Documentation like CBRI papers, journals, other architectural reference resources, documentaries and toolkits shall also be part of resource room.
                                 <br>
                                 <br>
@@ -255,41 +255,41 @@
                                 </div>
 </div>';
                 }
-                elseif ($id==6) {
-                   echo '<div class="middleBox">
-                                <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                                        <ul class="sidenav">
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 1st year</a></li>
+                // elseif ($id==6) {
+                //    echo '<div class="middleBox">
+                //                 <div class="title">SYLLABUS</div>
+                //                 <div class="headingPara">
+                //                         <ul class="sidenav">
+                //                             <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 1st year</a></li>
 
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 2nd year</a></li>
+                //                             <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 2nd year</a></li>
 
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 3rd year</a></li>
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 4th year</a></li>
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 1st year</a></li>
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 2nd year</a></li>
+                //                             <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 3rd year</a></li>
+                //                             <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 4th year</a></li>
+                //                             <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 1st year</a></li>
+                //                             <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 2nd year</a></li>
                                             
-                                        </ul>
-                                </div>
-                          </div>';
-                }
-                elseif ($id==7) {
-                    echo '<div class="middleBox">
+                //                         </ul>
+                //                 </div>
+                //           </div>';
+                // }
+                // elseif ($id==7) {
+                //     echo '<div class="middleBox">
 
-                                <div class="title">TIME TABLE </div>
-                                <div class="headingPara">
-                                     <ul class="sidenav">
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 2nd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 3rd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 4th year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 2nd year</a></li>
+                //                 <div class="title">TIME TABLE </div>
+                //                 <div class="headingPara">
+                //                      <ul class="sidenav">
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 1st year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 2nd year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 3rd year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Arch 4th year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 1st year</a></li>
+                //                             <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Plan 2nd year</a></li>
                                             
-                                    </ul>
-                                </div>
-                          </div>';
-                }
+                //                     </ul>
+                //                 </div>
+                //           </div>';
+                // }
                 // elseif ($id==8) {
                 //     echo '<div class="middleBox">
                 //                         <div class="title">
@@ -304,6 +304,19 @@
                 //                         </div>
                 //                 </div>';
                 // }
+                elseif(isset($_GET['name']) && $_GET['name'] !='')
+                    {     
+                        $username=$_GET['name'];
+                        echo '
+                        <div class="middleBox">
+                            <div class="title">
+                                Department of Architecture and Planning
+                                <br>
+                                Faculty Profile
+                            </div>';
+                        getFacultyInfo($username);
+                        echo '</div>';
+                    }
                 else{
                     echo '<div class="box-1">
                     <div class="title">

@@ -54,8 +54,8 @@
                         <li><a href="ece.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Achievements</a></li>
                         <li><a href="ece.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Events/Workshops/Seminars</a></li>
                         <li><a href="ece.php?id=5" id="5"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Labs</a></li>
-                        <li><a href="ece.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
-                        <li><a href="ece.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <!-- <li><a href="ece.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <li><a href="ece.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
                         <!-- <li><a href="ece.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li> -->
 <!-- SMDP for Chip to System Design ????? -->
                     </ul>
@@ -140,119 +140,142 @@
                                    DSP LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                               
                                 </div>
                                 <div class="title">
                                    COMMUNICATION LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                This laboratory caters the students of Electronics Department. The general objective
+                                of this lab is to make the student understand the basic building blocks of analog
+                                communication systems and different analog modulation techniques. The student
+                                can further use these conceptual skills in the course of his/her own experimental
+                                projects in various fields and advance subjects pertaining to communication field. 
+                                    <a href="ecelabpdfs/communication.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                    ANALOG ELECTRONICS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                
+                                This laboratory caters the students of all the branches of B.Tech. The objective of
+                                this laboratory is to link the theoretical concepts of analog electronics and Digital
+                                Electronics circuits with practical feasibility thereby giving them a scope to learn
+                                basic analog & digital electronics and their different electrical characteristics in a
+                                better way. This lab is adequately equipped to conduct the experiments of Analog
+                                & Digital Electronics. <a href="ecelabpdfs/analog.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                    MICROWAVE LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                
+            This laboratory caters the students of ECE Department of B.Tech branch. The objective of this
+                laboratory is to link the theoretical concepts with practical feasibility thereby giving them a scope
+                to learn basic circuitry and various waveguides of Microwave Engineering with their
+                characteristics in a better way. This laboratory also caters the students of ECE about the basic
+                concept of working principle of Radar Training system and its Doppler effect.    
+                                <a href="ecelabpdfs/microwave.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                 TELE COMMUNICATION NETWORKS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                                   
                                 </div>
                                 <div class="title">
                                    MICROPROCESSOR LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                                    <a href="ecelabpdfs/microprocessor.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                    DIGITAL CIRCUIT & SYSTEMS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                                    <a href="ecelabpdfs/digital.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                    ELECTRICAL SCIENCE LAB/CONTROL ENGINEERING LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                About Electrical Science Lab: Department of ECE offers one laboratory course of Electrical
+                                Science to all the branches (ECE, CSE, IT, ME, ASH) of first year undergraduate course and
+                                courses of Network Analysis & Synthesis, Electronics Measurement and Instrumentation
+                                mainly to ECE students. In this lab, experiments are conducted which include study of
+                                various laws of electrical energy like thevenins theorem, Norton’s theorem, Maximum Power
+                                transfer theorem, Reciprocity theorem etc, analysis of AC and DC circuits, study of different
+                                network techniques like Z-, Y-, ABCD, H-parameters, study of characteristics of different
+                                types of transducer, photo transistor, photo voltaic cell, photoconductivity cell, PIN
+                                photodiode, analog and digital multimeter, ammeter, voltmeter.
+                                
+                                    <a href="ecelabpdfs/electrical.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                    CIRCUIT & SYSTEMS LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                                   
                                 </div>
                                 <div class="title">
                                    MOBILE COMMUNICATION LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                                   
                                 </div>
                                 <div class="title">
                                    VLSI DESIGN LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                Content Not Available.
+                                    <a href="ecelabpdfs/vlsi.pdf">...Read More</a>
                                 </div>
                                 <div class="title">
                                    OPTICAL COMMUNICATION LAB
                                 </div>
                                 <div class="headingPara">
-                                <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
-                                    <a href="">...Read More</a>
+                                
+                                    Content Not Available.
                                 </div>
 
                                
 </div>';
                      }
-                     elseif ($id==6) {
-                        echo '<div class="middleBox">
-                                <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                                        <ul class="sidenav">
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech </a></li>
-                                            <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI</a></li>
+                    //  elseif ($id==6) {
+                    //     echo '<div class="middleBox">
+                    //             <div class="title">SYLLABUS</div>
+                    //             <div class="headingPara">
+                    //                     <ul class="sidenav">
+                    //                         <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech </a></li>
+                    //                         <li><a href="syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI</a></li>
                                             
-                                        </ul>
-                                </div>
-                          </div>';
-                     }
-                     elseif ($id==7) {
-                         echo '<div class="middleBox">
+                    //                     </ul>
+                    //             </div>
+                    //       </div>';
+                    //  }
+                    //  elseif ($id==7) {
+                    //      echo '<div class="middleBox">
 
-                                <div class="title">TIME TABLE </div>
-                                <div class="headingPara">
-                                     <ul class="sidenav">
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI 2nd year</a></li>
-                                    </ul>
-                                </div>
-                          </div>';
+                    //             <div class="title">TIME TABLE </div>
+                    //             <div class="headingPara">
+                    //                  <ul class="sidenav">
+                    //                         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
+                    //                         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
+                    //                         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
+                    //                         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
+                    //                         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI 1st year</a></li>
+                    //                         <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech VLSI 2nd year</a></li>
+                    //                 </ul>
+                    //             </div>
+                    //       </div>';
                 
-                     }
+                    //  }
                     //  elseif ($id==8) {
                         
                     // echo '<div class="middleBox">
@@ -268,7 +291,20 @@
                     //             </ul>
                     //         </div>
                     //     </div>';
-                    //  }
+                    //  }Electronics & Communication Engineering 
+                    elseif(isset($_GET['name']) && $_GET['name'] !='')
+                    {     
+                        $username=$_GET['name'];
+                        echo '
+                        <div class="middleBox">
+                            <div class="title">
+                                Department of Electronics & Communication Engineering 
+                                <br>
+                                Faculty Profile
+                            </div>';
+                        getFacultyInfo($username);
+                        echo '</div>';
+                    }
                     else{
                         echo ' <div class="box-1">
                     <div class="title">

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Us</title>
+    <title>Academics</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -14,7 +14,7 @@
 
 
 <!-- main stylesheet -->
-    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/AboutUs.css">
+    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/departments.css">
 </head>
 
 <body onload="main()">
@@ -180,7 +180,7 @@
                </tr>
                <tr>
                    <th>M.C.A.</th>
-                   <td></td>Computer Applications</td>
+                   <td>Computer Applications</td>
                    <td>3 yrs</td>
                    <td>IT</td>
                    <td>60</td>
@@ -342,34 +342,34 @@ else if($id==5){
               <th colspan="3" style="text-align:center"><b>ODD SEMESTER (AUG-DEC,2019)</b></th>
           </tr>
           <tr>
-              <td><b>Information Technology</td>
+              <td>Information Technology</td>
               <td><a target="_blank" href="pdfs/ODD_IT.pdf">pdf</a>
           </tr>
           <tr>
-              <td><b>Electronics & Communication Engineering</td>
+              <td>Electronics & Communication Engineering</td>
               <td><a target="_blank" href="pdfs/ECE CLASS TT Aug 2019.pdf">pdf</a>
           </tr>
           <tr>
               <th colspan="3" style="text-align:center"><b>EVEN SEMESTER (JAN-MAY,2019)</b></th>
           </tr>
           <tr>
-              <td><b>Computer Science Engineering</td>
+              <td>Computer Science Engineering</td>
               <td><a target="_blank" href="pdfs/merged.pdf">pdf</a>
           </tr>
           <tr>
-              <td><b>Information Technology</td>
+              <td>Information Technology</td>
               <td><a target="_blank" href="pdfs/Even Semester Time Table 1.pdf">pdf</a>
           </tr>
           <tr>
-              <td><b>Electronics & Communication Engineering</td>
+              <td>Electronics & Communication Engineering</td>
               <td><a target="_blank" href="pdfs/Time_Table_ECE_Jan_EVEN_2019_UPLOAD.pdf">pdf</a>
           </tr>
           <tr>
-              <td><b>Mechanical & Automation Engineering</td>
+              <td>Mechanical & Automation Engineering</td>
               <td><a target="_blank" href="pdfs/MAE timetable Jan 2019.pdf">pdf</a>
           </tr>
           <tr>
-              <td><b>Architecture & Planning</td>
+              <td>Architecture & Planning</td>
               <td><a target="_blank" href="pdfs/TT B.Arch.pdf">pdf</a>
           </tr>
 
@@ -382,6 +382,8 @@ else if($id==5){
            </div>
          </div>
           <!-- footer -->
+          <br>
+          <br>
           <?php include 'footer.php'?>
       </body>
       </html>

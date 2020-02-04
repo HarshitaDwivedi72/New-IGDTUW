@@ -63,9 +63,9 @@
 
                          <!-- <li><a href="computerScience.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Expert Lectures</a></li> -->
 
-                        <li><a href="computerScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
+                        <!-- <li><a href="computerScience.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Syllabus</a></li>
 
-                        <li><a href="computerScience.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li>
+                        <li><a href="computerScience.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a></li> -->
                         <!-- <li><a href="computerScience.php?id=10" id="10"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Lab Manuals</a></li> -->
                        
                         
@@ -144,7 +144,8 @@
                                         Achievements
                                     </div>
                                     <div class="headingPara">';
-                    getAchievements("CSE");
+                        
+                                    getAchievements("CSE");
                                     echo '</div>
                                         </div>';
                }
@@ -186,7 +187,7 @@
                                                Programming Lab
                                     </div>
                                     <div class="headingPara">
-                                        <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                        
                                             
                                         This lab is primarily is used for general programming and computational purpose. C, C++, Java etc practicals are scheduled in this lab. 
                                         <br><br>
@@ -211,7 +212,7 @@
                                                 DBMS Lab
                                     </div>
                                     <div class="headingPara">
-                                        <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                       
                                              This lab is used to conduct the practicals based on DBMS, Multimedia and Computer graphics for all the branches of students. 
                                              <br><br>
                                              <b>Softwares in Lab</b>
@@ -235,7 +236,7 @@
                                                Networking Lab
                                     </div>
                                     <div class="headingPara">
-                                        <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                        
                                               This lab is used for conducting the practicals based on computer networks, LAN, Advanced Compute Networks for various stream.
                                               <br>
                                               <br>
@@ -260,7 +261,7 @@
                                               Embedded Systems Design and Mobile Architecture Lab 
                                     </div>
                                     <div class="headingPara">
-                                        <img src="" alt="Image does not exists." class="labImages" height="200px" width="auto">
+                                       
                                               There is tremendous growth in the field of mobile and embedded technologies due to the availability of various software tools and a variety of cheap hardware that drives these systems. The objective of this lab is to provide an exposure in the field of hardware and software architecture of the mobile devices and Embedded Systems and research in this area.This lab is used to conduct practical on Embedded Systems for both M.Tech and B.Tech students. Students in this course will demonstrate their complete design, development of embedded systems starting from the scratch. Special training programmes are conducted in the area of Mobile Architecture and Programming for the students and faculty members every year.
                                               <br>
                                               
@@ -296,37 +297,37 @@
             //             </div>
             //         ';
             //    }
-               elseif($id==8) {
-                   # code...
-                    echo '<div class="middleBox">
-                                <div class="title">SYLLABUS</div>
-                                <div class="headingPara">
-                                        <ul class="sidenav">
-                                            <li><a href="Syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech </a></li>
-                                            <li><a href="Syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech</a></li>
+            //    elseif($id==8) {
+            //        # code...
+            //         echo '<div class="middleBox">
+            //                     <div class="title">SYLLABUS</div>
+            //                     <div class="headingPara">
+            //                             <ul class="sidenav">
+            //                                 <li><a href="Syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech </a></li>
+            //                                 <li><a href="Syllabus/" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech</a></li>
                                             
-                                        </ul>
-                                </div>
-                          </div>';
-               }
-               elseif ($id==9) {
-                   # code...
-                    echo '<div class="middleBox">
+            //                             </ul>
+            //                     </div>
+            //               </div>';
+            //    }
+            //    elseif ($id==9) {
+            //        # code...
+            //         echo '<div class="middleBox">
 
-                                <div class="title">TIME TABLE </div>
-                                <div class="headingPara">
-                                     <ul class="sidenav">
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 1st year</a></li>
-                                            <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 2nd year</a></li>
+            //                     <div class="title">TIME TABLE </div>
+            //                     <div class="headingPara">
+            //                          <ul class="sidenav">
+            //                                 <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 1st year</a></li>
+            //                                 <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 2nd year</a></li>
+            //                                 <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 3rd year</a></li>
+            //                                 <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.Tech 4th year</a></li>
+            //                                 <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 1st year</a></li>
+            //                                 <li><a href="" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>M.Tech 2nd year</a></li>
                                             
-                                    </ul>
-                                </div>
-                          </div>';
-               }
+            //                         </ul>
+            //                     </div>
+            //               </div>';
+            //    }
             //    elseif ($id==10) {
             //        # code...
             //         echo '<div class="middleBox">
@@ -359,7 +360,19 @@
             //                             </div>
             //                     </div>';
             //    }
-
+            elseif(isset($_GET['name']) && $_GET['name'] !='')
+            {     
+                $username=$_GET['name'];
+                echo '
+                <div class="middleBox">
+                    <div class="title">
+                        Department of Computer Science and Engineering
+                        <br>
+                        Faculty Profile
+                    </div>';
+                getFacultyInfo($username);
+                echo '</div>';
+            }
                else{
                 echo ' <div class="box-1">
                             <div class="title">

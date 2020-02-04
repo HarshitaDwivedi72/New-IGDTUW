@@ -14,7 +14,7 @@
 
 
 <!-- main department stylesheet -->
-    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/AboutUs.css">
+    <link rel="stylesheet" class="stylesheet" href="stylesheet/style1/departments.css">
 </head>
 
 <body onload="main()">
@@ -24,9 +24,7 @@
 
             var r=<?php echo $_GET['id'];?>;
             $('#'+r).addClass('high');
-            if(r==7){
-              $('#3').addClass('high');
-            }
+            
         }
     </script>
     <?php
@@ -89,7 +87,7 @@
                             <i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management and Technology.<br><br>
                             <i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>To become one of the top technical Universities in the country known for its value based, quality technical education supported with industry relevant research, with focus on environmental and social issues.
                         </div>
-                      
+
                       <div class="title">
                                 MISSION
                       </div>
@@ -124,7 +122,7 @@
                             <li><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>To publish periodicals, treatises, studies, books, reports, journals and other literatures on subjects pertinent to academic areas of the university, including electronics resources.</li>
                         </ul>
                      </div>
-                    
+
               </div>';
              }
 
@@ -135,15 +133,15 @@
             VICE CHANCELLOR
             </div>
             <div class="profile">
-                            
+
             <div class="pHeading">“You Educate a Man; You Educate a Man.<br>
             You Educate a Woman; You Educate a Generation.”</div>
-            
+
             </div>
 
-            
+
             <div class="headingPara">
-                  <img src="images/Pro_vc.png" class="hodImage" alt="Dr(Mrs). Amita Dev" width="auto" height="200px">   
+                  <img src="images/Pro_vc.png" class="hodImage" alt="Dr(Mrs). Amita Dev" width="auto" height="200px">
                   It feels great to be the wind beneath the wings of one of the top ranking Emerging Engineering Institutes of Technology in India. The devouring stride of IGDTUW, since its inception in 1998 as IGIT, has been exemplary, culminating in transforming itself into an icon for women empowerment. To be a vibrant part of this illustrious edifice of teaching and learning is certainly a matter of stupendous pride and a new-found privilege for me. <br>
                   IGDTUW has evolved to become a national flagship, research-led university with a mission to foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management and Technology, thereby attempting to strike out a fine balance between world of work and life. The university vows to devise sustainable systems and state-of-the-art infrastructure to enable the Indian women to dawn the role of future leaders, managers, researchers and productive team players in the field of science, technology.<br>
                   The University offers a number of B.Tech, B.Arch, M.Tech and Ph.D programmes in faculty of Engineering and Technology. It also aims at teaching, training and elevating the students to an independent level where they can achieve higher level of excellence and professionalism.<br>
@@ -153,8 +151,8 @@
                 <br><br>
                 <b>Dr(Mrs).Amita Dev
                 <br>
-                Vice Chancellor, IGDTUW 
-                </b> 
+                Vice Chancellor, IGDTUW
+                </b>
                 <strong>
                 <a class="sidenav" href="AboutUs.php?id=7">Brief Profile of Dr(Mrs). Amita Dev</a> </strong>
             </div>
@@ -165,10 +163,6 @@
           <div class="title">
           REGISTRAR
           </div>
-          
-            
-          
-
           <div class="headingPara">
           <img src="images/rksingh.jpg" class="hodImage" alt="Prof. R.K. Singh" width="auto" height="200px">
            <b>”Education is not the learning of facts, but the training of the mind to think.”</b>
@@ -190,6 +184,412 @@
       </div>
     </div>';
   }
+  elseif($id==5 ) {
+    echo '
+    <div class="middleBox">
+        <div class="title">
+        STATUTORY BODIES OF UNIVERSITY
+        </div>
+        <div class="headingPara">
+        <div class="title">
+        University Court
+        </div>
+        The University Court is highest Authority of the University. As per the IGDTU Act, the Court shall review, from time to time, the broad policies and programmes of the University and suggest measures for improvement and development of the University. The first Court of the University has been constituted vide Order No. F.16(5)/Plg/IGDTUW/2017/13-22 dated the 1st March 2017, and it has following composition:
+        <table>
+        <tr>
+        <td style="width:5px;">1.</td>
+        <td>Chancellor, IGDTUW</td>
+        <td style="width:8px;">Chairperson</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">2.</td>
+        <td>Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">3.</td>
+        <td>Pro Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">4.</td>
+        <td>Principal Secretary or Secretary, Technical Education,Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">5.</td>
+        <td>Principal Secretary or Secretary, Higher Education,Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">6.</td>
+        <td>Principal Secretary or Secretary, Finance,Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">7.</td>
+        <td>Two eminent persons in discipline of basic and applied science, engineering, technology and management nominated by Chancellor, IGDTUW</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">8.</td>
+        <td>All Deans of the University (Ex-Officio)</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">9.</td>
+        <td>Registrar, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member Secretary</td>
+        </tr>
+        </table>
+        <b>MINUTES OF MEETINGS OF UNIVERSITY COURT:-</b>
+        <table>
+          <tr>
+            <th style="">Minutes of Meeting</th>
+            <th>Date of Upload</th>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/1st_court_minutes.pdf">1st Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/2nd_court_minutes.pdf">2nd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+        </table>
+
+        <div class="title">
+        Board of Management
+        </div>
+        The Board of Management is the Principal Executive Authority of the University and as such has all powers necessary to administer the University subject to the provisions of the University Act and Statutes. The Board of Management of the university was initially constituted vide Order No. F.16(1)/Plg.(BOM)/2013/2079-2109 dated 23rd Octber 2013 read with Order No. F.16(1)/Plg.(BOM)/2013/4815-4821 dated 28th January 2015. The Board of Management has following composition:-
+        <table>
+        <tr>
+        <td style="width:5px;">1.</td>
+        <td>Chairperson has be eminent educationalist or eminent scientist or eminent engineer/technologist or eminent industrialist to be nominated by Chancellor in the manner prescribed</td>
+        <td style="width:8px;">Chairperson</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">2.</td>
+        <td>Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">3.</td>
+        <td>Pro Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">4.</td>
+        <td>Four persons having practical knowledge or special experience in respect of education, engineering and technology, domain of application of technology, to be nominated by Chancellor, from a panel of eight persons submitted by Vice Chancellor</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">5.</td>
+        <td>Two representatives of the Industries/Organizations, to be nominated by Vice Chancellor</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">6.</td>
+        <td>Representative of University Grants Commission (UGC)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">7.</td>
+        <td>Two eminent persons in discipline of basic and applied science, engineering, technology and management nominated by Chancellor, IGDTUW
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">8.</td>
+        <td>Principal Secretary or Secretary, Higher Education, Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">9.</td>
+        <td>Principal Secretary or Secretary, Higher Education, Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">10.</td>
+        <td>Principal Secretary or Secretary, Finance, Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">11.</td>
+        <td>Any two Deans of University nominated by Vice Chancellor on rotation basis</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">12.</td>
+        <td>Any two Professors of University nominated by Vice Chancellor on rotation basis</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">13.</td>
+        <td>Other members as prescribed by the Statue.</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">14.</td>
+        <td>Registrar, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member Secretary</td>
+        </tr>
+        </table>
+        <b>MINUTES OF MEETINGS OF BOARD OF MANAGEMENT:-</b>
+        <table>
+          <tr>
+            <th style="">Minutes of Meeting</th>
+            <th>Date of Upload</th>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/01 BOM Minutes.pdf">1st Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/02 BOM Minutes.pdf">2nd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/03 bom minutes.pdf">3rd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/04 bom minutes.pdf">4th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/05 BOM Minutes.pdf">5th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/06 bom.pdf">6th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/07 bom com.pdf">7th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/eight bom minutes.pdf">8th Meeting</a></td>
+            <td>12-11-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/revised minutes 8th bom.pdf">8th Meeting (revised)</a></td>
+            <td>12-11-2018</td>
+          </tr>
+          <tr>
+            <td style="w"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/9th bom minutes.pdf">9th Meeting</a></td>
+            <td>06-06-2019</td>
+          </tr>
+        </table>
+
+        <div class="title">
+        Finance Committee
+        </div>
+        The Finance Committee of the University is responsible for providing its recommendations on all financial matters of the University to the Board of Management. The Finance Committee of the University has been constituted vide Order No. F.16(01)/Plg/2017/ dated the 9th March 2017, which has following composition:-
+        <table>
+        <tr>
+        <td style="width:5px;">1.</td>
+        <td>Chairman, Board of Management. (Ex-Officio)</td>
+        <td style="width:8px;">Chairperson</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">2.</td>
+        <td>Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">3.</td>
+        <td>Pro Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">4.</td>
+        <td>Cromtroller of Accounts, Govt. of NCT of Delhi</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">5.</td>
+        <td>Principal Secretary or Secretary, Technical Education, Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">6.</td>
+        <td>Principal Secretary or Secretary, Finance, Govt. of NCT of Delhi (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">7.</td>
+        <td>Two Deans of University nominated by Vice Chancellor</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">8.</td>
+        <td>Two HODs of University by rotation based on seniority</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">9.</td>
+        <td>Two other members nominated by BOM from amonst its members of whom at least one should be employee of University</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">10.</td>
+        <td>Any such members as prescribed by Statues</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">11.</td>
+        <td>Registrar, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member Secretary</td>
+        </tr>
+        </table>
+        <b>MINUTES OF MEETINGS OF FINANCE COMMITEE:-</b>
+        <table>
+          <tr>
+            <th style="">Minutes of Meeting</th>
+            <th>Date of Upload</th>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/01 fc minutes.pdf">Constitution of FC</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/02 fc minutes.pdf">2nd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/03 fc minutes.pdf">3rd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/04 fc minutes.pdf">4th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/05 fc minutes.pdf">5th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/6th Finance Commitee minutes.pdf">6th Meeting</a></td>
+            <td>06-04-2019</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/7th fc minutes.pdf">7th Meeting</a></td>
+            <td>06-06-2019</td>
+          </tr>
+        </table>
+
+        <div class="title">
+        Academic Council
+        </div>
+        The Academic Council is the Principal Academic body of the University and shall, subject to the provisions of the University Act, the Statutes and the Ordinances, have the control and regulations of, and be responsible for, the maintenance of standards of instructions, education, research and examination within the University. The Academic Council of the University has been reconstituted vide Order No. F.16(27)/Plg/IGDTUW/2016/3203-30 dated the 8th September 2016, it has following composition:-
+        <table>
+        <tr>
+        <td style="width:5px;">1.</td>
+        <td>Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Chairperson</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">2.</td>
+        <td>Pro Vice Chancellor, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">3.</td>
+        <td>Four persons who are not employee of University to be co-opted by Academic Council on recommendations of Vice Chancellor from amongst educationalists, scientists or engineers of repute.</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">4.</td>
+        <td>A nominee of University Grants Commission</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">5.</td>
+        <td>A nominee of All India Council for Technical Education</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">6.</td>
+        <td>A nominee of Industry Association namely NASCOM, ASSOCHAM, FICCI, etc.</td>
+        <td style="width:8px;">Member</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">7.</td>
+        <td>All Deans of University (ex-Officio)</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">8.</td>
+        <td>All HODs of University (ex-Officio)</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">9.</td>
+        <td>One Professor, one Associate Professor, one Assistant Professor to be nominated by Vice Chancellor on rotation basis</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">10.</td>
+        <td>Any such members as prescribed by Statues</td>
+        <td style="width:8px;">Members</td>
+        </tr>
+        <tr>
+        <td style="width:5px;">11.</td>
+        <td>Registrar, IGDTUW (Ex-Officio)</td>
+        <td style="width:8px;">Member Secretary</td>
+        </tr>
+        </table>
+        <b>MINUTES OF MEETINGS OF ACADEMIC COUNCIL:-</b>
+        <table>
+          <tr>
+            <th style="">Minutes of Meeting</th>
+            <th>Date of Upload</th>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/01 ac minutes.pdf">1st Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/02 ac minutes.pdf">2nd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/03 AC minutes.pdf">3rd Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/04 ac minutes.pdf">4th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/05 ac minutes.pdf">5th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/06-ac-minutes.pdf">6th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/07-ac-minutes.pdf">7th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/08-ac-minutes.pdf">8th Meeting</a></td>
+            <td>01-06-2018</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/9th acedemic council minutes.pdf">9th Meeting</a></td>
+            <td>06-04-2019</td>
+          </tr>
+          <tr>
+            <td style=""><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i><a href="pdfs/10 acedemic counil minutes.pdf">10th Meeting</a></td>
+            <td>06-06-2019</td>
+          </tr>
+        </table>
+        </div>
+        </div>';
+      }
    elseif($id==6){
    echo '
   <div class="middleBox">
@@ -206,178 +606,178 @@
             <th style="">PHONE</th>
         </tr>
         <tr>
-            <th style="">Sh. Anil Baijal, Lt. Governor of Delhi</th>
-            <th style="">Chancellor</th>
-            <th style=""></th>
-            <th style=""></th>
+            <td style="">Sh. Anil Baijal, Lt. Governor of Delhi</td>
+            <td style="">Chancellor</td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Dr. (Mrs.) Amita Dev</th>
-        <th style="">Vice Chancellor</th>
-        <th style="">vc@igdtuw.ac.in, provc@igdtuw.ac.in</th>
-        <th style="">011-23900220, 011-23869525</th>
+            <td style="">Dr. (Mrs.) Amita Dev</td>
+            <td style="">Vice Chancellor</td>
+            <td style="">vc@igdtuw.ac.in, provc@igdtuw.ac.in</td>
+            <td style="">011-23900220, 011-23869525</td>
         </tr>
         <tr>
             <td colspan="4" style="text-align:center"><b>DEANS AND DEPUTY DEANS OF UNIVERSITY</b></td>
         </tr>
         <tr>
-        <th style="">Prof. Ashwni Kumar</th>
-        <th style="">Dean (International Relations)</th>
-        <th style="">drashwnikumar@gmail.com</th>
-        <th style="">011-23900300</th>
+            <td style="">Prof. Ashwni Kumar</td>
+            <td style="">Dean (International Relations)</td>
+            <td style="">drashwnikumar@gmail.com</td>
+            <td style="">011-23900300</td>
         </tr>
         <tr>
-        <th style="">Prof. Devendra K. Tayal</th>
-        <th style="">Dean (Academic Affairs)</th>
-        <th style="">deanacademics@igdtuw.ac.in</th>
-        <th style="">011-23900204</th>
+            <td style="">Prof. Devendra K. Tayal</td>
+            <td style="">Dean (Academic Affairs)</td>
+            <td style="">deanacademics@igdtuw.ac.in</td>
+            <td style="">011-23900204</td>
         </tr>
         <tr>
-        <th style="">Prof. S. R. N. Reddy</th>
-        <th style="">Dean (Examinations)</th>
-        <th style="">deanexam@igdtuw.ac.in</th>
-        <th style="">011-23900260</th>
+            <td style="">Prof. S. R. N. Reddy</td>
+            <td style="">Dean (Examinations)</td>
+            <td style="">deanexam@igdtuw.ac.in</td>
+            <td style="">011-23900260</td>
         </tr>
         <tr>
-        <th style="">Prof. Ela Kumar</th>
-        <th style="">Dean (Student Welfare) & Chief Proctor</th>
-        <th style="">deansw@igdtuw.ac.in</th>
-        <th style="">011-23900204</th>
+            <td style="">Prof. Ela Kumar</td>
+            <td style="">Dean (Student Welfare) & Chief Proctor</td>
+            <td style="">deansw@igdtuw.ac.in</td>
+            <td style="">011-23900204</td>
         </tr>
         <tr>
-        <th style="">Prof. R. K. Singh</th>
-        <th style="">Dean (Planning & Development)</th>
-        <th style="">rksingh@igdtuw.ac.in</th>
-        <th style="">011-23900221</th>
+            <td style="">Prof. R. K. Singh</td>
+            <td style="">Dean (Planning & Development)</td>
+            <td style="">rksingh@igdtuw.ac.in</td>
+            <td style="">011-23900221</td>
         </tr>
         <tr>
-        <th style="">Dr. Ranu Gadi</th>
-        <th style="">Deputy Dean (Industrial Research & Development)</th>
-        <th style="">ranugadi@igdtuw.ac.in</th>
-        <th style="">011-23900234</th>
+            <td style="">Dr. Ranu Gadi</td>
+            <td style="">Deputy Dean (Industrial Research & Development)</td>
+            <td style="">ranugadi@igdtuw.ac.in</td>
+            <td style="">011-23900234</td>
         </tr>
         <tr>
-        <th style="">Dr. Chhaya Ravikant</th>
-        <th style="">Deputy Dean (Research & Collaboration)</th>
-        <th style="">researchwing@igdtuw.ac.in </th>
-        <th style="">011-23900234</th>
+            <td style="">Dr. Chhaya Ravikant</td>
+            <td style="">Deputy Dean (Research & Collaboration)</td>
+            <td style="">researchwing@igdtuw.ac.in </td>
+            <td style="">011-23900234</td>
         </tr>
         <tr>
             <td colspan="4" style="text-align:center"><b>HEAD OF DEPARTMENTS AND COORDINATORS</b></td>
         </tr>
         <tr>
-        <th style="">Dr. Arun Sharma</th>
-        <th style="">HOD (Information Technology)</th>
-        <th style="">arunsharma@igdtuw.ac.in</th>
-        <th style="">011-23900273</th>
+            <td style="">Dr. Arun Sharma</td>
+            <td style="">HOD (Information Technology)</td>
+            <td style="">arunsharma@igdtuw.ac.in</td>
+            <td style="">011-23900273</td>
         </tr>
         <tr>
-        <th style="">Dr. Shalini Arora		</th>
-        <th style="">HOD (Applied Science & Humanities)</th>
-        <th style="">shaliniarora@igdtuw.ac.in</th>
-        <th style=""></th>
+            <td style="">Dr. Shalini Arora		</td>
+            <td style="">HOD (Applied Science & Humanities)</td>
+            <td style="">shaliniarora@igdtuw.ac.in</td>
+            <td style=""></th>
         </tr>
         <tr>
-        <th style="">Dr. Manoj Soni		</th>
-        <th style="">HOD (Mechanical & Automation Engineering)</th>
-        <th style="">manoj.soni2002@gmail.com</th>
-        <th style=""></th>
+            <td style="">Dr. Manoj Soni		</td>
+            <td style="">HOD (Mechanical & Automation Engineering)</td>
+            <td style="">manoj.soni2002@gmail.com</td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Dr. Preeti Chauhan		</th>
-        <th style="">HOD (Architecture & Planning)</th>
-        <th style="">preetichauhan@igdtuw.ac.in</th>
-        <th style=""></th>
+            <td style="">Dr. Preeti Chauhan		</td>
+            <td style="">HOD (Architecture & Planning)</td>
+            <td style="">preetichauhan@igdtuw.ac.in</td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Dr. Nidhi Goel		</th>
-        <th style="">HOD (Electronics & Communication Engineering)</th>
-        <th style="">nidhigoel@igdtuw.ac.in</th>
-        <th style=""></th>
+            <td style="">Dr. Nidhi Goel		</td>
+            <td style="">HOD (Electronics & Communication Engineering)</td>
+            <td style="">nidhigoel@igdtuw.ac.in</td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Dr. Dhanjay Yadav		</th>
-        <th style="">Coordinator (Management)</th>
-        <th style="">dhanyadav@gmail.com</th>
-        <th style=""></th>
+            <td style="">Dr. Dhanjay Yadav		</td>
+            <td style="">Coordinator (Management)</td>
+            <td style="">dhanyadav@gmail.com</td>
+            <td style=""></td>
         </tr>
         <tr>
             <td colspan="4" style="text-align:center"><b>TRAINING AND PLACEMENT OFFICERS</b></td>
         </tr>
         <tr>
-        <th style="">Dr. N. R. Chauhan	</th>
-        <th style="">TPO (MAE)</th>
-        <th style="">tpo@igdtuw.ac.in, nrchauhan@igdtuw.ac.in</th>
-        <th style="">011-23900216</th>
+            <td style="">Dr. N. R. Chauhan	</td>
+            <td style="">TPO (MAE)</td>
+            <td style="">tpo@igdtuw.ac.in, nrchauhan@igdtuw.ac.in</td>
+            <td style="">011-23900216</td>
         </tr>
         <tr>
-        <th style="">Dr. Jasdeep Kaur Dhanoa	</th>
-        <th style="">TPO (CSE,IT,ECE)</th>
-        <th style="">tpo@igdtuw.ac.in, jasdeep@igdtuw.ac.in</th>
-        <th style=""></th>
+            <td style="">Dr. Jasdeep Kaur Dhanoa	</td>
+            <td style="">TPO (CSE,IT,ECE)</td>
+            <td style="">tpo@igdtuw.ac.in, jasdeep@igdtuw.ac.in</td>
+            <td style=""></td>
         </tr>
         <tr>
             <td colspan="4" style="text-align:center"><b>ADMINISTRATION</b></td>
         </tr>
         <tr>
-        <th style="">Prof. R. K. Singh	</th>
-        <th style="">Officiating Registrar</th>
-        <th style="">registrar@igdtuw.ac.in</th>
-        <th style="">011-23900221</th>
+            <td style="">Prof. R. K. Singh	</td>
+            <td style="">Officiating Registrar</td>
+            <td style="">registrar@igdtuw.ac.in</td>
+            <td style="">011-23900221</td>
         </tr>
         <tr>
-        <th style="">Dr. Preeti Chauhan</th>
-        <th style="">Deputy Registrar</th>
-        <th style="">drgadmin@igdtuw.ac.in</th>
-        <th style=""></th>
+            <td style="">Dr. Preeti Chauhan</td>
+            <td style="">Deputy Registrar</td>
+            <td style="">drgadmin@igdtuw.ac.in</td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Mr. Sunny	Deputy 	</th>
-        <th style="">Finance Officer</th>
-        <th style="">inchargefinance@igit.ac.in	</th>
-        <th style=""></th>
+            <td style="">Mr. Sunny	Deputy 	</td>
+            <td style="">Finance Officer</td>
+            <td style="">inchargefinance@igit.ac.in	</td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Dr. Sanjib Kumar Sahu		</th>
-        <th style="">Deputy Controller of Examinations</th>
-        <th style="">sahusanjib1977@gmail.com	</th>
-        <th style=""></th>
+            <td style="">Dr. Sanjib Kumar Sahu		</td>
+            <td style="">Deputy Controller of Examinations</td>
+            <td style="">sahusanjib1977@gmail.com	</td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style=""></th>
-        <th style="">Incharge (General Administration)</th>
-        <th style=""></th>
-        <th style=""></th>
+            <td style=""></td>
+            <td style="">Incharge (General Administration)</td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style=""></th>
-        <th style="">Incharge(Purchase)</th>
-        <th style=""></th>
-        <th style=""></th>
+            <td style=""></td>
+            <td style="">Incharge(Purchase)</td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style=""></th>
-        <th style="">Incharge (Personnel Branch)</th>
-        <th style=""></th>
-        <th style=""></th>
+            <td style=""></td>
+            <td style="">Incharge (Personnel Branch)</td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style="">Mr. Subha Rao	</th>
-        <th style="">Assistant Finance Officer</th>
-        <th style=""></th>
-        <th style=""></th>
+            <td style="">Mr. Subha Rao	</td>
+            <td style="">Assistant Finance Officer</td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style=""></th>
-        <th style="">Assistant Accounts Officer</th>
-        <th style=""></th>
-        <th style=""></th>
+            <td style=""></td>
+            <td style="">Assistant Accounts Officer</td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
         <tr>
-        <th style=""></th>
-        <th style=""></th>
-        <th style=""></th>
-        <th style=""></th>
+            <td style=""></td>
+            <td style=""></td>
+            <td style=""></td>
+            <td style=""></td>
         </tr>
 
     </table>
@@ -418,7 +818,7 @@ else if($id==7){
                     <b>RESEARCH AREAS</b>
                     <br>Dr. Amita Dev has more than 33 years of experience in Industry, Teaching, Research and Administration. Her teaching and research areas include Artificial Neural Networks, Speech Processing, Opportunistic Networks, Speech Recognition Systems, MANETS, Advanced Computer Networks, Data Mining etc.
                       <br><br>She is the member of the Editorial Boards of several International and National journals. She is reviewer of research papers of International Journals, Conferences and also Examiner to Ph.D and M.Tech. thesis of different universities.
-                  
+
             </div>
 </div>';
 }
@@ -427,6 +827,9 @@ else if($id==7){
            </div>
          </div>
           <!-- footer -->
+          <br>
+          <br>
+          
           <?php include 'footer.php'?>
       </body>
       </html>
