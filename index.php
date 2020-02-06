@@ -139,7 +139,7 @@
                 <div class="vcQuote">
                     “YOU EDUCATE A MAN, YOU EDUCATE A MAN.<br>YOU EDUCATE A WOMAN, YOU EDUCATE A GENERATION.”
                 </div>
-                <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=601&Itemid=833" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
+                <a href="AboutUs.php?id=3" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
             </div>
             <div class="box-1">
                 <div class="title">
