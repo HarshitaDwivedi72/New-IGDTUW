@@ -46,7 +46,7 @@
                         <li><a href="tenders.php?id=4" id="4"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Tenders</a></li>
                         <li><a href="tenders.php?id=6" id="6"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Library</a></li>
                         <li><a href="tenders.php?id=7" id="7"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Hostels</a></li>
-                        <li><a href="tenders.php?id=8" id="8"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Bank</a></li>
+                        
 
                         <li><a href="tenders.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IT Services</a></li>
 
@@ -817,7 +817,14 @@ else if($id==20){
 </div>
 ';
 }
-
+else{
+    echo '<div class="middleBox">
+    <div class="title">ARCHIVES <br>old notices are achived here... </div>
+    <div class="headingPara"><table><tr><th>Title</th><th>Type of Notice</th><th>Expiry Date</th><th>File</th><th>Upload Date</th></tr>';
+    getArchives();
+       echo ' </table>
+    </div></div>';
+}
 
 // else if($id==5){
 //     echo '<div class="middleBox">

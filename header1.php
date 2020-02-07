@@ -143,7 +143,7 @@
  
                            </ul>
                         </li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown"  href="">PLACEMENTS
                               <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -151,7 +151,7 @@
                                <li><a href="">Companies Visited</a></li>
                                <li><a href="">Placement Record</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown"  href="Admission.php?id=1">ADMISSIONS
                               <span class="caret"></span></a>
