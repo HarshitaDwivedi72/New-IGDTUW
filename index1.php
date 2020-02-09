@@ -24,6 +24,8 @@
 
     <?php include 'header1.php';?>
     
+    <?php include 'backend/indexdynamic.php';?>
+    
     <div class="mainBox">
         <div class="container-fluid">
             <div class="flex-container-main">
@@ -118,18 +120,15 @@
                 </div>
                 <div class="latest-news">
                     <div class="title">
-                        Latest News
+                        Important Updates
                     </div>
                     <marquee behavior="scroll" direction="up" onmouseover="this.stop();" scrollamount="3" onmouseout="this.start();">
-
+                       
                         <ul>
-                            <li> <a href="https://www.igdtuw.ac.in/images/stories/admission%20downloads/Message%20of%20Honble%20VC%20IGDTUW.pdf" class="">Message of Hon'ble Vice Chancellor for Newly Admitted Students</a></li>
-                            <li> <a href="http://aist2019.com/" id="">International Conference on Artificial Intelligence and Speech Technologies(AIST, 2019) from 14-15 November, 2019 </a></li>
-                            <li> <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=254" class="">Advertisement, Guidelines and Application Form for various posts in Incubation Centre, IGDTUW </a></li>
-                            <li><a href="https://www.aicte-india.org/sites/default/files/Guidelines_CVA_2019.pdf" class="">AICTE Vishwakarma Awards 2019, For Information Click here</a></li>
-                            <li>
-                               <a href="https://swayam.gov.in/"> MHRD has launched Annual Refresher Program for Faculty of Computer Engg, an Online Course on SWAYAM starting 1st Oct 2019</a>
-                            </li>
+                        <?php
+                             getImportantupdates();
+                           ?>
+                            
                         </ul>
                     </marquee>
                 </div>
@@ -155,26 +154,7 @@
                 </div>
                 <a href="AboutUs.php?id=3" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
             </div>
-            <div class="bigBox">
-                <div class="title">
-                    <ul class="bigBoxUl">
-                        <li class="ENABoxTitle myturn" onclick="myBigBoxDiv(0)">Events</li>
-                        <li class="ENABoxTitle" onclick="myBigBoxDiv(1)">Notices</li>
-                        <li class="ENABoxTitle" onclick="myBigBoxDiv(2)">Achievements</li>
-                    </ul>
-                </div>
-                <ul class="ENABox Events active">
-                    <!-- <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=116&Itemid=288">Mini-Colloquium on "Trends and Challenges in Microelectronics and VLSI Design"  </a></li> -->
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Launch </a></li>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>One week Faculty Development Program (FDP) on Artificial Intelligence from 22- 26 July, 2019   </a></li>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Four Weeks Summer Internship on Cyber Security: Attack and Defence from 03rd June 2019 to 28th June 2019</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IGDTUW-Hacks First Hackathan of IGDTUW 1st-2nd June, 2019</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Summer worshop on Data Science and Machine Learning 27th -31st May, 2019</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/images/stories/NIRF/NIRF%20DATA%20%202019.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/DSW%20office%20activities%20on%20women%20safety.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Activities of DSW Office on Women Safety</a></li>
-                    <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
-                </ul>
-                <script>
+            <script>
                 function myBigBoxDiv(a){
                     console.log('started');
                     var box=document.getElementsByClassName('ENABox');
@@ -190,119 +170,46 @@
                     box[a].classList.add("active");
                 }
                 </script>
-                <!-- <div class="title hideme">
-                    NOTICES
-                </div> -->
-                <ul class="ENABox Notices">
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/IGDTUW%20UBA%20Banner.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Invitation to participate in Unnat Bharat Abhiyan</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/Ceritificate%20from%20SWE.jpeg"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate of Accreditation from The Society of Women Engineers </a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/U-0685-.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/NIRF/NIRF%20DATA%20%202019.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/DSW%20office%20activities%20on%20women%20safety.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Activities of DSW Office on Women Safety</a></li>
-                </ul>
-                <!-- <div class="title hideme">
-                    Achievements
-                </div> -->
-                <ul class="ENABox Achievements">
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/IGDTUW%20UBA%20Banner.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i> in Unnat Bharat Abhiyan</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/Ceritificate%20from%20SWE.jpeg"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate of Accreditation from The Society of Women Engineers </a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/U-0685-.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/NIRF/NIRF%20DATA%20%202019.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/DSW%20office%20activities%20on%20women%20safety.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Activities of DSW Office on Women Safety</a></li>
-                </ul>
-
-            </div>
-            <!-- <div class="box-1">
+            <div class="bigBox">
                 <div class="title">
-                    Links for E-Learning
-                </div>
-                <div class="links" id="smallFont">
-                    <ul>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/IGDTUW%20UBA%20Banner.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Invitation to participate in Unnat Bharat Abhiyan</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/Ceritificate%20from%20SWE.jpeg"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate of Accreditation from The Society of Women Engineers </a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/U-0685-.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/NIRF/NIRF%20DATA%20%202019.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
-                        <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/DSW%20office%20activities%20on%20women%20safety.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Activities of DSW Office on Women Safety</a></li>
-                        <li><a href="http://www.anveshanfoundation.org/"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Anvenshan Foundation (Business Incubator)</a></li>
-                        <li><a href="http://nptel.ac.in/"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>NPTEL</a></li>
-                        <li><a href="https://spoken-tutorial.org/"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Spoken Tutorial</a></li>
-                        <li><a href="http://dpl.gov.in/"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Delhi Public Library</a></li>
-                        <li><a href="http://wcd.nic.in/act/handbook-sexual-harassment-women-workplace"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Handbook on Sexual Harassment of Women at Workplace </a></li>
+                    <ul class="bigBoxUl">
+                        <li class="ENABoxTitle myturn" onclick="myBigBoxDiv(0)">Recent Events</li>
+                        <li class="ENABoxTitle" onclick="myBigBoxDiv(1)">Notices/Circulars</li>
+                        <li class="ENABoxTitle" onclick="myBigBoxDiv(2)">Achievements</li>
                     </ul>
                 </div>
+                <ul class="ENABox Events active">
+                    <!-- <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=116&Itemid=288">Mini-Colloquium on "Trends and Challenges in Microelectronics and VLSI Design"  </a></li>
+                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Launch </a></li>
+                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>One week Faculty Development Program (FDP) on Artificial Intelligence from 22- 26 July, 2019   </a></li>
+                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Four Weeks Summer Internship on Cyber Security: Attack and Defence from 03rd June 2019 to 28th June 2019</a></li>
+                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IGDTUW-Hacks First Hackathan of IGDTUW 1st-2nd June, 2019</a></li>
+                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=326"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Summer worshop on Data Science and Machine Learning 27th -31st May, 2019</a></li>
+                    <li><a href="https://www.igdtuw.ac.in/images/stories/NIRF/NIRF%20DATA%20%202019.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Certificate for AISHE 2018-19</a></li>
+                    <li><a href="https://www.igdtuw.ac.in/images/stories/Latest%20News/DSW%20office%20activities%20on%20women%20safety.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Activities of DSW Office on Women Safety</a></li> -->
+                    <?php
+                             getRecentEvents();
+                    ?>
+                    <a href="" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
+                </ul>
+                <ul class="ENABox Notices">
+                    <?php 
+                        getDynamicNotices();
+                    ?>
 
+                        <a href="" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
+                </ul>
+                
+                <ul class="ENABox Achievements">
+                        <?php getDynamicAchievements();?>
+                        <a href="" class="readmore"><i class="fa fa-hand-o-right"></i>&nbspRead More</a>
+                </ul>
 
-            </div> -->
+            </div>
+           
         </div>
     </div>
-    <!-- <div class="container">
-        <div class="box-2">
-            <div class="title">
-                Useful Links
-            </div>
-            <div class="flex-container">
-                <ul>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=227&Itemid=427"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>NOTICES/CIRCULARS</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=254"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>RECRUITMENT</a></li>
-                    <li><a href="#">AWARDS AND ACCOLADES</a></li> 
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=132&Itemid=34"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IT SERVICES</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=176&Itemid=651"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>ADMINISTRATION</a></li>
-                    <li><a href="https://www.igdtuw.ac.in/images/stories/IGDTUW%20-%20Privacy%20Policy.pdf"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>IGDTUW PRIVACY POLICY</a></li>
-                 <li class="hideOnSmall"><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=90:abouttnp&catid=2:1&Itemid=428"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Placements</a></li>
-                    <li class="hideOnSmall"><a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=161&Itemid=38"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>LIBRARY</a></li>
-
-                </ul>
-                <ul>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=24&Itemid=22"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Technical Societies</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=140&Itemid=23"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Societies Founded/Promoted</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=131&Itemid=24"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Clubs</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=171&Itemid=26"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Festivals</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=67&Itemid=27"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Hostel Services</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=77&Itemid=29"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Sports</a>
-                    </li>
-
-                </ul>
-                <ul>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=624&Itemid=198"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Time Table</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=165&Itemid=35"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dispensary</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=278&Itemid=456"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Computer Center</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=279&Itemid=457"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Bank</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=281&Itemid=458"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Guest House</a>
-                    </li>
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=282&Itemid=459"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Common Room</a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.igdtuw.ac.in/index.php?option=com_content&view=article&id=67&Itemid=461"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Hostel</a>
-                    </li>
-
-
-                </ul>
-            </div>
-        </div>
-    </div> -->
+    
 <!-- footer -->
 
 <?php include 'footer1.php';?>

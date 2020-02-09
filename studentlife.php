@@ -101,6 +101,15 @@
                                    <div class="headingPara">
                                             
                                    <ul>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ACM STUDENT CHAPTER</b></li>
+                                   <div class="headingPara">
+                                      Department of Information Technology runs a student chapter under the aegis of Association for Computing Machinary (ACM) which is named as ACM Student Chapter @IGDTUW. 
+									  <br>
+                                      <br>
+                                      <a href="studentlife.php?id=4">Read more</a> about  ACM Student chapter.
+                                   </div>
+           
+								   
                                    <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Technoliterati</b></li>
                                    <div class="headingPara">
                                        The Technoliterati Society, as the name suggests is the amalgamation of technicality and literary creativity and provides ample opportunities to IGDTUW students to explore their creative writing talents under the mentorship of Dr. Bhavya Raj. The society organizes a plethora of activities, events and writing competitions both Online and Offline to make sure no technocrat at our University is left untouched from the colours of literary Art.
@@ -151,21 +160,17 @@
                 else if($id==3){
                  echo '
                         <div class="middleBox">
-                                <div class="fTitle">
+                                <div class="title">
                                     Student Notice Board
                                 </div>
                                  <div class="headingPara">
                                     <table>
                                                 <tr>
-                                                    <th colspan="2">Title</th>
+                                                    <th colspan="2" >Title</th>
                                                     <th>File</th>
                                                     <th>Date of Upload</th>
                                                 </tr>
-                                                <tr>
-                                                    <td colspan="2">Conduct of Practical Examination of M.Tech (ICT) (Weekend) Programme during Semester Examination, Nov-Dec 2019</td>
-                                                    <td><a href="pdfs/ItEventWorkshopOnDigitalForensics.pdf" target="_blank">View/Download</a></td>
-                                                    <td>2019-11-22</td>
-                                                </tr>
+
                                             </table>
                                  </div>           
                                     
@@ -178,7 +183,7 @@
                                         ACM STUDENT CHAPTER
                                     </div>
                                     <div class="headingPara">
-                                        <img src="images/acm.png" class="societyImages" height="200px" width="auto">
+                                        <img src="logo/acm.png" class="societyImages" height="200px" width="auto">
                                         <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor : Mr. Rishabh Kaushal Assistant Professor Department of Information Technology </b>
                                         <br>
                                         <br>
@@ -368,22 +373,22 @@
                             </div> ';
                 }
                
-                // else{
-                //     echo '<div class="middleBox">
-                //                 <div class="title">
-                //                  STUDENT LIFE (IGDTUW)
-                //                 </div>
-                //                 <div class="headingPara">
-                //                  To rejuvenate the energies of the students, sports and cultural activities plays a vital role. Through sports and cultural 
-				// 				 activities, students explore their interests. Various clubs and societies helps the students conduct various creational and 
-				// 				 developmental activities.
-                //                  <br><br>
-                //                  Students are given ample oppurtunities for personal growth and exploration of hobbies. A number of societies and clubs are 
-				// 				 active on the campus and are managed by the students. The campus also host various student events and festivals. 
-				// 				 Each component of the festival or event is organized and executed by the students. The SPIC-MACAY chapter has been 
-				// 				 recently added to promote the Indian classical music and culture amongst youth. </div>
-                //          </div>';
-                // }
+                else{
+                    echo '<div class="middleBox">
+                                 <div class="title">
+                                 STUDENT LIFE (IGDTUW)
+                                </div>
+                                 <div class="headingPara">
+                                 To rejuvenate the energies of the students, sports and cultural activities plays a vital role. Through sports and cultural 
+								 activities, students explore their interests. Various clubs and societies helps the students conduct various creational and 
+				 				 developmental activities.
+                                 <br><br>
+                                 Students are given ample oppurtunities for personal growth and exploration of hobbies. A number of societies and clubs are 
+								 active on the campus and are managed by the students. The campus also host various student events and festivals. 
+							 Each component of the festival or event is organized and executed by the students. The SPIC-MACAY chapter has been 
+							 recently added to promote the Indian classical music and culture amongst youth. </div>
+                          </div>';
+                 }
                 ?>
             </div>
         
@@ -398,4 +403,4 @@
 
 </body>
 
-</html
+</html>

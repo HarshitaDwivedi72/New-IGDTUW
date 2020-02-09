@@ -13,6 +13,7 @@
                     <div class="otherLinks">
                         <div class="head">Other Links</div>
                         <ul class="hideOnSmall">
+                        <li><a href="placements.php">PLACEMENTS</a></li>
                            <li><a href="tenders.php?id=4">TENDERS</a></li>
                             <li><a href="tenders.php?id=3">CAREERS</a></li>
                             <li> <a href="tenders.php?id=2">FACILITIES</a></li>

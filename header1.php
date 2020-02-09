@@ -47,6 +47,7 @@
                 <li><a href="tenders.php?id=3">CAREERS</a></li>
                 <li> <a href="tenders.php?id=2">FACILITIES</a></li>
                 <li> <a href="tenders.php?id=1">ARCHIVES</a></li>
+                <li> <a href="placements.php">PLACEMENTS</a></li>
                 
             </ul>
         </div>
@@ -162,14 +163,14 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown"  href="">EXAMINATIONS                           
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="examinations.php">EXAMINATIONS                           
                              <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <li><a href="">Dean (Examinations)</a></li>
-                               <li><a href="">Date Sheet</a></li>
-                               <li><a href="">Notices</a></li>
-                               <li><a href="">Results</a></li>
-                               <li><a href="">Exam Portal</a></li>
+                               <li><a href="examinations.php?id=1">Dean (Examinations)</a></li>
+                               <li><a href="examinations.php?id=2">Date Sheet</a></li>
+                               <li><a href="examinations.php?id=3">Notices</a></li>
+                               <li><a href="examinations.php?id=4">Results</a></li>
+                               <li><a href="examinations.php?id=5">Exam Portal</a></li>
                             </ul>
                         </li>
                         <!-- <li class="dropdown">
