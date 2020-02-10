@@ -1,5 +1,5 @@
  
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -54,7 +54,13 @@
                     <ul class="sidenav">
                         <li><a href="studentlife.php?id=1" id="1"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dean (Student Welfare)</a></li>
                         <li><a href="studentlife.php?id=2" id="2"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Clubs and Societies</a></li>
-                        <li><a href="studentlife.php?id=3" id="3"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Student Notices</a></li>
+						<li><a href="studentlife.php?id=3" id="3">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Technical Societies</a></li>
+						<li><a href="studentlife.php?id=4" id="4">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Societies Founded / Promoted</a></li>
+						<li><a href="studentlife.php?id=5" id="5">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Clubs</a></li>
+						<li><a href="studentlife.php?id=6" id="6">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Festivals</a></li>
+						<li><a href="studentlife.php?id=7" id="7">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Hostel Services</a></li>
+						<li><a href="studentlife.php?id=8" id="8">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Sports</a></li>
+                        <li><a href="studentlife.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Student Notices</a></li>
 
 
                     </ul>
@@ -89,14 +95,35 @@
 										 <b>Prof. Ela Kumar
 										 <br>
                                          Dean (Student Welfare), IGDTUW</b>
+
   
 									</div>
                             </div>';
                 }
-                else if($id==2){
+				
+				
+				 elseif($id==2 ) {
+    echo '
+    <div class="middleBox">
+        <div class="title">
+        STATUTORY BODIES OF UNIVERSITY
+        </div>
+        <div class="headingPara">
+        <ul class="sidenav">
+               <li><a href="studentlife.php?id=3" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Technical Societies</a></li>
+               <li><a href="studentlife.php?id=4" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Societies Founded / Promoted</a></li>
+               <li><a href="studentlife.php?id=5" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Clubs</a></li>
+               <li><a href="studentlife.php?id=6" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Festivals</a></li>
+			   <li><a href="studentlife.php?id=7" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Hostel Services</a></li>
+			   <li><a href="studentlife.php?id=8" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Sports</a></li>
+        </ul>
+        </div>
+    </div>';
+  }
+                else if($id==3){
                 echo '  <div class="middleBox">
                             <div class="title">
-                            Clubs and Societies
+                             Technical Societies
                             </div>
                                    <div class="headingPara">
                                             
@@ -106,77 +133,190 @@
                                       Department of Information Technology runs a student chapter under the aegis of Association for Computing Machinary (ACM) which is named as ACM Student Chapter @IGDTUW. 
 									  <br>
                                       <br>
-                                      <a href="studentlife.php?id=4">Read more</a> about  ACM Student chapter.
+                                      <a href="studentlife.php?id=10">Read more</a> about  ACM Student chapter.
                                    </div>
            
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>CSI Student Branch</b></li>
+                                   <div class="headingPara">
+                                      Computer Society of India (CSI) Student branch was founded in 2008 with 120 members from Department of Computer Science and Engineering. Members of CSI promote confluence between technology and academia. Through regular workshops, competitions and seminars, CSI student branch has been successfully accomplishing its motto LEARN-ENVISION-INSPIRE and continues to strive towards it. Since its formation the society has organized many activities from time to time. These activities include workshops and boot camps on various upcoming technologies, monthly events both formal and informal. 
+									  These are attended by students of various reputed colleges across Delhi.<br>
+                                      <br>
+                                      <a href="studentlife.php?id=11">Read more</a> about CSI Student Branch.
+                                   </div>
 								   
-                                   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Technoliterati</b></li>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> IEEE Student Chapter</b></li>
                                    <div class="headingPara">
-                                       The Technoliterati Society, as the name suggests is the amalgamation of technicality and literary creativity and provides ample opportunities to IGDTUW students to explore their creative writing talents under the mentorship of Dr. Bhavya Raj. The society organizes a plethora of activities, events and writing competitions both Online and Offline to make sure no technocrat at our University is left untouched from the colours of literary Art.
-                                       <br>
-                                       <br>
-                                       <a href="studentlife.php?id=5">Read more</a> about Technoliterati.
+                                      The non-profit organization, IEEE is the worlds leading professional association for the advancement of technology. IEEE student branch was inaugurated on 6th Feb. 2004  with around 33 members. Now the student branch of IEEE boasts of 200 members. The IEEE Student Branch remains active throughout the year with its myriad activities. Other events that keep the branch breathing throughout the year are the IEEE Week, IEEE Day Celebration, and SIGs (Student Interest Groups). The IEEE Student Branch continues to uphold its mission "To encourage 
+									  innovation and technical excellence amongst young engineers to achieve socially constructive technical development towards a globally competent India."<br>
+                                      <br>
+									  <a href="studentlife.php?id=12">Read more</a> about IEEE Student Chapter.
                                    </div>
-           
-                                   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Greensphere</b></li>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>American Society of Mechanical Engineers (ASME) Chapter</b></li>
                                    <div class="headingPara">
-                                   The GreenSphere society at IGDTUW came into existence with a vision to protect and conserve the environment by taking the Green route. The Greensphere Team comprises of dedicated young girls with a vision to protect and conserve the environment by taking the Green route under the guidance of Faculty Advisor, Dr. Bhavani Prasad .
-                                   <br>
-                                       <br>
-                                       <a href="studentlife.php?id=6">Read more</a> about Greensphere.
+                                      The American Society of Mechanical Engineers (ASME) chapter was established under the guidance of Mr. Vivek Chawla, Assistant Professor, Department of MAE. ASME IGDTUW in its attempt, to pursue desired objectives, which include popularization of the organization and facilitating applicative technical thinking, has organized various events such as industrial visits, 
+									  specialized seminar on Rapid Prototyping and other expert lectures to name a few for the benefit of the students.<br><br>
+									  <a href="studentlife.php?id=13">Read more</a> about American Society of Mechanical Engineers (ASME) Chapter.
                                    </div>
-           
-                                   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>SPIC MACAY  Chapter</b></li>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ENACTUS</b></li>
                                    <div class="headingPara">
-                                       SPIC MACAY is an affirmation of a priceless cultural heritage rooted in what is essentially Indian. The movement incorporates the vitality of the youngsters to cajole them into being custodian of what is actually their birthright, namely their heritage, roots and identity. The IGDTUW SPIC MACAY CHAPTER successfully organised a performance by the Kathak dancer, Gauri Diwakar on 25th October, 2017. Faculty advisor for SPIC MACAY is Dr. Geeta.
-                                   <br>
-                                       <br>
-                                       <a href="studentlife.php?id=7">Read more</a> about SPIC MACAY.
+                                     Enactus is an international nonprofit organization that brings together students, academic practitioners and business leaders who are committed to using the power of entrepreneurial action to improve the quality of life and standard of living for the people in need. This society aims to take up one entrepreneurial venture at a time and use it to create self-sufficiency in the under privileged strata of society with underprivileged individuals.
+									 <br><br>
+									 <a href="studentlife.php?id=14">Read more</a> about ENACTUS.
                                    </div>
-           
-           
-                                   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Tarannum</b></li>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ROBOLUTION</b></li>
                                    <div class="headingPara">
-                                      Tarannum is a musical society with faculty advisor Dr. Bhavya Raj.
-                                   <br>
-                                   <br>
-                                       <a href="studentlife.php?id=8">Read more</a> about Tarannum.
+                                     Team Robolution is the robotics team of IGDTUW. The team comprises of students from various branches (CS, IT, ECE & MAE) including the 1st year students. The new members are trained/mentored by the previous members and encouraged to take part in various inter-college and national robotic Events/Competitions. 
+									 Every year, team Robolution participates in an Asia-Pacific Robot Contest ABU-ROBOCON, which has a different theme each year.<br><br>
+									 <a href="studentlife.php?id=15">Read more</a> about ROBOLUTION.
                                    </div>
-           
-           
-                                   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>IGDTUW News Letter "BITS & BYTES"</b></li>
-                                  
-                                       <div class="headingPara">
-                                           <a href="pdfs/IGDTUW_BITSandBYTES_2015.pdf">Read more</a> about BUTS & BYTES.
-                                       </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>LEAN IN</b></li>
+                                   <div class="headingPara">
+                                     Lean In at Indira Gandhi Delhi University for Women was established in 2014 and it was among the first five chapters of the world. The members organize weekly meetings to talk over the relevance of women empowerment and to discuss the impacts that were created single handed-ly by women leaders. Currently, it has 200 members and 15 functional circles with a Lean 
+									 In at IGDTUW council which has conducted events like Orientation by Council Members, Curtain Raiser events and Corporate Training Sessions
+									 <br><br>
+									 <a href="studentlife.php?id=15">Read more</a> about LEAN IN.
+                                   </div>
+                                   
                                    
                                </ul>
                               
 											
-                                    </div>
+                            
                            
                         </div>';
                 }
-                else if($id==3){
-                 echo '
-                        <div class="middleBox">
-                                <div class="title">
-                                    Student Notice Board
-                                </div>
-                                 <div class="headingPara">
-                                    <table>
-                                                <tr>
-                                                    <th colspan="2" >Title</th>
-                                                    <th>File</th>
-                                                    <th>Date of Upload</th>
-                                                </tr>
-                                            </table>
-                                 </div>           
-                                    
-                               
+				
+				  else if($id==4){
+                echo '  <div class="middleBox">
+                            <div class="title">
+                             Societies Founded / Promoted
+                            </div>
+                                   <div class="headingPara">
+                                            
+                                   <ul>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> Antargat- Creative Society</b></li>
+                                   <div class="headingPara">
+                                      <b>ANTARGAT</b> means <b>within</b>. This creative society looks at waste with a different perspective. Waste is only waste if wasted. Every waste has some useful potential to be identified and put to work. The society is initiated to collect like minded individuals who have a different perspective to waste and an eye for creative modeling of the same.The Ideation of the society is to recycle, remodel, reuse Waste from the university and likewise, putting condemnation process to a new visionary outcome. 
+									  Registrations will open in July 2018.<br>
+                                      <br>
+                                      <a href="studentlife.php?id=16">Read more</a> about Antargat- Creative Society.
+                                   </div>
+           
+								  <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Technoliterati</b></li>
+                                   <div class="headingPara">
+                                       The Technoliterati Society, as the name suggests is the amalgamation of technicality and literary creativity and provides ample opportunities to IGDTUW students to explore their creative writing talents under the mentorship of Dr. Bhavya Raj. The society organizes a plethora of activities, events and writing competitions both Online and Offline to make sure no technocrat at our University is left untouched from the colours of literary Art.
+                                       <br>
+                                       <br>
+                                       <a href="studentlife.php?id=17">Read more</a> about Technoliterati.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> The Economics society</b></li>
+                                   <div class="headingPara">
+                                      The Economics Society, a virtual forum to make students more comfortable with topics such as stock market, share market, bonds and debentures, 
+									  was started by Shailaja Gupta, from the batch of 2009-13, ECE Department.<br><br>
+									  <a href="studentlife.php?id=18">Read more</a> about The Economics society.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Taarangana - The Cultural Society</b></li>
+                                   <div class="headingPara">
+                                     The entire year students are occupied with either exams or technical events, workshops, seminars. What they need is a break from all these and this is what Taarangana(earlier Ronesans) is all about. 
+									 The cultural society with Dr. Shalini Arora as the faculty advisor, has intermittently aimed at providing entertainment and a platform to the students<br><br>
+									 <a href="studentlife.php?id=19">Read more</a> about Taarangana - The Cultural Society.
+                                   </div>
+								   
+								    <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Greensphere</b></li>
+                                   <div class="headingPara">
+                                   The GreenSphere society at IGDTUW came into existence with a vision to protect and conserve the environment by taking the Green route. The Greensphere Team comprises of dedicated young girls with a vision to protect and conserve the environment by taking the Green route under the guidance of Faculty Advisor, Dr. Bhavani Prasad .
+                                   <br>
+                                       <br>
+                                       <a href="studentlife.php?id=20">Read more</a> about Greensphere.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>SPIC MACAY  Chapter</b></li>
+                                   <div class="headingPara">
+                                       SPIC MACAY is an affirmation of a priceless cultural heritage rooted in what is essentially Indian. The movement incorporates the vitality of the youngsters to cajole them into being custodian of what is actually their birthright, namely their heritage, roots and identity. The IGDTUW SPIC MACAY CHAPTER successfully organised a performance by the Kathak dancer, Gauri Diwakar on 25th October, 2017. Faculty advisor for SPIC MACAY is Dr. Geeta.
+                                   <br>
+                                       <br>
+                                       <a href="studentlife.php?id=21">Read more</a> about SPIC MACAY.
+                                   </div>
+								   
+								    <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Tarannum</b></li>
+                                   <div class="headingPara">
+                                      Tarannum, the music society of IGDTUW came into existence with a vision to facilitate musical talent in the University in September 2016 with a 7 member student core team.  
+									  The society has three different music ensembles, namely the Band, Indian Choir and Western Choir who work hand in hand
+                                   <br>
+                                   <br>
+                                       <a href="studentlife.php?id=22">Read more</a> about Tarannum.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ZENA - Fashion Society</b></li>
+                                   <div class="headingPara">
+                                     Zena-the fashion society of IGDTUW was founded in the year 2013. Currently the faculty advisor is  Ar. Sneha Maji, Asst. Professor, Deptt of Architecture. Its existence came into light with various shows in and out of college.
+                                     <br><br>
+									 <a href="studentlife.php?id=23">Read more</a> about ZENA - Fashion Society.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Rotary Club-IGDTUW
+                                      </b></li>
+                                   <div class="headingPara">
+                                     The Rotary club-IGDTUW is the student body representation of Rotary International at Indira Gandhi Delhi Technical University for Women This society aims at womens empowerment through social service.
+                                   <br>
+                                   <br>
+                                       <a href="studentlife.php?id=24">Read more</a> about Rotary Club-IGDTUW.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Synergy</b></li>
+                                   <div class="headingPara">
+                                        Synergy Sports Club, IGDTUW is a platform for all Sports amateurs and professionals to come live the thrill they feel while running, kicking the ball, smashing a shuttle etc. The club focuses on promoting participation in sports and inculcating the spirit of sportswoman ship among the student.
+                                   <br>
+                                   <br>
+                                       <a href="studentlife.php?id=25">Read more</a> about Synergy.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>RAHNUMA-Dramatics Society</b></li>
+                                   <div class="headingPara">
+								   A team of enthusiastic and hardworking students who share a common passion for the theatre, the members of Rahnuma always leave the spectators spell bound with their energetic performances. 
+                                   <br>
+                                   <br>
+                                       <a href="studentlife.php?id=26">Read more</a> about RAHNUMA-Dramatics Society.
+                                   </div>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>HYPNOTICS –Dance Society</b></li>
+                                   <div class="headingPara">
+                                      The Dance Society literally hypnotizes every student of the University with its ever growing charm. It has brought laurels to the University like none other.
+                                  
+                                   <br>
+                                   <br>
+                                       <a href="studentlife.php?id=27">Read more</a> about HYPNOTICS –Dance Society.
+                                   </div>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>INSTINCT: The Peer Educator’s and Life Skills society</b></li>
+                                   <div class="headingPara">
+								   Instinct is the first Peer Educator’s and Life Skills Society of IGDTUW which was initiated in July 2016. The main objective of the society is to help peers change mind-sets, question social norms and explore themselves. The tag line of the society is – <b>‘Define your own Ideal’</b> which focuses on finding your own self and your own principles rather than following the one’s set up by the society
+                                    <br>
+                                   <br>
+                                       <a href="studentlife.php?id=28">Read more</a> about INSTINCT: The Peer Educator’s and Life Skills society.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>B.H.A.V (Behold an Architects View)- The Role Play Society of IGDTUW</b></li>
+                                   <div class="headingPara">
+                                     The main aim of the society is to provide a platform that brings within the education curriculum, the social issues and challenges. This would promote creative and innovative thinking among youth to reach upon realistic solutions to problems dawning our society at large, while simultaneously familiarizing them with the professional workflow.
+									 <br><br>
+									 <a href="studentlife.php?id=29">Read more</a> B.H.A.V (Behold an Architects View)- The Role Play Society of IGDTUW.
+                                   </div>
+                                   
+                                   
+                               </ul>
+                              
+											
+                            
+                           
                         </div>';
                 }
-                else if($id==4){
+               
+                else if($id==10){
                     echo ' <div class="middleBox">
                                    <div class="title">
                                         ACM STUDENT CHAPTER
@@ -214,7 +354,7 @@
                             
                             
                             
-                else if($id==5){
+                else if($id==17){
                     echo ' <div class="middleBox">
                                    <div class="title">
                                         TECHNOLITERATI
@@ -238,7 +378,7 @@
                 
                 
                 
-                else if($id==6){
+                else if($id==20){
                     echo ' <div class="middleBox">
                                 <div class="title">
                                     GREENSPHERE
@@ -337,7 +477,7 @@
                                 </div>
                             </div> ';
                 }
-                else if($id==7){
+                else if($id==21){
                     echo '<div class="middleBox">
                                 <div class="title">
                                     SPIC MACAY CHAPTER
@@ -354,7 +494,7 @@
                                 </div>
                             </div> ';
                 }
-                else if($id==8){
+                else if($id==22){
                     echo '<div class="middleBox">
                                 <div class="title">
                                    TARANNUM
@@ -370,6 +510,27 @@
                                         The Western Choir of Tarannum is an ensemble of 10 members. With a focus on both western culture of music and A CAPPELLA music, it has been a part of multiple events and plans to be participating in future as well. The Indian Choir wing of the Tarannum has an amazing set of performers. In addition the society also has a 6 member band. Tarannum has been a part of major events held in the college premises namely the Fresher’s Function and Taarangana, and is working hard to achieve bigger milestones in the coming times.
                                 </div>
                             </div> ';
+                }
+				
+				 else if($id==9){
+                 echo '
+                        <div class="middleBox">
+                                <div class="title">
+                                    Student Notice Board
+                                </div>
+                                 <div class="headingPara">
+                                    <table>
+                                                <tr>
+                                                    <th colspan="2" >Title</th>
+                                                    <th>File</th>
+                                                    <th>Date of Upload</th>
+                                                </tr>
+
+                                            </table>
+                                 </div>           
+                                    
+                               
+                        </div>';
                 }
                
                 else{
