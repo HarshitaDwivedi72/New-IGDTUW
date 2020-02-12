@@ -60,7 +60,7 @@
 						<li><a href="studentlife.php?id=6" id="6">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Festivals</a></li>
 						<li><a href="studentlife.php?id=7" id="7">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Hostel Services</a></li>
 						<li><a href="studentlife.php?id=8" id="8">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Sports</a></li>
-                        <li><a href="studentlife.php?id=9" id="9"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Student Notices</a></li>
+                        <li><a href="studentlife.php?id=40" id="40"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Student Notices</a></li>
 
 
                     </ul>
@@ -102,24 +102,24 @@
                 }
 				
 				
-				 elseif($id==2 ) {
+				 else if($id==2 ) {
     echo '
-    <div class="middleBox">
-        <div class="title">
-        STATUTORY BODIES OF UNIVERSITY
-        </div>
-        <div class="headingPara">
-        <ul class="sidenav">
+            <div class="middleBox">
+               <div class="title">
+                 CLUBS AND SOCIETIES
+               </div>
+            <div class="headingPara">
+              <ul class="sidenav">
                <li><a href="studentlife.php?id=3" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Technical Societies</a></li>
                <li><a href="studentlife.php?id=4" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Societies Founded / Promoted</a></li>
                <li><a href="studentlife.php?id=5" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Clubs</a></li>
                <li><a href="studentlife.php?id=6" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Festivals</a></li>
 			   <li><a href="studentlife.php?id=7" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Hostel Services</a></li>
 			   <li><a href="studentlife.php?id=8" target="_blank"><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Sports</a></li>
-        </ul>
-        </div>
-    </div>';
-  }
+             </ul>
+           </div>
+          </div>';
+      }
                 else if($id==3){
                 echo '  <div class="middleBox">
                             <div class="title">
@@ -133,7 +133,7 @@
                                       Department of Information Technology runs a student chapter under the aegis of Association for Computing Machinary (ACM) which is named as ACM Student Chapter @IGDTUW. 
 									  <br>
                                       <br>
-                                      <a href="studentlife.php?id=10">Read more</a> about  ACM Student chapter.
+                                      <a href="studentlife.php?id=9">Read more</a> about  ACM Student chapter.
                                    </div>
            
 								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>CSI Student Branch</b></li>
@@ -141,7 +141,7 @@
                                       Computer Society of India (CSI) Student branch was founded in 2008 with 120 members from Department of Computer Science and Engineering. Members of CSI promote confluence between technology and academia. Through regular workshops, competitions and seminars, CSI student branch has been successfully accomplishing its motto LEARN-ENVISION-INSPIRE and continues to strive towards it. Since its formation the society has organized many activities from time to time. These activities include workshops and boot camps on various upcoming technologies, monthly events both formal and informal. 
 									  These are attended by students of various reputed colleges across Delhi.<br>
                                       <br>
-                                      <a href="studentlife.php?id=11">Read more</a> about CSI Student Branch.
+                                      <a href="studentlife.php?id=10">Read more</a> about CSI Student Branch.
                                    </div>
 								   
 								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> IEEE Student Chapter</b></li>
@@ -149,28 +149,28 @@
                                       The non-profit organization, IEEE is the worlds leading professional association for the advancement of technology. IEEE student branch was inaugurated on 6th Feb. 2004  with around 33 members. Now the student branch of IEEE boasts of 200 members. The IEEE Student Branch remains active throughout the year with its myriad activities. Other events that keep the branch breathing throughout the year are the IEEE Week, IEEE Day Celebration, and SIGs (Student Interest Groups). The IEEE Student Branch continues to uphold its mission "To encourage 
 									  innovation and technical excellence amongst young engineers to achieve socially constructive technical development towards a globally competent India."<br>
                                       <br>
-									  <a href="studentlife.php?id=12">Read more</a> about IEEE Student Chapter.
+									  <a href="studentlife.php?id=11">Read more</a> about IEEE Student Chapter.
                                    </div>
 								   
 								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>American Society of Mechanical Engineers (ASME) Chapter</b></li>
                                    <div class="headingPara">
                                       The American Society of Mechanical Engineers (ASME) chapter was established under the guidance of Mr. Vivek Chawla, Assistant Professor, Department of MAE. ASME IGDTUW in its attempt, to pursue desired objectives, which include popularization of the organization and facilitating applicative technical thinking, has organized various events such as industrial visits, 
 									  specialized seminar on Rapid Prototyping and other expert lectures to name a few for the benefit of the students.<br><br>
-									  <a href="studentlife.php?id=13">Read more</a> about American Society of Mechanical Engineers (ASME) Chapter.
+									  <a href="studentlife.php?id=12">Read more</a> about American Society of Mechanical Engineers (ASME) Chapter.
                                    </div>
 								   
 								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ENACTUS</b></li>
                                    <div class="headingPara">
                                      Enactus is an international nonprofit organization that brings together students, academic practitioners and business leaders who are committed to using the power of entrepreneurial action to improve the quality of life and standard of living for the people in need. This society aims to take up one entrepreneurial venture at a time and use it to create self-sufficiency in the under privileged strata of society with underprivileged individuals.
 									 <br><br>
-									 <a href="studentlife.php?id=14">Read more</a> about ENACTUS.
+									 <a href="studentlife.php?id=13">Read more</a> about ENACTUS.
                                    </div>
 								   
 								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ROBOLUTION</b></li>
                                    <div class="headingPara">
                                      Team Robolution is the robotics team of IGDTUW. The team comprises of students from various branches (CS, IT, ECE & MAE) including the 1st year students. The new members are trained/mentored by the previous members and encouraged to take part in various inter-college and national robotic Events/Competitions. 
 									 Every year, team Robolution participates in an Asia-Pacific Robot Contest ABU-ROBOCON, which has a different theme each year.<br><br>
-									 <a href="studentlife.php?id=15">Read more</a> about ROBOLUTION.
+									 <a href="studentlife.php?id=14">Read more</a> about ROBOLUTION.
                                    </div>
 								   
 								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>LEAN IN</b></li>
@@ -315,8 +315,154 @@
                            
                         </div>';
                 }
+				
+				
+		  else if($id==5){
+                echo '  <div class="middleBox">
+                            <div class="title">
+                                CLUBS
+                            </div>
+                                   <div class="headingPara">
+                                            
+                                   <ul>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>SAE Collegiate Club</b></li>
+                                   <div class="headingPara">
+                                      SAE India is an affiliate society of SAE International registered in India. MAE students are active members of SAE India and also have a student chapter in college. SAE extends itself into educational institutions and infuses enthusiasm through their Collegiate Design Competition with events that put classroom training into action by challenging students to design, 
+									  build and test the performance of a real vehicle in a competitive environment.
+									  <br>
+                                      <br>
+                                      <a href="studentlife.php?id=30">Read more</a> about SAE Collegiate Club.
+                                   </div>
+           
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Greensphere : The Eco club</b></li>
+                                   <div class="headingPara">
+                                      GREENSPHERE, the environment club of IGDTUW, aims at increasing the environmental awareness among students
+									  <br>
+                                      <br>
+                                      <a href="studentlife.php?id=31">Read more</a> about Greensphere : The Eco club.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> Sports Club</b></li>
+                                   <div class="headingPara">
+                                      This Sports Club is set up to inculcate the spirit of sportsmanship and unity in the enthusiastic technocrats.
+                                     <br>
+									 <br>
+									  <a href="studentlife.php?id=32">Read more</a> about Sports Club.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> Leaders for Tomorrow</b></li>
+                                   <div class="headingPara">
+                                      Leaders For Tomorrow is a not for profit youth leadership movement established mainly in the college campuses to awaken the social consciousness of the youth, 
+									  encourage volunteerism and social action among them.
+									  <br>
+									  <br>
+									  <a href="studentlife.php?id=33">Read more</a> about  Leaders for Tomorrow.
+                                   </div>
+								   
+								   
+                                   
+                                   
+                               </ul>
+                              
+											
+                            
+                           
+                        </div>';
+                }
+
+            	  else if($id==6){
+                echo '  <div class="middleBox">
+                            <div class="title">
+                                FESTIVALS
+                            </div>
+                                   <div class="headingPara">
+                                            
+                                   <ul>
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>ESPECTRO</b></li>
+                                   <div class="headingPara">
+                                     Students of Department of Information Technology under the aegis of IGDTUW ACM Student Chapter organize a 3-day long Annual Technical Festival titled as Espectro. 
+									 It is an extravaganza of a unique kind wherein technical fervor and the non-technical zeal resonated during the same time.
+									 <br>
+                                     <br>
+                                     <a href="studentlife.php?id=34">Read more</a> ESPECTRO.
+                                   </div>
+           
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>IMPULSE</b></li>
+                                   <div class="headingPara">
+                                     The Annual Technical Fest of IGDTUW IEEE Student Branch is organized every year on different themes under the guidance of branch mentor- Mr. Akash Tayal, Asst. Prof. and branch counselor Prof. S.B. Jain.. The Core Team and the Associate team along with 
+									 their Head coordinators and Coordinators put together a fest consisting of number of events, each one of which was a success in its own.  
+									 <br>
+                                     <br>
+                                     <a href="studentlife.php?id=35">Read more</a> about IMPULSE.
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>TREMORS </b></li>
+                                   <div class="headingPara">
+                                      The annual technical festival of IGDTUW, TREMORS, is organized by CSI IGDTUW Student Branch every year. 
+									  The three day event provides a brilliant platform to young minds across the nation to share the same stage and showcase the plethora of their talents.<br>
+									 <br>
+									  <a href="studentlife.php?id=36">Read more</a> about TREMORS .
+                                   </div>
+								   
+								   <li><b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i> XEBEC</b></li>
+                                   <div class="headingPara">
+                                     “Xebec” refers to a ship sailing through the Mediterranean. It is symbolic of the zeal and enthusiasm of the students, striving towards excellence in their field. The three day festival saw huge participation of students from 43 institutes and universities of Delhi, Noida, Faridabad, Gurgaon in technical, non-technical and green events.
+									  <br>
+									  <br>
+									  <a href="studentlife.php?id=37">Read more</a> about  XEBEC.
+                                   </div>
+								   
+								   
+                                   
+                                   
+                               </ul>
+                           
+                        </div>';
+                }					
                
-                else if($id==10){
+			  else if($id==7)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">Krishna & Kaveri Hostel
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       <img src="images/hostel.jpg" class="hodImage" alt="hostel" height="200px" width="auto">
+                                         The University has two women hostels - <b>Krishna Hostel and Kaveri Hostel</b>, to accommodate approximately 340 students. 
+										 <br><br>
+										  These two hostels are located in the University campus. The hostels provide a safe, secure and clean environment for the students to grow, learn and mature in the society away from their own homes. The hostel authorities always facilitate to create an environment for the students to study, do well in their academics and focus on their career and future.
+										 <br><br>
+										 
+                                          All rooms are on twin/triple sharing basis and are equipped with individual Beds, Chairs, Built-in Cupboards, Study Tables, Rack, Paid laundry services, Refrigerators’, Induction Heaters, Microwave Ovens, Purified drinking water (RO systems), Wi-Fi facility, etc.
+
+  
+									</div>
+                            </div>';
+                }
+				
+				
+				   
+			  else if($id==8)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">SPORTS
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       <img src="images/sports.jpg" class="hodImage" alt="sport" height="200px" width="auto">
+                                         IGDTUW has introduced new sports and recreation facilities. Students launched their own Sports club in 2009 as an endeavor to refresh minds of students and inculcate spirit of sportsmanship among them.
+										 <br><br>
+										 <b>Synergy Sports Club</b> is the first sports society of IGDTUW. It has been set up to provide entertainment to students, faculty members and staff members around the year. Sports equipments are provided anytime of day to increase the participation among girls for sports and games. Not only sports are provided by this Club but also leisure activities are organized for students and staff. The Club is in its starting phase and yearning for more participation among students as well as faculty. We organize events for students on regular basis to motivate them to participate in extra-curricular activities
+										 <br><br>
+										 <em>"We encourage students to play and extirpate their stress and also help them enjoy their leisure time.”</em>
+										 
+										 
+  
+									</div>
+                            </div>';
+                }
+				
+				 else if($id==9){
                     echo ' <div class="middleBox">
                                    <div class="title">
                                         ACM STUDENT CHAPTER
@@ -351,8 +497,227 @@
                 }			
                             
                             
-                            
-                            
+                   
+				 else if($id==10)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">COMPUTER SOCIETY OF INDIA
+                                    </div>
+								
+										 
+                                    <div class="headingPara">
+                                     <em>CSI IGDTUW student branch was formed in August 2008 with 120 members from Dept. of Computer Science & Engineering.</em>
+									</div>
+									
+									<div class="headingPara">
+                                       <img src="images/CSI IGIT photos.jpg" class="hodImage" alt="CSI IGIT photos" height="200px" width="auto">
+									   <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor : Ms.Vibha, Assistant Professor, Department of CSE.</b>
+                                        <br><br>
+										Our Faculty Advisor is Ms. Vibha, Assistant Professor, CSE, whose enthusiasm has motivated our branch to move ahead at a heady pace
+									    <br><br>
+										Members of CSI IGDTUW are a part of the confluence between technology and academia in every way. Through regular workshops, competitions and seminars, CSI IGDTUW has been successfully accomplishing its motto LEARN-ENVISION-INSPIRE and continues to strive towards it.
+									    <br><br>
+										Since its formation the society has indulged in many activities from time to time. These activities include workshops and bar camps on various upcoming technologies, monthly events both formal and informal, these are attended by students of various reputed colleges across Delhi. 
+										These activities are coordinated by the elected student council under the guidance of the Branch Mentors.
+										<br><br></em>
+										
+									
+										<ul class="sidenav"><strong>Activities under CSI IGDTUW, organized in academic session 2012-2013:</strong>
+										 
+										 <li><i class="fa fa-hand-o-right"></i>&nbspOrientation ceremony, organized on 24th September’12, included a comprehensive presentation on CSI-IGDTUW and its activities followed by Q&A.</li>
+										 <li><i class="fa fa-hand-o-right"></i>&nbspCognition’12 (CSI week), conducted from 27 Sept- 1st Oct’12 where various technical events, fun events and online events were organized.</li>
+										 <li><i class="fa fa-hand-o-right"></i>&nbspWorkshop on “ANIMAGIC - 3D Animation” in September, 2012</li>
+										 <li><i class="fa fa-hand-o-right"></i>&nbspMock GD - a Seminar-cum-competition in October, 2012</li>
+										 <li><i class="fa fa-hand-o-right"></i>&nbspWorkshop on “PYTHON PROGRAMMING” in February, 2013</li>
+										 <li><i class="fa fa-hand-o-right"></i>&nbspTremors 13.0, the Annual Technical fest of IGDTUW, 14th – 16th March, 2013</li>
+										 <li><i class="fa fa-hand-o-right"></i>&nbspCognizance, annual e-newsletter of CSI IGDTUW to be launched in April, 2013</li>
+							
+										</ul>
+										
+									 <em>Cognizance is a venture of CSI IGDTUW, the annual newsletter, which is being brought out for the first time. 
+									 It depicts the fervor of IGDTUW students in the technical field, tracing all the activities going on, right from the previous years’ 
+									 Tremors to the present year activities. Workshops, online fests and orientation reports are described in detail in this magazine.
+									 <br><br>
+									 "Tremors” is the annual technical festival of National Level, organized by CSI IGDTUW Student Branch, in March every year.
+									 <br><br>
+									 True to its name, Tremors sets a thrill across the nation and generates waves of supreme competitiveness amongst budding engineers, managers, bureaucrats and entrepreneurs It gives students a chance of learning and understanding the latest advances in technology, while putting into practice the knowledge they have acquired by education
+									 <br><br>
+									 With an opportunity to participate in a splendid blend of potential technical, managerial, literary, adventurous, online and informal-fun events, Tremors guarantees an unparalleled learning experience.
+									 <br><br></em>
+									 <strong>The present student council has the following members:</strong>
+									  <table>
+									 
+									      <tr>
+                                                    <th>Title</th>
+                                                    <th>Name</th>
+                                                    
+                                          </tr>
+										  <tr>
+                                                    <td >Chairperson</td>
+                                                    <td>Shipra Jain</td>
+                                                    
+                                          </tr>
+										   <tr>
+                                                    <td >Vice-Chairperson</td>
+                                                    <td>Isha Gupta</td>
+                                                    
+                                          </tr>
+										   <tr>
+                                                    <td >General Secretary </td>
+                                                    <td>Anshul Aggarwal</td>
+                                                    
+                                          </tr>
+										   <tr>
+                                                    <td >HR Heads  </td>
+                                                    <td>Sakshi Goel, Deepti Gupta</td>                   
+                   
+                                          </tr>
+										   <tr>
+                                                    <td >Event Heads  </td>
+                                                    <td>Sonia Suhag, Akshita Chhabra</td>
+                                                    
+                                          </tr>
+										   <tr>
+                                                    <td >Creative Head</td>
+                                                    <td>  Ruchika Goel</td>
+                                                    
+                                          </tr>
+
+										   <tr>
+                                                    <td >Treasurer </td>
+                                                    <td>  Kanika Chawla</td>
+                                                    
+                                          </tr>
+										   <tr>
+                                                    <td >PR Head </td>
+                                                    <td> Anubhuti Jain</td>
+                                                    
+                                          </tr>
+										   <tr>
+                                                    <td >Membership In-charge</td>
+                                                    <td> Priyanka Sangtani</td>
+                                                    
+                                          </tr>
+										  <tr>
+                                                    <td >Web Masters</td>
+                                                    <td>Nishtha Jain, Puneet Kaur</td>
+                                                    
+                                          </tr>
+
+                                           </table>
+                                      
+									<em>Since its inception in 2008, CSI-IGDTUW has come a long way. The branch is active on all major social media like Google groups, Facebook, LinkedIn and Twitter and can be contacted at:</em>											
+									<em><p>Email:&nbsp<a href>igit.csi@gmail.com</a></p></em> 
+									</div>
+                            </div>';
+                }
+				
+				  else if($id==11)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">IEEE Student Chapter
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       <img src="images/ieee.jpg" class="hodImage" alt="IEEE Student" height="200px" width="auto">
+									   <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor : Dr.Jasdeep Kaur, Associate Professor, Department of ECE. </b>
+                                        <br><br>
+                                          The IGDTUW IEEE Student Branch is one of the most active student branches under the Delhi Section, Region 10 (Asia Pacific). Established in 2004, the IGDTUW IEEE SB has progressed under the able mentorship of Branch Counselor Prof. S. B. Jain.
+                                         <br><br>
+										 Under the IEEE activities, a number of weekly events have been conducted all around the year, like Technical Crosswords, Vocabulary, Techno-Pictionary, Hardware design quiz, to mention a few. The membership of the college has almost doubled with almost 120 new members every year making it the second college under the Delhi Section in terms of Student Members.
+										 <br><br>
+										 <em>"The annual IEEE technical festival “IMPULSE” is conducted every year. The event was a huge success with massive participation from colleges from Delhi and outside.”</em>
+										 <br><br>
+										 The Robotics event – <b>“ROBO SOCCER”</b>, in, an extremely popular event with number of teams participating from across India.
+										 
+  
+									</div>
+                            </div>';
+                }
+                        
+                	  else if($id==12)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">American Society of Mechanical Engineers (ASME) Chapter
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       
+									     <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor: Mr.Vivek Chawla, Assistant Professor, Department of MAE.</b>
+										 <img src="images/ASME DC logo.jpg" class="hodImage" alt="American Society of Mechanical Engineers (ASME) Chapter" height="200px" width="auto">
+                                         <br><br>
+                                         The American Society of Mechanical Engineers (ASME) chapter was established to pursue desired objectives, which include popularization of the organization and facilitating applicative technical thinking, has organized various events such as industrial visits, specialized seminar on new technologies, quizzes and expert lectures from industries like LPS-Bossard to name a few to keep up to date knowledge and information of the students of IGDTUW. With the international outreach of ASME, University students can be benefitted by applying their theoretical and practical knowledge for research and innovation. Recently, 
+										 IGDTUW-ASME chapter was also recognized by the leadership of ASME for the outstanding student start-up section grant which also includes a cash prize of 500 USD.
+										 <br><br>
+										 <em>"Industry expert lecture and discussion delivered by LPS-Bossard organized by ASME chapter at IGDTUW.”</em>
+										 
+  
+									</div>
+                            </div>';
+                }
+
+
+                	  else if($id==13)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">ENACTUS
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       
+									   <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor : Dr.Nidhi Goel, Associate Professor, Department of ECE.</b>
+                                        <br><br>
+                                         Enactus is an international nonprofit organization that brings together students, academic practitioners and business leaders who are committed to using the power of entrepreneurial action to improve the quality of life and standard of living for the people in need. This society aims to take up one entrepreneurial venture at a time and use it to create self-sufficiency in the under privileged strata of society with underprivileged individuals.
+										<br><br>
+										 
+										Khidmat-Enactus IGDTUW’s first social initiative, aims at making women self-reliant by starting their own culinary business. This has resulted in annual revenue generation of nearly 1 Lakh rupees for each of the associated women in the past 12 months. Another entrepreneurial venture, Project REAP has also been taken up by Enactus IGDTUW to tackle the problem of endless plastic waste. Among the 60 national teams from India, Enactus IGDTUW team has won the Rookie League of Enactus India National Competition 2016. Enactus IGDTUW has also partnered with one of the leading NGO working for women empowerment- Sahyog and has recently won the prestigious KPMG Ethics Grant for 2017.
+										<br><br>
+										<img src="images/4.png" class="hodImage" alt="IEEE Student" height="200px" width="auto">
+									</div>
+                            </div>';
+                }
+				
+				
+                	  else if($id==14)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">ROBOLUTION
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       <img src="images/5.png" class="hodImage" alt="IEEE Student" height="200px" width="auto">
+									
+									   <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor : Dr.Nidhi Goel, Associate Professor, Department of ECE.</b>
+                                        <br><br>
+                                        Team Robolution is the robotics team of IGDTUW. The team comprises of students from various branches (CS, IT, ECE & MAE) including the 1st year students. The new members are trained/mentored by the previous members and encouraged to take part in various inter-college and national robotic Events/Competitions. Every year, team Robolution participates in an Asia-Pacific Robot Contest ABU-ROBOCON, which has a different theme each year.
+										<br><br>
+										 Every year, the theme of ABU ROBOCON is declared in August; the design phase begins immediately after that as the bot is designed per the theme and specifications of bot. Students build the robots right from the scratch. The last few weeks are spent in practicing in the arena and rectifying the problems. Since the bot is prepared entirely by the students they learn about design, construction and programming using Arduino microcontroller, propellers, pneumatics actuators, omnidirectional wheels, Open-CV, Kinect, MATLAB etc. apart from the cutting, drilling, riveting, welding and wiring tasks.
+										<br><br>
+										 For the year 2015, the teams had to design a robot for badminton’s doubles game—two robots hit and hit back shuttle by collaborating with each other. In contrast, the theme of ROBOCON 2016 is “Clean Energy Recharging the World” and team IGDTUW had made 2 robots – an eco robot, that receives energy from hybrid robot and a hybrid robot that indirectly drive or provide energy to eco robot. IGDTUW Robolution team was widely acknowledged and appreciated during the ROBOCON Event. The team was also interviewed by DD National for great efforts in ROBOCON 2016. The students were also blessed by our education minister Sh. Manish Sisodia on foundation day of our college. He motivated the students to perform better and make our nation proud.
+										<br>
+										</div>
+                            </div>';
+                }
+				
+					  else if($id==15)
+                {
+                    echo '  <div class="middleBox">
+                                    <div class="title">LEAN IN
+                                    </div>
+								
+                                    <div class="headingPara">
+                                       <img src="images/5.png" class="hodImage" alt="IEEE Student" height="200px" width="auto">
+									
+									   <b><i class="fa fa-hand-o-right">&nbsp&nbsp&nbsp</i>Faculty Advisor : Dr.Richa Yadav, Assistant Professor, Department of ECE.</b>
+                                        <br><br>
+                                        Lean In is an international NGO which is committed to offering women the ongoing support and inspiration to help them achieve their goals. It is focused on encouraging women to pursue their ambitions and aims to change the trajectory of women and create a better world for everyone by openly talking about the challenges. Internationally, it is run by Sheryl Sandberg, the Chief Operating Officer of Facebook.
+										<br><br>
+										 Lean In at Indira Gandhi Delhi University for Women was established in 2014 and it was among the first five chapters of the world. The members organize weekly meetings to talk over the relevance of women empowerment and to discuss the impacts that were created single handed-ly by women leaders. Currently, it has 200 members and 15 functional circles with a Lean In at IGDTUW council which has conducted events like Orientation by Council Members, Curtain Raiser events and Corporate Training Sessions.
+										 
+										</div>
+                            </div>';
+                }
+                                     
                             
                 else if($id==17){
                     echo ' <div class="middleBox">
@@ -512,7 +877,7 @@
                             </div> ';
                 }
 				
-				 else if($id==9){
+				 else if($id==40){
                  echo '
                         <div class="middleBox">
                                 <div class="title">
