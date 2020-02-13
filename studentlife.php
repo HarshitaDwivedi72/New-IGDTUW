@@ -53,6 +53,7 @@
                     </div>
                     <ul class="sidenav">
                         <li><a href="studentlife.php?id=1" id="1"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dean (Student Welfare)</a></li>
+						<li><a href="pdfs/DSW office activities on women safety.pdf">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Activities of DSW Office </a></li>
                         <li><a href="studentlife.php?id=2" id="2"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Clubs and Societies</a></li>
 						<li><a href="studentlife.php?id=3" id="3">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Technical Societies</a></li>
 						<li><a href="studentlife.php?id=4" id="4">&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-circle-right">&nbsp&nbsp&nbsp</i>Societies Founded / Promoted</a></li>
